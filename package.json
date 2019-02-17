@@ -1,0 +1,35 @@
+{
+  "name": "ploume.io",
+  "version": "0.0.0",
+  "description": "Cool CSS framework",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.4.7",
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
+    "build-cleancss": "cleancss -o css/ploume.min.css css/ploume.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true ploume.sass css/ploume.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GentillePlume/ploume.io.git"
+  },
+  "author": "Gentille Plume",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GentillePlume/ploume.io/issues"
+  },
+  "homepage": "https://github.com/GentillePlume/ploume.io#readme"
+}
