@@ -7,30 +7,61 @@ $link: #3273dc
 $info: #209cee
 $success: #23d160
 $warning: #ffdd57
+$caution: #ED6E59
 $danger: #ff3860
 
 //########## BACKGROUNDS ##########
-div
+div,
+nav,
+a,
+header
   &.is-white
     background-color: $white
+  &.hover_is-white:hover
+    background-color: $white
+    color: #707070
+
   &.is-black
     background-color: $black
+    color: $white
   &.is-dark
     background-color: $dark
+    color: $white
   &.is-light
     background-color: $light
   &.is-primary
     background-color: $primary
+    color: $white
+
   &.is-link
     background-color: $link
+    color: $white
+  &.hover_is-link:hover
+    background-color: $link
+    color: $white
+
   &.is-info
     background-color: $info
+    color: $white
   &.is-success
     background-color: $success
+    color: $white
   &.is-warning
     background-color: $warning
+
+  &.is-caution
+    background-color: $caution
+    color: $white
+  &.hover_is-caution:hover
+    background-color: $caution
+    color: $white
+
   &.is-danger
     background-color: $danger
+    color: $white
+  &.hover_is-danger:hover
+    background-color: $danger
+    color: $white
 
 //########## TEXT ##########
 p, span, h1, h2, h3, h3, h5, h6
