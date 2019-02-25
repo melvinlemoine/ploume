@@ -293,8 +293,11 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
 
 html {
   min-width: 300px;
-  overflow-x: hidden;
   overflow-y: scroll;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 body {
