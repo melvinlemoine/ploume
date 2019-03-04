@@ -14,7 +14,8 @@ $danger: #ff3860
 div,
 nav,
 a,
-header
+header,
+aside
   &.is-white
     background-color: $white
   &.hover_is-white:hover
@@ -24,11 +25,19 @@ header
   &.is-black
     background-color: $black
     color: $white
+
   &.is-dark
     background-color: $dark
-    color: $white
+
+    & *
+      color: $white
+
   &.is-light
     background-color: $light
+  &.hover_is-light:hover
+    background-color: $light
+    color: #707070
+
   &.is-primary
     background-color: $primary
     color: $white

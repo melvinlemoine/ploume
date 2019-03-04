@@ -4,14 +4,16 @@
 div.is-white,
 nav.is-white,
 a.is-white,
-header.is-white {
+header.is-white,
+aside.is-white {
   background-color: #FFF;
 }
 
 div.hover_is-white:hover,
 nav.hover_is-white:hover,
 a.hover_is-white:hover,
-header.hover_is-white:hover {
+header.hover_is-white:hover,
+aside.hover_is-white:hover {
   background-color: #FFF;
   color: #707070;
 }
@@ -19,7 +21,8 @@ header.hover_is-white:hover {
 div.is-black,
 nav.is-black,
 a.is-black,
-header.is-black {
+header.is-black,
+aside.is-black {
   background-color: #000;
   color: #FFF;
 }
@@ -27,22 +30,41 @@ header.is-black {
 div.is-dark,
 nav.is-dark,
 a.is-dark,
-header.is-dark {
+header.is-dark,
+aside.is-dark {
   background-color: #363636;
+}
+
+div.is-dark *,
+nav.is-dark *,
+a.is-dark *,
+header.is-dark *,
+aside.is-dark * {
   color: #FFF;
 }
 
 div.is-light,
 nav.is-light,
 a.is-light,
-header.is-light {
+header.is-light,
+aside.is-light {
   background-color: #f5f5f5;
+}
+
+div.hover_is-light:hover,
+nav.hover_is-light:hover,
+a.hover_is-light:hover,
+header.hover_is-light:hover,
+aside.hover_is-light:hover {
+  background-color: #f5f5f5;
+  color: #707070;
 }
 
 div.is-primary,
 nav.is-primary,
 a.is-primary,
-header.is-primary {
+header.is-primary,
+aside.is-primary {
   background-color: #00d1b2;
   color: #FFF;
 }
@@ -50,7 +72,8 @@ header.is-primary {
 div.is-link,
 nav.is-link,
 a.is-link,
-header.is-link {
+header.is-link,
+aside.is-link {
   background-color: #3273dc;
   color: #FFF;
 }
@@ -58,7 +81,8 @@ header.is-link {
 div.hover_is-link:hover,
 nav.hover_is-link:hover,
 a.hover_is-link:hover,
-header.hover_is-link:hover {
+header.hover_is-link:hover,
+aside.hover_is-link:hover {
   background-color: #3273dc;
   color: #FFF;
 }
@@ -66,7 +90,8 @@ header.hover_is-link:hover {
 div.is-info,
 nav.is-info,
 a.is-info,
-header.is-info {
+header.is-info,
+aside.is-info {
   background-color: #209cee;
   color: #FFF;
 }
@@ -74,7 +99,8 @@ header.is-info {
 div.is-success,
 nav.is-success,
 a.is-success,
-header.is-success {
+header.is-success,
+aside.is-success {
   background-color: #23d160;
   color: #FFF;
 }
@@ -82,14 +108,16 @@ header.is-success {
 div.is-warning,
 nav.is-warning,
 a.is-warning,
-header.is-warning {
+header.is-warning,
+aside.is-warning {
   background-color: #ffdd57;
 }
 
 div.is-caution,
 nav.is-caution,
 a.is-caution,
-header.is-caution {
+header.is-caution,
+aside.is-caution {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -97,7 +125,8 @@ header.is-caution {
 div.hover_is-caution:hover,
 nav.hover_is-caution:hover,
 a.hover_is-caution:hover,
-header.hover_is-caution:hover {
+header.hover_is-caution:hover,
+aside.hover_is-caution:hover {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -105,7 +134,8 @@ header.hover_is-caution:hover {
 div.is-danger,
 nav.is-danger,
 a.is-danger,
-header.is-danger {
+header.is-danger,
+aside.is-danger {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -113,7 +143,8 @@ header.is-danger {
 div.hover_is-danger:hover,
 nav.hover_is-danger:hover,
 a.hover_is-danger:hover,
-header.hover_is-danger:hover {
+header.hover_is-danger:hover,
+aside.hover_is-danger:hover {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -206,15 +237,13 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
 
 .is-tilted-right-1,
 .is-leaning-right-1 {
-  -webkit-transform: skewY(1deg);
-          transform: skewY(1deg);
+  transform: skewY(1deg);
 }
 
 .is-tilted-right-1 > p, .is-tilted-right-1 h1,
 .is-leaning-right-1 > p,
 .is-leaning-right-1 h1 {
-  -webkit-transform: skewY(-1deg);
-          transform: skewY(-1deg);
+  transform: skewY(-1deg);
 }
 
 .navbar {
@@ -283,8 +312,7 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
   width: 100%;
   height: 100%;
   z-index: 0;
-  -webkit-transform: skewY(0deg);
-          transform: skewY(0deg);
+  transform: skewY(0deg);
 }
 
 .has-overlay > * {
@@ -395,19 +423,29 @@ th {
   text-align: left;
 }
 
-.flex-h {
+.flex {
+  display: flex;
+}
+
+.flex-row, .flex-h {
   display: flex;
   flex-direction: row;
 }
 
-.flex-v {
+.flex-col, .flex-v {
   display: flex;
   flex-direction: column;
 }
 
 .allcentered {
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.fullsize {
+  width: 100%;
+  height: 100%;
 }
 
 .w-10 {
@@ -1021,8 +1059,44 @@ th {
   margin-top: auto;
 }
 
+.ml-50 {
+  margin-left: 50px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
 .p-25 {
   padding: 25px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.plr-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.plr-20pe {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.plr-25 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.plr-25pe {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+a {
+  text-decoration: none;
 }
 
 .title {
@@ -1049,7 +1123,7 @@ th {
   font-weight: bold;
 }
 
-.text-center {
+.text-centered, .text-center {
   text-align: center;
 }
 
@@ -1074,7 +1148,7 @@ th {
 }
 
 .is-4 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .button {
@@ -1103,4 +1177,5 @@ th {
   height: 1.5em;
   width: 1.5em;
 }
+
 /*# sourceMappingURL=ploume.css.map */
