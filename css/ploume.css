@@ -5,7 +5,8 @@ div.is-white,
 nav.is-white,
 a.is-white,
 header.is-white,
-aside.is-white {
+aside.is-white,
+button.is-white {
   background-color: #FFF;
 }
 
@@ -13,7 +14,8 @@ div.hover_is-white:hover,
 nav.hover_is-white:hover,
 a.hover_is-white:hover,
 header.hover_is-white:hover,
-aside.hover_is-white:hover {
+aside.hover_is-white:hover,
+button.hover_is-white:hover {
   background-color: #FFF;
   color: #707070;
 }
@@ -22,7 +24,8 @@ div.is-black,
 nav.is-black,
 a.is-black,
 header.is-black,
-aside.is-black {
+aside.is-black,
+button.is-black {
   background-color: #000;
   color: #FFF;
 }
@@ -31,7 +34,8 @@ div.is-dark,
 nav.is-dark,
 a.is-dark,
 header.is-dark,
-aside.is-dark {
+aside.is-dark,
+button.is-dark {
   background-color: #363636;
 }
 
@@ -39,7 +43,8 @@ div.is-dark *,
 nav.is-dark *,
 a.is-dark *,
 header.is-dark *,
-aside.is-dark * {
+aside.is-dark *,
+button.is-dark * {
   color: #FFF;
 }
 
@@ -47,7 +52,8 @@ div.is-light,
 nav.is-light,
 a.is-light,
 header.is-light,
-aside.is-light {
+aside.is-light,
+button.is-light {
   background-color: #f5f5f5;
 }
 
@@ -55,7 +61,8 @@ div.hover_is-light:hover,
 nav.hover_is-light:hover,
 a.hover_is-light:hover,
 header.hover_is-light:hover,
-aside.hover_is-light:hover {
+aside.hover_is-light:hover,
+button.hover_is-light:hover {
   background-color: #f5f5f5;
   color: #707070;
 }
@@ -64,7 +71,8 @@ div.is-primary,
 nav.is-primary,
 a.is-primary,
 header.is-primary,
-aside.is-primary {
+aside.is-primary,
+button.is-primary {
   background-color: #00d1b2;
   color: #FFF;
 }
@@ -73,16 +81,39 @@ div.is-link,
 nav.is-link,
 a.is-link,
 header.is-link,
-aside.is-link {
+aside.is-link,
+button.is-link {
   background-color: #3273dc;
   color: #FFF;
+}
+
+div.is-link.is-outlined,
+nav.is-link.is-outlined,
+a.is-link.is-outlined,
+header.is-link.is-outlined,
+aside.is-link.is-outlined,
+button.is-link.is-outlined {
+  background-color: transparent;
+  border-color: #3273dc;
+  color: #3273dc;
+}
+
+div.is-link.is-outlined:hover,
+nav.is-link.is-outlined:hover,
+a.is-link.is-outlined:hover,
+header.is-link.is-outlined:hover,
+aside.is-link.is-outlined:hover,
+button.is-link.is-outlined:hover {
+  background-color: #3273dc;
+  color: white;
 }
 
 div.hover_is-link:hover,
 nav.hover_is-link:hover,
 a.hover_is-link:hover,
 header.hover_is-link:hover,
-aside.hover_is-link:hover {
+aside.hover_is-link:hover,
+button.hover_is-link:hover {
   background-color: #3273dc;
   color: #FFF;
 }
@@ -91,25 +122,48 @@ div.is-info,
 nav.is-info,
 a.is-info,
 header.is-info,
-aside.is-info {
+aside.is-info,
+button.is-info {
   background-color: #209cee;
   color: #FFF;
+}
+
+div.is-info.is-outlined,
+nav.is-info.is-outlined,
+a.is-info.is-outlined,
+header.is-info.is-outlined,
+aside.is-info.is-outlined,
+button.is-info.is-outlined {
+  background-color: transparent;
+  border-color: #209cee;
+  color: #209cee;
 }
 
 div.is-success,
 nav.is-success,
 a.is-success,
 header.is-success,
-aside.is-success {
+aside.is-success,
+button.is-success {
   background-color: #23d160;
   color: #FFF;
+}
+
+div.is-success:hover,
+nav.is-success:hover,
+a.is-success:hover,
+header.is-success:hover,
+aside.is-success:hover,
+button.is-success:hover {
+  background-color: #22c65b;
 }
 
 div.is-warning,
 nav.is-warning,
 a.is-warning,
 header.is-warning,
-aside.is-warning {
+aside.is-warning,
+button.is-warning {
   background-color: #ffdd57;
 }
 
@@ -117,7 +171,8 @@ div.is-caution,
 nav.is-caution,
 a.is-caution,
 header.is-caution,
-aside.is-caution {
+aside.is-caution,
+button.is-caution {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -126,7 +181,8 @@ div.hover_is-caution:hover,
 nav.hover_is-caution:hover,
 a.hover_is-caution:hover,
 header.hover_is-caution:hover,
-aside.hover_is-caution:hover {
+aside.hover_is-caution:hover,
+button.hover_is-caution:hover {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -135,7 +191,8 @@ div.is-danger,
 nav.is-danger,
 a.is-danger,
 header.is-danger,
-aside.is-danger {
+aside.is-danger,
+button.is-danger {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -144,7 +201,8 @@ div.hover_is-danger:hover,
 nav.hover_is-danger:hover,
 a.hover_is-danger:hover,
 header.hover_is-danger:hover,
-aside.hover_is-danger:hover {
+aside.hover_is-danger:hover,
+button.hover_is-danger:hover {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -305,7 +363,7 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
   position: relative;
 }
 
-.has-overlay .is-overlay {
+.has-overlay .is-overlay, .has-overlay .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -427,25 +485,46 @@ th {
   display: flex;
 }
 
-.flex-row, .flex-h {
+.flex-row, .flex-r, .flex-h {
   display: flex;
   flex-direction: row;
 }
 
-.flex-col, .flex-v {
+.flex-row.v-center, .flex-row.v-centered, .flex-r.v-center, .flex-r.v-centered, .flex-h.v-center, .flex-h.v-centered {
+  justify-content: center;
+}
+
+.flex-col, .flex-c, .flex-column, .flex-v {
   display: flex;
   flex-direction: column;
 }
 
-.allcentered {
+.flex-col.v-center, .flex-col.v-centered, .flex-c.v-center, .flex-c.v-centered, .flex-column.v-center, .flex-column.v-centered, .flex-v.v-center, .flex-v.v-centered {
+  align-items: center;
+}
+
+.content-centered {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .fullsize {
   width: 100%;
   height: 100%;
+}
+
+.fullscreen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.w-half {
+  width: 50%;
 }
 
 .w-10 {
@@ -520,12 +599,12 @@ th {
   width: 95%;
 }
 
-.w-screen {
-  width: 100vw;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-fullscreen {
+  width: 100vw;
 }
 
 .h-10 {
@@ -678,6 +757,10 @@ th {
 
 .h-full {
   height: 100%;
+}
+
+.h-fullscreen {
+  height: 100vh;
 }
 
 .fixed {
@@ -1059,6 +1142,30 @@ th {
   margin-top: auto;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-10perc {
+  margin-top: 10%;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-25perc {
+  margin-top: 25%;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-25perc {
+  margin-bottom: 25%;
+}
+
 .ml-50 {
   margin-left: 50px;
 }
@@ -1153,29 +1260,27 @@ a {
 
 .button {
   border: 0;
-  padding: 10px 20px;
   cursor: pointer;
+  border: 1px solid transparent;
+  padding-left: .75em;
+  padding-right: .75em;
+  padding-top: calc(.375em - 1px);
+  padding-bottom: calc(.375em - 1px);
+  justify-content: center;
+  align-items: center;
 }
 
-.button.is-white {
-  background-color: #FFF;
-  color: #FFF;
+.button.is-fullWidth {
+  display: flex;
+  width: 100%;
+}
+
+.button.is-medium {
+  font-size: 1.25rem;
 }
 
 .button.is-rounded {
   border-radius: 25px;
-}
-
-.button.is-rounded.is-outlined {
-  border: 2px solid white;
-  background-color: transparent;
-}
-
-.is-small,
-.is-mdeium,
-.is-large {
-  height: 1.5em;
-  width: 1.5em;
 }
 
 /*# sourceMappingURL=ploume.css.map */
