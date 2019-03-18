@@ -1,15 +1,24 @@
 .flex
   display: flex
 
-  &-row, &-h
+  &-row, &-r, &-h
     display: flex
     flex-direction: row
 
-  &-col, &-v
+    &.v-center, &.v-centered
+      justify-content: center
+
+  &-col, &-c, &-column, &-v
     display: flex
     flex-direction: column
 
-.allcentered
+    &.v-center, &.v-centered
+      align-items: center
+
+.content-centered
   display: flex
   justify-content: center
   align-items: center
+
+.wrap
+  flex-wrap: wrap
