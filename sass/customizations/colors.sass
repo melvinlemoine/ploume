@@ -6,6 +6,7 @@ $primary: #00d1b2
 $link: #3273dc
 $info: #209cee
 $success: #23d160
+$success-hover: #22c65b
 $warning: #ffdd57
 $caution: #ED6E59
 $danger: #ff3860
@@ -15,7 +16,8 @@ div,
 nav,
 a,
 header,
-aside
+aside,
+button
   &.is-white
     background-color: $white
   &.hover_is-white:hover
@@ -45,6 +47,16 @@ aside
   &.is-link
     background-color: $link
     color: $white
+
+    &.is-outlined
+      background-color: transparent
+      border-color: $link
+      color: $link
+
+      &:hover
+        background-color: $link
+        color: white
+
   &.hover_is-link:hover
     background-color: $link
     color: $white
@@ -52,9 +64,19 @@ aside
   &.is-info
     background-color: $info
     color: $white
+
+    &.is-outlined
+      background-color: transparent
+      border-color: $info
+      color: $info
+
   &.is-success
     background-color: $success
     color: $white
+
+    &:hover
+      background-color: $success-hover
+
   &.is-warning
     background-color: $warning
 
