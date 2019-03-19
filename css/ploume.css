@@ -788,6 +788,10 @@ th {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .bottom,
 .bot {
   bottom: 0;
@@ -1269,7 +1273,17 @@ a {
   font-size: 1.5rem;
 }
 
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .button {
+  position: relative;
   border: 0;
   cursor: pointer;
   border: 1px solid transparent;
@@ -1296,16 +1310,36 @@ a {
   border-radius: 25px;
 }
 
+.button.is-loading {
+  color: transparent !important;
+}
+
+.button.is-loading::after {
+  animation: spinAround 500ms infinite linear;
+  border: 2px solid #dbdbdb;
+  border-radius: 290486px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+  pointer-events: none;
+  position: absolute;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute !important;
+}
+
 .input {
-  border: 1px solid grey;
-  cursor: pointer;
+  border: 1px solid #dbdbdb;
   padding-left: .75em;
   padding-right: .75em;
   padding-top: calc(.375em - 1px);
   padding-bottom: calc(.375em - 1px);
-  justify-content: center;
-  align-items: center;
   line-height: 1.5;
+  height: 2.25em;
   font-size: 1em;
 }
 
@@ -1317,21 +1351,50 @@ a {
   border-radius: 25px;
 }
 
+.input.is-medium {
+  font-size: 1.25rem;
+}
+
+.input.is-medium ~ .icon {
+  font-size: 1.25rem;
+}
+
+.input.is-large {
+  font-size: 1.5rem;
+}
+
+.input.is-large ~ .icon {
+  font-size: 1.5rem;
+}
+
 .control {
   position: relative;
 }
 
-.control.has-icon .icon {
-  position: absolute;
-  top: 0;
-  height: 100%;
+.control.has-icon-left .input {
+  padding-left: 2.25em;
 }
 
-.control.has-icon .icon.is-left {
+.control.has-icon-right .input {
+  padding-right: 2.25em;
+}
+
+.control .icon {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 2.25em;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #dbdbdb;
+}
+
+.control .icon.is-left {
   left: 0;
 }
 
-.control.has-icon .icon.is-right {
+.control .icon.is-right {
   right: 0;
 }
 
