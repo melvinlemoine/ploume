@@ -1,4 +1,11 @@
+@keyframes spinAround
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(359deg)
+
 .button
+  position: relative
   border: 0
   cursor: pointer
   border: 1px solid transparent
@@ -20,3 +27,22 @@
 
   &.is-rounded
     border-radius: 25px
+
+  &.is-loading
+    color: transparent !important
+    &::after
+      animation: spinAround 500ms infinite linear
+      border: 2px solid #dbdbdb
+      border-radius: 290486px
+      border-right-color: transparent
+      border-top-color: transparent
+      content: ""
+      display: block
+      height: 1em
+      position: relative
+      width: 1em
+      pointer-events: none
+      position: absolute
+      left: calc(50% - (1em / 2))
+      top: calc(50% - (1em / 2))
+      position: absolute !important
