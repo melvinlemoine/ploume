@@ -1,0 +1,30 @@
+.input
+  border: 1px solid grey
+  cursor: pointer
+  padding-left: .75em
+  padding-right: .75em
+  padding-top: calc(.375em - 1px)
+  padding-bottom: calc(.375em - 1px)
+  justify-content: center
+  align-items: center
+  line-height: 1.5
+  font-size: 1em
+
+  &:focus
+    outline: none
+
+  &.is-rounded
+    border-radius: 25px
+
+.control
+  position: relative
+
+  &.has-icon .icon
+    position: absolute
+    top: 0
+    height: 100%
+
+    &.is-left
+      left: 0
+    &.is-right
+      right: 0
