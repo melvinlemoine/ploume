@@ -1332,6 +1332,10 @@ a {
   position: absolute !important;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .input {
   border: 1px solid #dbdbdb;
   padding-left: .75em;
