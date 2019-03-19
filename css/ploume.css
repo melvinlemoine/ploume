@@ -197,6 +197,27 @@ button.is-danger {
   color: #FFF;
 }
 
+div.is-danger.is-outlined,
+nav.is-danger.is-outlined,
+a.is-danger.is-outlined,
+header.is-danger.is-outlined,
+aside.is-danger.is-outlined,
+button.is-danger.is-outlined {
+  background-color: transparent;
+  border-color: #ff3860;
+  color: #ff3860;
+}
+
+div.is-danger.is-outlined:hover,
+nav.is-danger.is-outlined:hover,
+a.is-danger.is-outlined:hover,
+header.is-danger.is-outlined:hover,
+aside.is-danger.is-outlined:hover,
+button.is-danger.is-outlined:hover {
+  background-color: #ff3860;
+  color: white;
+}
+
 div.hover_is-danger:hover,
 nav.hover_is-danger:hover,
 a.hover_is-danger:hover,
@@ -505,6 +526,10 @@ th {
   justify-content: center;
 }
 
+.flex-row.h-center, .flex-row.h-centered, .flex-r.h-center, .flex-r.h-centered, .flex-h.h-center, .flex-h.h-centered {
+  align-items: center;
+}
+
 .flex-col, .flex-c, .flex-column, .flex-v {
   display: flex;
   flex-direction: column;
@@ -512,6 +537,10 @@ th {
 
 .flex-col.v-center, .flex-col.v-centered, .flex-c.v-center, .flex-c.v-centered, .flex-column.v-center, .flex-column.v-centered, .flex-v.v-center, .flex-v.v-centered {
   align-items: center;
+}
+
+.flex-col.h-center, .flex-col.h-centered, .flex-c.h-center, .flex-c.h-centered, .flex-column.h-center, .flex-column.h-centered, .flex-v.h-center, .flex-v.h-centered {
+  justify-content: center;
 }
 
 .content-centered {
@@ -906,6 +935,10 @@ th {
 }
 
 .top-10 {
+  top: 10px;
+}
+
+.top-10perc {
   top: 10%;
 }
 
@@ -1181,8 +1214,24 @@ th {
   margin-bottom: 25%;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-50perc {
+  margin-bottom: 50%;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
 .ml-50 {
   margin-left: 50px;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .p-10 {
@@ -1334,6 +1383,14 @@ a {
 
 .pointer {
   cursor: pointer;
+}
+
+.undisplayed {
+  display: none !important;
+}
+
+.invisible {
+  opacity: 0 !important;
 }
 
 .input {
