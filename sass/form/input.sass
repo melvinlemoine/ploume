@@ -1,13 +1,11 @@
 .input
-  border: 1px solid grey
-  cursor: pointer
+  border: 1px solid #dbdbdb
   padding-left: .75em
   padding-right: .75em
   padding-top: calc(.375em - 1px)
   padding-bottom: calc(.375em - 1px)
-  justify-content: center
-  align-items: center
   line-height: 1.5
+  height: 2.25em
   font-size: 1em
 
   &:focus
@@ -16,13 +14,36 @@
   &.is-rounded
     border-radius: 25px
 
+  &.is-medium
+    font-size: 1.25rem
+
+    &~.icon
+      font-size: 1.25rem
+
+  &.is-large
+    font-size: 1.5rem
+
+    &~.icon
+      font-size: 1.5rem
+
 .control
   position: relative
 
-  &.has-icon .icon
+  &.has-icon
+    &-left .input
+      padding-left: 2.25em
+    &-right .input
+      padding-right: 2.25em
+
+  .icon
+    display: flex
     position: absolute
     top: 0
+    width: 2.25em
+    justify-content: center
+    align-items: center
     height: 100%
+    color: #dbdbdb
 
     &.is-left
       left: 0
