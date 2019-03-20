@@ -66,6 +66,24 @@ button.is-lightdark {
   background-color: #505050;
 }
 
+div.is-lightdark_hover:hover,
+nav.is-lightdark_hover:hover,
+a.is-lightdark_hover:hover,
+header.is-lightdark_hover:hover,
+aside.is-lightdark_hover:hover,
+button.is-lightdark_hover:hover {
+  background-color: #505050 !important;
+}
+
+div.is-lightdark_hover:hover > *,
+nav.is-lightdark_hover:hover > *,
+a.is-lightdark_hover:hover > *,
+header.is-lightdark_hover:hover > *,
+aside.is-lightdark_hover:hover > *,
+button.is-lightdark_hover:hover > * {
+  color: #FFF !important;
+}
+
 div.is-lightdark *,
 nav.is-lightdark *,
 a.is-lightdark *,
@@ -1371,6 +1389,10 @@ th {
   margin-right: 10px;
 }
 
+.mr-25 {
+  margin-right: 25px;
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -1395,12 +1417,22 @@ th {
   padding-top: 100px;
 }
 
+.plr-10, .ph-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.plr-10pe, .plr-10perc, .ph-10pe, .ph-10perc {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .plr-20, .ph-20 {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.plr-20pe, .ph-20pe {
+.plr-20pe, .plr-20perc, .ph-20pe, .ph-20perc {
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -1410,9 +1442,14 @@ th {
   padding-right: 25px;
 }
 
-.plr-25pe, .ph-25pe {
+.plr-25pe, .plr-25perc, .ph-25pe, .ph-25perc {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.ptb-10, .pv-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .ptb-25, .pv-25 {
@@ -1477,10 +1514,14 @@ a {
 }
 
 .is-5 {
-  font-size: 1em;
+  font-size: 1.25em;
 }
 
 .is-6 {
+  font-size: 1em;
+}
+
+.is-7 {
   font-size: .75em;
 }
 
