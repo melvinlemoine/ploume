@@ -730,6 +730,10 @@ th {
   width: 30%;
 }
 
+.w-33 {
+  width: calc(100% / 3);
+}
+
 .w-35 {
   width: 35%;
 }
@@ -794,8 +798,12 @@ th {
   height: 50%;
 }
 
+.h-5 {
+  height: 5%;
+}
+
 .h-10 {
-  height: 0%;
+  height: 10%;
 }
 
 .h-15 {
@@ -827,10 +835,6 @@ th {
 }
 
 .h-50 {
-  height: 50px;
-}
-
-.h-50perc {
   height: 50%;
 }
 
