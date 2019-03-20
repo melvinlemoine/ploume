@@ -27,21 +27,23 @@
     margin-left: calc(-0.375em - 1px)
     margin-right: 0.1875em
 
-  & .icon:last-child:not(:first-child)
-    margin-left: 0.1875em
-    margin-right: calc(-0.375em - 1px)
-
-
-  & .icon:first-child:last-child
-    margin-left: calc(-0.375em - 1px)
-    margin-right: calc(-0.375em - 1px)
+  & .icon
+    display: inline-flex
+    justify-content: center
+    align-items: center
 
   &.is-fullWidth
     display: flex
     width: 100%
 
+  &.is-small
+    font-size: .75rem
+
   &.is-medium
     font-size: 1.25rem
+
+  &.is-large
+    font-size: 1.5rem
 
   &.is-rounded
     border-radius: 25px
