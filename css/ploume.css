@@ -1545,6 +1545,14 @@ a {
   font-size: .75em;
 }
 
+.is-8 {
+  font-size: .5em;
+}
+
+.is-9 {
+  font-size: .25em;
+}
+
 @keyframes spinAround {
   from {
     transform: rotate(0deg);
@@ -1643,6 +1651,10 @@ a {
 
 .no-borders, .no-border, .no-borders {
   border: none !important;
+}
+
+.bordermax {
+  border-radius: 100%;
 }
 
 .input {
