@@ -5,6 +5,7 @@
     transform: rotate(359deg)
 
 .button
+  display: inline-flex
   position: relative
   border: 0
   cursor: pointer
@@ -17,6 +18,23 @@
   align-items: center
   line-height: 1.5
   font-size: 1em
+
+  & .icon, & .icon.is-small, & .icon.is-medium, & .icon.is-large
+    height: 1.5em
+    width: 1.5em
+
+  & .icon:first-child:not(:last-child)
+    margin-left: calc(-0.375em - 1px)
+    margin-right: 0.1875em
+
+  & .icon:last-child:not(:first-child)
+    margin-left: 0.1875em
+    margin-right: calc(-0.375em - 1px)
+
+
+  & .icon:first-child:last-child
+    margin-left: calc(-0.375em - 1px)
+    margin-right: calc(-0.375em - 1px)
 
   &.is-fullWidth
     display: flex
