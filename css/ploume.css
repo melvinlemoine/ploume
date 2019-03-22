@@ -395,6 +395,10 @@ p.is-warning, span.is-warning, h1.is-warning, h2.is-warning, h3.is-warning, h3.i
   color: #ffdd57;
 }
 
+p.is-caution, span.is-caution, h1.is-caution, h2.is-caution, h3.is-caution, h3.is-caution, h5.is-caution, h6.is-caution {
+  color: #ED6E59;
+}
+
 p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-danger, h5.is-danger, h6.is-danger {
   color: #ff3860;
 }
@@ -470,6 +474,10 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
 .is-leaning-right-1 > p,
 .is-leaning-right-1 h1 {
   transform: skewY(-1deg);
+}
+
+.bordered-5 {
+  border-radius: 5px;
 }
 
 .navbar {
@@ -862,7 +870,7 @@ th {
   height: 75px;
 }
 
-.h-75perc {
+.h-75perc, .h-75pe {
   height: 75%;
 }
 
@@ -977,6 +985,14 @@ th {
 
 .fixed-top-5 {
   top: 5px;
+}
+
+.fixed-top-15 {
+  top: 15px;
+}
+
+.fixed-right-15 {
+  right: 15px;
 }
 
 .floating,
@@ -1373,6 +1389,14 @@ th {
   margin-top: 25%;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-50perc {
+  margin-top: 50%;
+}
+
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -1401,8 +1425,16 @@ th {
   margin-left: 50px;
 }
 
+.mr-5 {
+  margin-right: 5px;
+}
+
 .mr-10 {
   margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
 }
 
 .mr-20 {
@@ -1417,8 +1449,50 @@ th {
   margin-right: auto;
 }
 
+.mh-5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mh-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mh-25 {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.mv-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mv-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mv-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
 .p-10 {
   padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
 }
 
 .p-25 {
@@ -1435,6 +1509,11 @@ th {
 
 .pt-100 {
   padding-top: 100px;
+}
+
+.plr-5, .ph-5 {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .plr-10, .ph-10 {
@@ -1465,6 +1544,11 @@ th {
 .plr-25pe, .plr-25perc, .ph-25pe, .ph-25perc {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.ptb-5, .pv-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .ptb-10, .pv-10 {
@@ -1583,7 +1667,7 @@ a {
   width: 1.5em;
 }
 
-.button .icon:first-child:not(:last-child) {
+.button .icon {
   margin-left: calc(-0.375em - 1px);
   margin-right: 0.1875em;
 }
