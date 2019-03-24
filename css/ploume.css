@@ -1741,6 +1741,11 @@ a {
   border-radius: 100%;
 }
 
+*[disabled] {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
 .input {
   border: 1px solid #dbdbdb;
   padding-left: .75em;
