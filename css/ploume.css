@@ -1741,7 +1741,7 @@ a {
   border-radius: 100%;
 }
 
-*[disabled] {
+*[disabled], *[disabled="disabled"] {
   opacity: .5;
   cursor: not-allowed;
 }
