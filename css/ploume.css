@@ -6,7 +6,8 @@ nav.is-white,
 a.is-white,
 header.is-white,
 aside.is-white,
-button.is-white {
+button.is-white,
+form.is-white {
   background-color: #FFF;
   color: #707070;
 }
@@ -16,7 +17,8 @@ nav.is-white_hover:hover,
 a.is-white_hover:hover,
 header.is-white_hover:hover,
 aside.is-white_hover:hover,
-button.is-white_hover:hover {
+button.is-white_hover:hover,
+form.is-white_hover:hover {
   background-color: #FFF !important;
 }
 
@@ -25,7 +27,8 @@ nav.is-white_hover:hover > *,
 a.is-white_hover:hover > *,
 header.is-white_hover:hover > *,
 aside.is-white_hover:hover > *,
-button.is-white_hover:hover > * {
+button.is-white_hover:hover > *,
+form.is-white_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -34,7 +37,8 @@ nav.is-black,
 a.is-black,
 header.is-black,
 aside.is-black,
-button.is-black {
+button.is-black,
+form.is-black {
   background-color: #000;
   color: #FFF;
 }
@@ -44,7 +48,8 @@ nav.is-dark,
 a.is-dark,
 header.is-dark,
 aside.is-dark,
-button.is-dark {
+button.is-dark,
+form.is-dark {
   background-color: #363636;
 }
 
@@ -53,7 +58,8 @@ nav.is-dark *,
 a.is-dark *,
 header.is-dark *,
 aside.is-dark *,
-button.is-dark * {
+button.is-dark *,
+form.is-dark * {
   color: #FFF;
 }
 
@@ -62,7 +68,8 @@ nav.is-lightdark,
 a.is-lightdark,
 header.is-lightdark,
 aside.is-lightdark,
-button.is-lightdark {
+button.is-lightdark,
+form.is-lightdark {
   background-color: #505050;
 }
 
@@ -71,7 +78,8 @@ nav.is-lightdark_hover:hover,
 a.is-lightdark_hover:hover,
 header.is-lightdark_hover:hover,
 aside.is-lightdark_hover:hover,
-button.is-lightdark_hover:hover {
+button.is-lightdark_hover:hover,
+form.is-lightdark_hover:hover {
   background-color: #505050 !important;
 }
 
@@ -80,7 +88,8 @@ nav.is-lightdark_hover:hover > *,
 a.is-lightdark_hover:hover > *,
 header.is-lightdark_hover:hover > *,
 aside.is-lightdark_hover:hover > *,
-button.is-lightdark_hover:hover > * {
+button.is-lightdark_hover:hover > *,
+form.is-lightdark_hover:hover > * {
   color: #FFF !important;
 }
 
@@ -89,7 +98,8 @@ nav.is-lightdark *,
 a.is-lightdark *,
 header.is-lightdark *,
 aside.is-lightdark *,
-button.is-lightdark * {
+button.is-lightdark *,
+form.is-lightdark * {
   color: #FFF;
 }
 
@@ -98,7 +108,8 @@ nav.is-light,
 a.is-light,
 header.is-light,
 aside.is-light,
-button.is-light {
+button.is-light,
+form.is-light {
   background-color: #f5f5f5;
 }
 
@@ -107,7 +118,8 @@ nav.is-light_hover:hover,
 a.is-light_hover:hover,
 header.is-light_hover:hover,
 aside.is-light_hover:hover,
-button.is-light_hover:hover {
+button.is-light_hover:hover,
+form.is-light_hover:hover {
   background-color: #f5f5f5 !important;
 }
 
@@ -116,7 +128,8 @@ nav.is-light_hover:hover > *,
 a.is-light_hover:hover > *,
 header.is-light_hover:hover > *,
 aside.is-light_hover:hover > *,
-button.is-light_hover:hover > * {
+button.is-light_hover:hover > *,
+form.is-light_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -125,7 +138,8 @@ nav.is-primary,
 a.is-primary,
 header.is-primary,
 aside.is-primary,
-button.is-primary {
+button.is-primary,
+form.is-primary {
   background-color: #00d1b2;
   color: #FFF;
 }
@@ -135,7 +149,8 @@ nav.is-link,
 a.is-link,
 header.is-link,
 aside.is-link,
-button.is-link {
+button.is-link,
+form.is-link {
   background-color: #3273dc;
   color: #FFF;
 }
@@ -145,7 +160,8 @@ nav.is-link_hover:hover,
 a.is-link_hover:hover,
 header.is-link_hover:hover,
 aside.is-link_hover:hover,
-button.is-link_hover:hover {
+button.is-link_hover:hover,
+form.is-link_hover:hover {
   background-color: #3273dc !important;
 }
 
@@ -154,7 +170,8 @@ nav.is-link_hover:hover > *,
 a.is-link_hover:hover > *,
 header.is-link_hover:hover > *,
 aside.is-link_hover:hover > *,
-button.is-link_hover:hover > * {
+button.is-link_hover:hover > *,
+form.is-link_hover:hover > * {
   color: white !important;
 }
 
@@ -163,7 +180,8 @@ nav.is-link.is-outlined,
 a.is-link.is-outlined,
 header.is-link.is-outlined,
 aside.is-link.is-outlined,
-button.is-link.is-outlined {
+button.is-link.is-outlined,
+form.is-link.is-outlined {
   background-color: transparent;
   border-color: #3273dc;
   color: #3273dc;
@@ -174,7 +192,8 @@ nav.is-link.is-outlined:hover,
 a.is-link.is-outlined:hover,
 header.is-link.is-outlined:hover,
 aside.is-link.is-outlined:hover,
-button.is-link.is-outlined:hover {
+button.is-link.is-outlined:hover,
+form.is-link.is-outlined:hover {
   background-color: #3273dc;
   color: white;
 }
@@ -184,7 +203,8 @@ nav.is-info,
 a.is-info,
 header.is-info,
 aside.is-info,
-button.is-info {
+button.is-info,
+form.is-info {
   background-color: #209cee;
   color: #FFF;
 }
@@ -194,7 +214,8 @@ nav.is-info_hover:hover,
 a.is-info_hover:hover,
 header.is-info_hover:hover,
 aside.is-info_hover:hover,
-button.is-info_hover:hover {
+button.is-info_hover:hover,
+form.is-info_hover:hover {
   background-color: #209cee !important;
 }
 
@@ -203,7 +224,8 @@ nav.is-info_hover:hover > *,
 a.is-info_hover:hover > *,
 header.is-info_hover:hover > *,
 aside.is-info_hover:hover > *,
-button.is-info_hover:hover > * {
+button.is-info_hover:hover > *,
+form.is-info_hover:hover > * {
   color: white !important;
 }
 
@@ -212,7 +234,8 @@ nav.is-info.is-outlined,
 a.is-info.is-outlined,
 header.is-info.is-outlined,
 aside.is-info.is-outlined,
-button.is-info.is-outlined {
+button.is-info.is-outlined,
+form.is-info.is-outlined {
   background-color: transparent;
   border-color: #209cee;
   color: #209cee;
@@ -223,7 +246,8 @@ nav.is-success,
 a.is-success,
 header.is-success,
 aside.is-success,
-button.is-success {
+button.is-success,
+form.is-success {
   background-color: #23d160;
   color: #FFF;
 }
@@ -233,7 +257,8 @@ nav.is-success_hover:hover,
 a.is-success_hover:hover,
 header.is-success_hover:hover,
 aside.is-success_hover:hover,
-button.is-success_hover:hover {
+button.is-success_hover:hover,
+form.is-success_hover:hover {
   background-color: #23d160 !important;
 }
 
@@ -242,7 +267,8 @@ nav.is-success_hover:hover > *,
 a.is-success_hover:hover > *,
 header.is-success_hover:hover > *,
 aside.is-success_hover:hover > *,
-button.is-success_hover:hover > * {
+button.is-success_hover:hover > *,
+form.is-success_hover:hover > * {
   color: white !important;
 }
 
@@ -251,7 +277,8 @@ nav.is-success:hover,
 a.is-success:hover,
 header.is-success:hover,
 aside.is-success:hover,
-button.is-success:hover {
+button.is-success:hover,
+form.is-success:hover {
   background-color: #22c65b;
 }
 
@@ -260,7 +287,8 @@ nav.is-warning,
 a.is-warning,
 header.is-warning,
 aside.is-warning,
-button.is-warning {
+button.is-warning,
+form.is-warning {
   background-color: #ffdd57;
 }
 
@@ -269,7 +297,8 @@ nav.is-warning_hover:hover,
 a.is-warning_hover:hover,
 header.is-warning_hover:hover,
 aside.is-warning_hover:hover,
-button.is-warning_hover:hover {
+button.is-warning_hover:hover,
+form.is-warning_hover:hover {
   background-color: #ffdd57 !important;
 }
 
@@ -278,7 +307,8 @@ nav.is-warning_hover:hover > *,
 a.is-warning_hover:hover > *,
 header.is-warning_hover:hover > *,
 aside.is-warning_hover:hover > *,
-button.is-warning_hover:hover > * {
+button.is-warning_hover:hover > *,
+form.is-warning_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -287,7 +317,8 @@ nav.is-caution,
 a.is-caution,
 header.is-caution,
 aside.is-caution,
-button.is-caution {
+button.is-caution,
+form.is-caution {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -297,7 +328,8 @@ nav.is-caution_hover:hover,
 a.is-caution_hover:hover,
 header.is-caution_hover:hover,
 aside.is-caution_hover:hover,
-button.is-caution_hover:hover {
+button.is-caution_hover:hover,
+form.is-caution_hover:hover {
   background-color: #ED6E59 !important;
 }
 
@@ -306,7 +338,8 @@ nav.is-caution_hover:hover > *,
 a.is-caution_hover:hover > *,
 header.is-caution_hover:hover > *,
 aside.is-caution_hover:hover > *,
-button.is-caution_hover:hover > * {
+button.is-caution_hover:hover > *,
+form.is-caution_hover:hover > * {
   color: white !important;
 }
 
@@ -315,7 +348,8 @@ nav.is-danger,
 a.is-danger,
 header.is-danger,
 aside.is-danger,
-button.is-danger {
+button.is-danger,
+form.is-danger {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -325,7 +359,8 @@ nav.is-danger_hover:hover,
 a.is-danger_hover:hover,
 header.is-danger_hover:hover,
 aside.is-danger_hover:hover,
-button.is-danger_hover:hover {
+button.is-danger_hover:hover,
+form.is-danger_hover:hover {
   background-color: #ff3860 !important;
 }
 
@@ -334,7 +369,8 @@ nav.is-danger_hover:hover > *,
 a.is-danger_hover:hover > *,
 header.is-danger_hover:hover > *,
 aside.is-danger_hover:hover > *,
-button.is-danger_hover:hover > * {
+button.is-danger_hover:hover > *,
+form.is-danger_hover:hover > * {
   color: white !important;
 }
 
@@ -343,7 +379,8 @@ nav.is-danger.is-outlined,
 a.is-danger.is-outlined,
 header.is-danger.is-outlined,
 aside.is-danger.is-outlined,
-button.is-danger.is-outlined {
+button.is-danger.is-outlined,
+form.is-danger.is-outlined {
   background-color: transparent;
   border-color: #ff3860;
   color: #ff3860;
@@ -354,7 +391,8 @@ nav.is-danger.is-outlined:hover,
 a.is-danger.is-outlined:hover,
 header.is-danger.is-outlined:hover,
 aside.is-danger.is-outlined:hover,
-button.is-danger.is-outlined:hover {
+button.is-danger.is-outlined:hover,
+form.is-danger.is-outlined:hover {
   background-color: #ff3860;
   color: white;
 }
@@ -673,8 +711,24 @@ th {
   justify-content: center;
 }
 
+.flex-row.v-end, .flex-r.v-end, .flex-h.v-end {
+  justify-content: flex-end;
+}
+
+.flex-row.v-start, .flex-r.v-start, .flex-h.v-start {
+  justify-content: flex-start;
+}
+
 .flex-row.h-center, .flex-row.h-centered, .flex-r.h-center, .flex-r.h-centered, .flex-h.h-center, .flex-h.h-centered {
   align-items: center;
+}
+
+.flex-row.h-end, .flex-r.h-end, .flex-h.h-end {
+  align-items: flex-end;
+}
+
+.flex-row.h-start, .flex-r.h-start, .flex-h.h-start {
+  align-items: flex-start;
 }
 
 .flex-col, .flex-c, .flex-column, .flex-v {
