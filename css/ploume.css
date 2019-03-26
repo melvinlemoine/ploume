@@ -144,6 +144,27 @@ form.is-primary {
   color: #FFF;
 }
 
+div.is-primary_hover:hover,
+nav.is-primary_hover:hover,
+a.is-primary_hover:hover,
+header.is-primary_hover:hover,
+aside.is-primary_hover:hover,
+button.is-primary_hover:hover,
+form.is-primary_hover:hover {
+  background-color: #00d1b2 !important;
+  color: #FFF !important;
+}
+
+div.is-primary_hover:hover > *,
+nav.is-primary_hover:hover > *,
+a.is-primary_hover:hover > *,
+header.is-primary_hover:hover > *,
+aside.is-primary_hover:hover > *,
+button.is-primary_hover:hover > *,
+form.is-primary_hover:hover > * {
+  color: #FFF !important;
+}
+
 div.is-link,
 nav.is-link,
 a.is-link,
@@ -489,6 +510,10 @@ p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-dan
 
 .opacity-25, .op-25 {
   opacity: .25;
+}
+
+.opacity-35, .op-35 {
+  opacity: .35;
 }
 
 .opacity-50, .op-50 {
@@ -1627,7 +1652,7 @@ a {
   opacity: .85;
 }
 
-.is-italic {
+.is-italic, .italic {
   font-style: italic;
 }
 
@@ -1635,11 +1660,11 @@ a {
   text-transform: uppercase;
 }
 
-.semi-bold {
+.semi-bold, .semibold, .is-semibold, .is-semi-bold {
   font-weight: 500;
 }
 
-.bold {
+.bold, .is-bold {
   font-weight: bold;
 }
 
@@ -1714,6 +1739,7 @@ a {
   align-items: center;
   line-height: 1.5;
   font-size: 1em;
+  outline: none;
 }
 
 .button .icon, .button .icon.is-small, .button .icon.is-medium, .button .icon.is-large {
