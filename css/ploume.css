@@ -1640,6 +1640,10 @@ th {
   padding-bottom: 25px;
 }
 
+.pr-10 {
+  padding-right: 10px;
+}
+
 a {
   text-decoration: none;
 }
