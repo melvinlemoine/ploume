@@ -9,6 +9,7 @@ $info: #209cee
 $success: #23d160
 $success-hover: #22c65b
 $warning: #ffdd57
+$darkwarning: #ddb517
 $caution: #ED6E59
 $danger: #ff3860
 
@@ -23,8 +24,10 @@ form
   &.is-white
     background-color: $white
     color: #707070
+
     &_hover:hover
       background-color: $white !important
+
       & > *
         color: #707070 !important
 
@@ -100,6 +103,11 @@ form
   &.is-success
     background-color: $success
     color: $white
+
+    &.is-outlined
+      border: 1px solid $success
+      background-color: $white
+
     &_hover:hover
       background-color: $success !important
       & > *
@@ -115,6 +123,20 @@ form
       & > *
         color: #707070 !important
 
+  &.is-darkwarning
+    background-color: $darkwarning
+    color: white
+
+    &.is-outlined
+      border: 1px solid $darkwarning
+      color: #707070
+      background-color: $white
+
+    &_hover:hover
+      background-color: $darkwarning !important
+      & > *
+        color: #707070 !important
+
   &.is-caution
     background-color: $caution
     color: $white
@@ -126,6 +148,11 @@ form
   &.is-danger
     background-color: $danger
     color: $white
+
+    &.is-outlined
+      border: 1px solid $danger
+      background-color: $white
+
     &_hover:hover
       background-color: $danger !important
       & > *
@@ -160,6 +187,8 @@ p, span, h1, h2, h3, h3, h5, h6
     color: $success
   &.is-warning
     color: $warning
+  &.is-darkwarning
+    color: $darkwarning
   &.is-caution
     color: $caution
   &.is-danger
