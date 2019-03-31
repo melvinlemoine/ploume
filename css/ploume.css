@@ -273,6 +273,17 @@ form.is-success {
   color: #FFF;
 }
 
+div.is-success.is-outlined,
+nav.is-success.is-outlined,
+a.is-success.is-outlined,
+header.is-success.is-outlined,
+aside.is-success.is-outlined,
+button.is-success.is-outlined,
+form.is-success.is-outlined {
+  border: 1px solid #23d160;
+  background-color: #FFF;
+}
+
 div.is-success_hover:hover,
 nav.is-success_hover:hover,
 a.is-success_hover:hover,
@@ -333,6 +344,49 @@ form.is-warning_hover:hover > * {
   color: #707070 !important;
 }
 
+div.is-darkwarning,
+nav.is-darkwarning,
+a.is-darkwarning,
+header.is-darkwarning,
+aside.is-darkwarning,
+button.is-darkwarning,
+form.is-darkwarning {
+  background-color: #ddb517;
+  color: white;
+}
+
+div.is-darkwarning.is-outlined,
+nav.is-darkwarning.is-outlined,
+a.is-darkwarning.is-outlined,
+header.is-darkwarning.is-outlined,
+aside.is-darkwarning.is-outlined,
+button.is-darkwarning.is-outlined,
+form.is-darkwarning.is-outlined {
+  border: 1px solid #ddb517;
+  color: #707070;
+  background-color: #FFF;
+}
+
+div.is-darkwarning_hover:hover,
+nav.is-darkwarning_hover:hover,
+a.is-darkwarning_hover:hover,
+header.is-darkwarning_hover:hover,
+aside.is-darkwarning_hover:hover,
+button.is-darkwarning_hover:hover,
+form.is-darkwarning_hover:hover {
+  background-color: #ddb517 !important;
+}
+
+div.is-darkwarning_hover:hover > *,
+nav.is-darkwarning_hover:hover > *,
+a.is-darkwarning_hover:hover > *,
+header.is-darkwarning_hover:hover > *,
+aside.is-darkwarning_hover:hover > *,
+button.is-darkwarning_hover:hover > *,
+form.is-darkwarning_hover:hover > * {
+  color: #707070 !important;
+}
+
 div.is-caution,
 nav.is-caution,
 a.is-caution,
@@ -373,6 +427,17 @@ button.is-danger,
 form.is-danger {
   background-color: #ff3860;
   color: #FFF;
+}
+
+div.is-danger.is-outlined,
+nav.is-danger.is-outlined,
+a.is-danger.is-outlined,
+header.is-danger.is-outlined,
+aside.is-danger.is-outlined,
+button.is-danger.is-outlined,
+form.is-danger.is-outlined {
+  border: 1px solid #ff3860;
+  background-color: #FFF;
 }
 
 div.is-danger_hover:hover,
@@ -452,6 +517,10 @@ p.is-success, span.is-success, h1.is-success, h2.is-success, h3.is-success, h3.i
 
 p.is-warning, span.is-warning, h1.is-warning, h2.is-warning, h3.is-warning, h3.is-warning, h5.is-warning, h6.is-warning {
   color: #ffdd57;
+}
+
+p.is-darkwarning, span.is-darkwarning, h1.is-darkwarning, h2.is-darkwarning, h3.is-darkwarning, h3.is-darkwarning, h5.is-darkwarning, h6.is-darkwarning {
+  color: #ddb517;
 }
 
 p.is-caution, span.is-caution, h1.is-caution, h2.is-caution, h3.is-caution, h3.is-caution, h5.is-caution, h6.is-caution {
@@ -1524,6 +1593,10 @@ th {
   margin-right: 25px;
 }
 
+.mr-50 {
+  margin-right: 50px;
+}
+
 .mr-auto {
   margin-right: auto;
 }
@@ -1576,6 +1649,10 @@ th {
 
 .p-25 {
   padding: 25px;
+}
+
+.p-50 {
+  padding: 50px;
 }
 
 .pt-10 {
@@ -1646,14 +1723,6 @@ th {
 
 a {
   text-decoration: none;
-}
-
-.title {
-  font-size: 3rem;
-}
-
-.subtitle {
-  opacity: .85;
 }
 
 .is-italic, .italic {
