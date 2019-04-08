@@ -32,6 +32,29 @@ form.is-white_hover:hover > * {
   color: #707070 !important;
 }
 
+div.is-white.is-outlined,
+nav.is-white.is-outlined,
+a.is-white.is-outlined,
+header.is-white.is-outlined,
+aside.is-white.is-outlined,
+button.is-white.is-outlined,
+form.is-white.is-outlined {
+  background-color: transparent;
+  border-color: #f5f5f5;
+  color: #707070;
+}
+
+div.is-white.is-outlined:hover,
+nav.is-white.is-outlined:hover,
+a.is-white.is-outlined:hover,
+header.is-white.is-outlined:hover,
+aside.is-white.is-outlined:hover,
+button.is-white.is-outlined:hover,
+form.is-white.is-outlined:hover {
+  background-color: #f5f5f5;
+  color: #505050;
+}
+
 div.is-black,
 nav.is-black,
 a.is-black,
@@ -355,18 +378,6 @@ form.is-darkwarning {
   color: white;
 }
 
-div.is-darkwarning.is-outlined,
-nav.is-darkwarning.is-outlined,
-a.is-darkwarning.is-outlined,
-header.is-darkwarning.is-outlined,
-aside.is-darkwarning.is-outlined,
-button.is-darkwarning.is-outlined,
-form.is-darkwarning.is-outlined {
-  border: 1px solid #ddb517;
-  color: #707070;
-  background-color: #FFF;
-}
-
 div.is-darkwarning_hover:hover,
 nav.is-darkwarning_hover:hover,
 a.is-darkwarning_hover:hover,
@@ -436,8 +447,20 @@ header.is-danger.is-outlined,
 aside.is-danger.is-outlined,
 button.is-danger.is-outlined,
 form.is-danger.is-outlined {
-  border: 1px solid #ff3860;
-  background-color: #FFF;
+  background-color: transparent;
+  border-color: #ff3860;
+  color: #ff3860;
+}
+
+div.is-danger.is-outlined:hover,
+nav.is-danger.is-outlined:hover,
+a.is-danger.is-outlined:hover,
+header.is-danger.is-outlined:hover,
+aside.is-danger.is-outlined:hover,
+button.is-danger.is-outlined:hover,
+form.is-danger.is-outlined:hover {
+  background-color: #ff3860;
+  color: #FFF;
 }
 
 div.is-danger_hover:hover,
@@ -460,27 +483,15 @@ form.is-danger_hover:hover > * {
   color: white !important;
 }
 
-div.is-danger.is-outlined,
-nav.is-danger.is-outlined,
-a.is-danger.is-outlined,
-header.is-danger.is-outlined,
-aside.is-danger.is-outlined,
-button.is-danger.is-outlined,
-form.is-danger.is-outlined {
-  background-color: transparent;
-  border-color: #ff3860;
-  color: #ff3860;
-}
-
-div.is-danger.is-outlined:hover,
-nav.is-danger.is-outlined:hover,
-a.is-danger.is-outlined:hover,
-header.is-danger.is-outlined:hover,
-aside.is-danger.is-outlined:hover,
-button.is-danger.is-outlined:hover,
-form.is-danger.is-outlined:hover {
-  background-color: #ff3860;
-  color: white;
+div.is-purple,
+nav.is-purple,
+a.is-purple,
+header.is-purple,
+aside.is-purple,
+button.is-purple,
+form.is-purple {
+  background-color: #7d00e7;
+  color: #FFF;
 }
 
 p.is-white, span.is-white, h1.is-white, h2.is-white, h3.is-white, h3.is-white, h5.is-white, h6.is-white {
@@ -493,6 +504,10 @@ p.is-black, span.is-black, h1.is-black, h2.is-black, h3.is-black, h3.is-black, h
 
 p.is-dark, span.is-dark, h1.is-dark, h2.is-dark, h3.is-dark, h3.is-dark, h5.is-dark, h6.is-dark {
   color: #363636;
+}
+
+p.is-lightgrey, span.is-lightgrey, h1.is-lightgrey, h2.is-lightgrey, h3.is-lightgrey, h3.is-lightgrey, h5.is-lightgrey, h6.is-lightgrey {
+  color: #707070;
 }
 
 p.is-light, span.is-light, h1.is-light, h2.is-light, h3.is-light, h3.is-light, h5.is-light, h6.is-light {
@@ -529,6 +544,10 @@ p.is-caution, span.is-caution, h1.is-caution, h2.is-caution, h3.is-caution, h3.i
 
 p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-danger, h5.is-danger, h6.is-danger {
   color: #ff3860;
+}
+
+p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-purple, h5.is-purple, h6.is-purple {
+  color: #7d00e7;
 }
 
 .bg-white {
@@ -1529,6 +1548,14 @@ th {
   margin-top: 10%;
 }
 
+.mt-20 {
+  margin-top: 25px;
+}
+
+.mt-20perc {
+  margin-top: 25%;
+}
+
 .mt-25 {
   margin-top: 25px;
 }
@@ -1659,6 +1686,14 @@ th {
   padding-top: 10px;
 }
 
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
 .pt-25 {
   padding-top: 25px;
 }
@@ -1710,6 +1745,11 @@ th {
 .ptb-10, .pv-10 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.ptb-15, .pv-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .ptb-25, .pv-25 {
