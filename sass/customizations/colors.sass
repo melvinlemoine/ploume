@@ -2,6 +2,7 @@ $black: #000
 $white: #FFF
 $dark: #363636
 $light-dark: #505050
+$lightgrey: #707070
 $light: #f5f5f5
 $primary: #00d1b2
 $link: #3273dc
@@ -12,6 +13,7 @@ $warning: #ffdd57
 $darkwarning: #ddb517
 $caution: #ED6E59
 $danger: #ff3860
+$purple: rgb(125, 0, 231)
 
 //########## BACKGROUNDS ##########
 div,
@@ -30,6 +32,15 @@ form
 
       & > *
         color: #707070 !important
+
+    &.is-outlined
+      background-color: transparent
+      border-color: $light
+      color: $lightgrey
+
+      &:hover
+        background-color: $light
+        color: $light-dark
 
   &.is-black
     background-color: $black
@@ -127,11 +138,6 @@ form
     background-color: $darkwarning
     color: white
 
-    &.is-outlined
-      border: 1px solid $darkwarning
-      color: #707070
-      background-color: $white
-
     &_hover:hover
       background-color: $darkwarning !important
       & > *
@@ -150,22 +156,22 @@ form
     color: $white
 
     &.is-outlined
-      border: 1px solid $danger
-      background-color: $white
-
-    &_hover:hover
-      background-color: $danger !important
-      & > *
-        color: white !important
-
-    &.is-outlined
       background-color: transparent
       border-color: $danger
       color: $danger
 
       &:hover
         background-color: $danger
-        color: white
+        color: $white
+
+    &_hover:hover
+      background-color: $danger !important
+      & > *
+        color: white !important
+
+  &.is-purple
+    background-color: $purple
+    color: $white
 
 //########## TEXT ##########
 p, span, h1, h2, h3, h3, h5, h6
@@ -175,6 +181,8 @@ p, span, h1, h2, h3, h3, h5, h6
     color: $black
   &.is-dark
     color: $dark
+  &.is-lightgrey
+    color: $lightgrey
   &.is-light
     color: $light
   &.is-primary
@@ -193,3 +201,5 @@ p, span, h1, h2, h3, h3, h5, h6
     color: $caution
   &.is-danger
     color: $danger
+  &.is-purple
+    color: $purple
