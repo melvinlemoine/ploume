@@ -41,3 +41,44 @@
     justify-content: space-around
   &-between
     justify-content: space-between
+
+// S = SMALL - Mobile
+
+.flex-s
+  display: flex
+
+.flex-row-s, .flex-r-s, .flex-h-s
+    display: flex
+    flex-direction: row
+
+.flex-col-s, .flex-column-s, .flex-c-s, .flex-v-s
+    display: flex
+    flex-direction: column
+
+// M = MEDIUM - Tablette
+
+@media screen and (min-width: 768px)
+  .flex-m
+    display: flex
+
+  .flex-row-m, .flex-r-m, .flex-h-m
+      display: flex
+      flex-direction: row
+
+  .flex-col-m, .flex-column-m, .flex-c-m, .flex-v-m
+      display: flex
+      flex-direction: column
+
+// L = LARGE - Desktop
+
+@media screen and (min-width: 1024px)
+  .flex-l
+    display: flex
+
+  .flex-row-l, .flex-r-l, .flex-h-l
+      display: flex
+      flex-direction: row
+
+  .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l
+      display: flex
+      flex-direction: column
