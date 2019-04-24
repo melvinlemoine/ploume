@@ -857,7 +857,7 @@ th {
   justify-content: center;
 }
 
-.content-centered {
+.content-centered, .content-center, .allcentered, .allcenter, .all-center, .all-centered {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2458,6 +2458,14 @@ th {
   padding-top: 100px;
 }
 
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
 .plr-5, .ph-5 {
   padding-left: 5px;
   padding-right: 5px;
@@ -2511,10 +2519,6 @@ th {
 .ptb-25, .pv-25 {
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-.pr-10 {
-  padding-right: 10px;
 }
 
 a {
