@@ -23,7 +23,8 @@ header,
 aside,
 button,
 form,
-body
+body,
+.tag
   &.is-white
     background-color: $white
     color: #707070
@@ -52,6 +53,11 @@ body
 
     & *
       color: $white
+
+    &_hover:hover
+      background-color: $dark !important
+      & > *
+        color: $white !important
 
   &.is-lightdark
     background-color: $light-dark
