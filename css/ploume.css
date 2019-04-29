@@ -8,7 +8,8 @@ header.is-white,
 aside.is-white,
 button.is-white,
 form.is-white,
-body.is-white {
+body.is-white,
+.tag.is-white {
   background-color: #FFF;
   color: #707070;
 }
@@ -20,7 +21,8 @@ header.is-white_hover:hover,
 aside.is-white_hover:hover,
 button.is-white_hover:hover,
 form.is-white_hover:hover,
-body.is-white_hover:hover {
+body.is-white_hover:hover,
+.tag.is-white_hover:hover {
   background-color: #FFF !important;
 }
 
@@ -31,7 +33,8 @@ header.is-white_hover:hover > *,
 aside.is-white_hover:hover > *,
 button.is-white_hover:hover > *,
 form.is-white_hover:hover > *,
-body.is-white_hover:hover > * {
+body.is-white_hover:hover > *,
+.tag.is-white_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -42,7 +45,8 @@ header.is-white.is-outlined,
 aside.is-white.is-outlined,
 button.is-white.is-outlined,
 form.is-white.is-outlined,
-body.is-white.is-outlined {
+body.is-white.is-outlined,
+.tag.is-white.is-outlined {
   background-color: transparent;
   border-color: #f5f5f5;
   color: #707070;
@@ -55,7 +59,8 @@ header.is-white.is-outlined:hover,
 aside.is-white.is-outlined:hover,
 button.is-white.is-outlined:hover,
 form.is-white.is-outlined:hover,
-body.is-white.is-outlined:hover {
+body.is-white.is-outlined:hover,
+.tag.is-white.is-outlined:hover {
   background-color: #f5f5f5;
   color: #505050;
 }
@@ -67,7 +72,8 @@ header.is-black,
 aside.is-black,
 button.is-black,
 form.is-black,
-body.is-black {
+body.is-black,
+.tag.is-black {
   background-color: #000;
   color: #FFF;
 }
@@ -79,7 +85,8 @@ header.is-dark,
 aside.is-dark,
 button.is-dark,
 form.is-dark,
-body.is-dark {
+body.is-dark,
+.tag.is-dark {
   background-color: #363636;
 }
 
@@ -90,8 +97,33 @@ header.is-dark *,
 aside.is-dark *,
 button.is-dark *,
 form.is-dark *,
-body.is-dark * {
+body.is-dark *,
+.tag.is-dark * {
   color: #FFF;
+}
+
+div.is-dark_hover:hover,
+nav.is-dark_hover:hover,
+a.is-dark_hover:hover,
+header.is-dark_hover:hover,
+aside.is-dark_hover:hover,
+button.is-dark_hover:hover,
+form.is-dark_hover:hover,
+body.is-dark_hover:hover,
+.tag.is-dark_hover:hover {
+  background-color: #363636 !important;
+}
+
+div.is-dark_hover:hover > *,
+nav.is-dark_hover:hover > *,
+a.is-dark_hover:hover > *,
+header.is-dark_hover:hover > *,
+aside.is-dark_hover:hover > *,
+button.is-dark_hover:hover > *,
+form.is-dark_hover:hover > *,
+body.is-dark_hover:hover > *,
+.tag.is-dark_hover:hover > * {
+  color: #FFF !important;
 }
 
 div.is-lightdark,
@@ -101,7 +133,8 @@ header.is-lightdark,
 aside.is-lightdark,
 button.is-lightdark,
 form.is-lightdark,
-body.is-lightdark {
+body.is-lightdark,
+.tag.is-lightdark {
   background-color: #505050;
 }
 
@@ -112,7 +145,8 @@ header.is-lightdark_hover:hover,
 aside.is-lightdark_hover:hover,
 button.is-lightdark_hover:hover,
 form.is-lightdark_hover:hover,
-body.is-lightdark_hover:hover {
+body.is-lightdark_hover:hover,
+.tag.is-lightdark_hover:hover {
   background-color: #505050 !important;
 }
 
@@ -123,7 +157,8 @@ header.is-lightdark_hover:hover > *,
 aside.is-lightdark_hover:hover > *,
 button.is-lightdark_hover:hover > *,
 form.is-lightdark_hover:hover > *,
-body.is-lightdark_hover:hover > * {
+body.is-lightdark_hover:hover > *,
+.tag.is-lightdark_hover:hover > * {
   color: #FFF !important;
 }
 
@@ -134,7 +169,8 @@ header.is-lightdark *,
 aside.is-lightdark *,
 button.is-lightdark *,
 form.is-lightdark *,
-body.is-lightdark * {
+body.is-lightdark *,
+.tag.is-lightdark * {
   color: #FFF;
 }
 
@@ -145,7 +181,8 @@ header.is-light,
 aside.is-light,
 button.is-light,
 form.is-light,
-body.is-light {
+body.is-light,
+.tag.is-light {
   background-color: #f5f5f5;
 }
 
@@ -156,7 +193,8 @@ header.is-light_hover:hover,
 aside.is-light_hover:hover,
 button.is-light_hover:hover,
 form.is-light_hover:hover,
-body.is-light_hover:hover {
+body.is-light_hover:hover,
+.tag.is-light_hover:hover {
   background-color: #f5f5f5 !important;
 }
 
@@ -167,7 +205,8 @@ header.is-light_hover:hover > *,
 aside.is-light_hover:hover > *,
 button.is-light_hover:hover > *,
 form.is-light_hover:hover > *,
-body.is-light_hover:hover > * {
+body.is-light_hover:hover > *,
+.tag.is-light_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -178,7 +217,8 @@ header.is-primary,
 aside.is-primary,
 button.is-primary,
 form.is-primary,
-body.is-primary {
+body.is-primary,
+.tag.is-primary {
   background-color: #00d1b2;
   color: #FFF;
 }
@@ -190,7 +230,8 @@ header.is-primary_hover:hover,
 aside.is-primary_hover:hover,
 button.is-primary_hover:hover,
 form.is-primary_hover:hover,
-body.is-primary_hover:hover {
+body.is-primary_hover:hover,
+.tag.is-primary_hover:hover {
   background-color: #00d1b2 !important;
   color: #FFF !important;
 }
@@ -202,7 +243,8 @@ header.is-primary_hover:hover > *,
 aside.is-primary_hover:hover > *,
 button.is-primary_hover:hover > *,
 form.is-primary_hover:hover > *,
-body.is-primary_hover:hover > * {
+body.is-primary_hover:hover > *,
+.tag.is-primary_hover:hover > * {
   color: #FFF !important;
 }
 
@@ -213,7 +255,8 @@ header.is-primary.is-outlined,
 aside.is-primary.is-outlined,
 button.is-primary.is-outlined,
 form.is-primary.is-outlined,
-body.is-primary.is-outlined {
+body.is-primary.is-outlined,
+.tag.is-primary.is-outlined {
   background-color: transparent;
   border-color: #00d1b2;
   color: #00d1b2;
@@ -226,7 +269,8 @@ header.is-primary.is-outlined:hover,
 aside.is-primary.is-outlined:hover,
 button.is-primary.is-outlined:hover,
 form.is-primary.is-outlined:hover,
-body.is-primary.is-outlined:hover {
+body.is-primary.is-outlined:hover,
+.tag.is-primary.is-outlined:hover {
   background-color: #00d1b2;
   color: white;
 }
@@ -238,7 +282,8 @@ header.is-link,
 aside.is-link,
 button.is-link,
 form.is-link,
-body.is-link {
+body.is-link,
+.tag.is-link {
   background-color: #3273dc;
   color: #FFF;
 }
@@ -250,7 +295,8 @@ header.is-link_hover:hover,
 aside.is-link_hover:hover,
 button.is-link_hover:hover,
 form.is-link_hover:hover,
-body.is-link_hover:hover {
+body.is-link_hover:hover,
+.tag.is-link_hover:hover {
   background-color: #3273dc !important;
 }
 
@@ -261,7 +307,8 @@ header.is-link_hover:hover > *,
 aside.is-link_hover:hover > *,
 button.is-link_hover:hover > *,
 form.is-link_hover:hover > *,
-body.is-link_hover:hover > * {
+body.is-link_hover:hover > *,
+.tag.is-link_hover:hover > * {
   color: white !important;
 }
 
@@ -272,7 +319,8 @@ header.is-link.is-outlined,
 aside.is-link.is-outlined,
 button.is-link.is-outlined,
 form.is-link.is-outlined,
-body.is-link.is-outlined {
+body.is-link.is-outlined,
+.tag.is-link.is-outlined {
   background-color: transparent;
   border-color: #3273dc;
   color: #3273dc;
@@ -285,7 +333,8 @@ header.is-link.is-outlined:hover,
 aside.is-link.is-outlined:hover,
 button.is-link.is-outlined:hover,
 form.is-link.is-outlined:hover,
-body.is-link.is-outlined:hover {
+body.is-link.is-outlined:hover,
+.tag.is-link.is-outlined:hover {
   background-color: #3273dc;
   color: white;
 }
@@ -297,7 +346,8 @@ header.is-info,
 aside.is-info,
 button.is-info,
 form.is-info,
-body.is-info {
+body.is-info,
+.tag.is-info {
   background-color: #209cee;
   color: #FFF;
 }
@@ -309,7 +359,8 @@ header.is-info_hover:hover,
 aside.is-info_hover:hover,
 button.is-info_hover:hover,
 form.is-info_hover:hover,
-body.is-info_hover:hover {
+body.is-info_hover:hover,
+.tag.is-info_hover:hover {
   background-color: #209cee !important;
 }
 
@@ -320,7 +371,8 @@ header.is-info_hover:hover > *,
 aside.is-info_hover:hover > *,
 button.is-info_hover:hover > *,
 form.is-info_hover:hover > *,
-body.is-info_hover:hover > * {
+body.is-info_hover:hover > *,
+.tag.is-info_hover:hover > * {
   color: white !important;
 }
 
@@ -331,7 +383,8 @@ header.is-info.is-outlined,
 aside.is-info.is-outlined,
 button.is-info.is-outlined,
 form.is-info.is-outlined,
-body.is-info.is-outlined {
+body.is-info.is-outlined,
+.tag.is-info.is-outlined {
   background-color: transparent;
   border-color: #209cee;
   color: #209cee;
@@ -344,7 +397,8 @@ header.is-success,
 aside.is-success,
 button.is-success,
 form.is-success,
-body.is-success {
+body.is-success,
+.tag.is-success {
   background-color: #23d160;
   color: #FFF;
 }
@@ -356,7 +410,8 @@ header.is-success.is-outlined,
 aside.is-success.is-outlined,
 button.is-success.is-outlined,
 form.is-success.is-outlined,
-body.is-success.is-outlined {
+body.is-success.is-outlined,
+.tag.is-success.is-outlined {
   border: 1px solid #23d160;
   background-color: #FFF;
 }
@@ -368,7 +423,8 @@ header.is-success_hover:hover,
 aside.is-success_hover:hover,
 button.is-success_hover:hover,
 form.is-success_hover:hover,
-body.is-success_hover:hover {
+body.is-success_hover:hover,
+.tag.is-success_hover:hover {
   background-color: #23d160 !important;
 }
 
@@ -379,7 +435,8 @@ header.is-success_hover:hover > *,
 aside.is-success_hover:hover > *,
 button.is-success_hover:hover > *,
 form.is-success_hover:hover > *,
-body.is-success_hover:hover > * {
+body.is-success_hover:hover > *,
+.tag.is-success_hover:hover > * {
   color: white !important;
 }
 
@@ -390,7 +447,8 @@ header.is-success:hover,
 aside.is-success:hover,
 button.is-success:hover,
 form.is-success:hover,
-body.is-success:hover {
+body.is-success:hover,
+.tag.is-success:hover {
   background-color: #22c65b;
 }
 
@@ -401,7 +459,8 @@ header.is-warning,
 aside.is-warning,
 button.is-warning,
 form.is-warning,
-body.is-warning {
+body.is-warning,
+.tag.is-warning {
   background-color: #ffdd57;
 }
 
@@ -412,7 +471,8 @@ header.is-warning_hover:hover,
 aside.is-warning_hover:hover,
 button.is-warning_hover:hover,
 form.is-warning_hover:hover,
-body.is-warning_hover:hover {
+body.is-warning_hover:hover,
+.tag.is-warning_hover:hover {
   background-color: #ffdd57 !important;
 }
 
@@ -423,7 +483,8 @@ header.is-warning_hover:hover > *,
 aside.is-warning_hover:hover > *,
 button.is-warning_hover:hover > *,
 form.is-warning_hover:hover > *,
-body.is-warning_hover:hover > * {
+body.is-warning_hover:hover > *,
+.tag.is-warning_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -434,7 +495,8 @@ header.is-darkwarning,
 aside.is-darkwarning,
 button.is-darkwarning,
 form.is-darkwarning,
-body.is-darkwarning {
+body.is-darkwarning,
+.tag.is-darkwarning {
   background-color: #ddb517;
   color: white;
 }
@@ -446,7 +508,8 @@ header.is-darkwarning_hover:hover,
 aside.is-darkwarning_hover:hover,
 button.is-darkwarning_hover:hover,
 form.is-darkwarning_hover:hover,
-body.is-darkwarning_hover:hover {
+body.is-darkwarning_hover:hover,
+.tag.is-darkwarning_hover:hover {
   background-color: #ddb517 !important;
 }
 
@@ -457,7 +520,8 @@ header.is-darkwarning_hover:hover > *,
 aside.is-darkwarning_hover:hover > *,
 button.is-darkwarning_hover:hover > *,
 form.is-darkwarning_hover:hover > *,
-body.is-darkwarning_hover:hover > * {
+body.is-darkwarning_hover:hover > *,
+.tag.is-darkwarning_hover:hover > * {
   color: #707070 !important;
 }
 
@@ -468,7 +532,8 @@ header.is-caution,
 aside.is-caution,
 button.is-caution,
 form.is-caution,
-body.is-caution {
+body.is-caution,
+.tag.is-caution {
   background-color: #ED6E59;
   color: #FFF;
 }
@@ -480,7 +545,8 @@ header.is-caution_hover:hover,
 aside.is-caution_hover:hover,
 button.is-caution_hover:hover,
 form.is-caution_hover:hover,
-body.is-caution_hover:hover {
+body.is-caution_hover:hover,
+.tag.is-caution_hover:hover {
   background-color: #ED6E59 !important;
 }
 
@@ -491,7 +557,8 @@ header.is-caution_hover:hover > *,
 aside.is-caution_hover:hover > *,
 button.is-caution_hover:hover > *,
 form.is-caution_hover:hover > *,
-body.is-caution_hover:hover > * {
+body.is-caution_hover:hover > *,
+.tag.is-caution_hover:hover > * {
   color: white !important;
 }
 
@@ -502,7 +569,8 @@ header.is-danger,
 aside.is-danger,
 button.is-danger,
 form.is-danger,
-body.is-danger {
+body.is-danger,
+.tag.is-danger {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -514,7 +582,8 @@ header.is-danger.is-outlined,
 aside.is-danger.is-outlined,
 button.is-danger.is-outlined,
 form.is-danger.is-outlined,
-body.is-danger.is-outlined {
+body.is-danger.is-outlined,
+.tag.is-danger.is-outlined {
   background-color: transparent;
   border-color: #ff3860;
   color: #ff3860;
@@ -527,7 +596,8 @@ header.is-danger.is-outlined:hover,
 aside.is-danger.is-outlined:hover,
 button.is-danger.is-outlined:hover,
 form.is-danger.is-outlined:hover,
-body.is-danger.is-outlined:hover {
+body.is-danger.is-outlined:hover,
+.tag.is-danger.is-outlined:hover {
   background-color: #ff3860;
   color: #FFF;
 }
@@ -539,7 +609,8 @@ header.is-danger_hover:hover,
 aside.is-danger_hover:hover,
 button.is-danger_hover:hover,
 form.is-danger_hover:hover,
-body.is-danger_hover:hover {
+body.is-danger_hover:hover,
+.tag.is-danger_hover:hover {
   background-color: #ff3860 !important;
 }
 
@@ -550,7 +621,8 @@ header.is-danger_hover:hover > *,
 aside.is-danger_hover:hover > *,
 button.is-danger_hover:hover > *,
 form.is-danger_hover:hover > *,
-body.is-danger_hover:hover > * {
+body.is-danger_hover:hover > *,
+.tag.is-danger_hover:hover > * {
   color: white !important;
 }
 
@@ -561,7 +633,8 @@ header.is-purple,
 aside.is-purple,
 button.is-purple,
 form.is-purple,
-body.is-purple {
+body.is-purple,
+.tag.is-purple {
   background-color: #7d00e7;
   color: #FFF;
 }
@@ -937,6 +1010,30 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-start {
+  align-content: flex-start;
+}
+
+.align-end {
+  align-content: flex-end;
+}
+
+.align-center {
+  align-content: center;
 }
 
 .wrap {
@@ -2368,6 +2465,10 @@ th {
   margin: auto;
 }
 
+.m-25 {
+  margin: 25px;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -2402,6 +2503,14 @@ th {
 
 .mt-50perc {
   margin-top: 50%;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
 }
 
 .mb-25 {
@@ -2464,6 +2573,11 @@ th {
   margin-right: auto;
 }
 
+.mh-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .mh-5 {
   margin-left: 5px;
   margin-right: 5px;
@@ -2477,6 +2591,11 @@ th {
 .mh-25 {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.mh-25perc {
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .mv-5 {
@@ -2548,6 +2667,10 @@ th {
 
 .pb-25 {
   padding-bottom: 25px;
+}
+
+.pl-25 {
+  padding-left: 25px;
 }
 
 .plr-5, .ph-5 {
@@ -3171,6 +3294,10 @@ th {
     padding-left: 25%;
     padding-right: 25%;
   }
+  .plr-50-l, .ph-50-l {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .ptb-5-l, .pv-5-l {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -3500,6 +3627,12 @@ a {
 *[disabled], *[disabled="disabled"] {
   opacity: .5;
   cursor: not-allowed;
+}
+
+.tag {
+  padding: 5px;
+  border-radius: 25px;
+  width: fit-content;
 }
 
 .input {
