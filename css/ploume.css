@@ -2564,6 +2564,14 @@ th {
   margin-bottom: 10px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .mb-25 {
   margin-bottom: 25px;
 }
@@ -2582,6 +2590,10 @@ th {
 
 .ml-auto {
   margin-left: auto;
+}
+
+.ml-10 {
+  margin-left: 10px;
 }
 
 .ml-25 {
@@ -2757,6 +2769,11 @@ th {
 .plr-25pe, .plr-25perc, .ph-25pe, .ph-25perc {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.plr-50, .ph-50 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .ptb-5, .pv-5 {
