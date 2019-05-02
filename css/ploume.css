@@ -632,7 +632,7 @@ body.is-danger.is-outlined,
 .tag.is-danger.is-outlined,
 li.is-danger.is-outlined {
   background-color: transparent;
-  border-color: #ff3860;
+  border: 2px solid #ff3860;
   color: #ff3860;
 }
 
@@ -2751,6 +2751,11 @@ th {
   padding-right: 10%;
 }
 
+.plr-15, .ph-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .plr-20, .ph-20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -2789,6 +2794,11 @@ th {
 .ptb-15, .pv-15 {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.ptb-20, .pv-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ptb-25, .pv-25 {
