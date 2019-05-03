@@ -25,7 +25,8 @@ button,
 form,
 body,
 .tag,
-li
+li,
+footer
   &.is-white
     background-color: $white
     color: #707070
@@ -163,10 +164,20 @@ li
   &.is-caution
     background-color: $caution
     color: $white
+
     &_hover:hover
       background-color: $caution !important
       & > *
         color: white !important
+
+    &.is-outlined
+      background-color: transparent
+      border: 1px solid $caution
+      color: $caution
+
+      &:hover
+        background-color: $caution
+        color: $white
 
   &.is-danger
     background-color: $danger
@@ -174,7 +185,7 @@ li
 
     &.is-outlined
       background-color: transparent
-      border: 2px solid $danger
+      border: 1px solid $danger
       color: $danger
 
       &:hover
