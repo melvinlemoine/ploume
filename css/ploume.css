@@ -1237,6 +1237,10 @@ th {
   width: 50%;
 }
 
+.w-fit {
+  width: fit-content;
+}
+
 .w-full {
   width: 100%;
 }
@@ -3732,6 +3736,10 @@ a {
   font-size: .75rem;
 }
 
+.button.is-normal-s {
+  font-size: 1rem;
+}
+
 .button.is-medium-s {
   font-size: 1.25rem;
 }
@@ -3744,6 +3752,9 @@ a {
   .button.is-small-m {
     font-size: .75rem;
   }
+  .button.is-normal-m {
+    font-size: 1rem;
+  }
   .button.is-medium-m {
     font-size: 1.25rem;
   }
@@ -3755,6 +3766,9 @@ a {
 @media screen and (min-width: 1024px) {
   .button.is-small-l {
     font-size: .75rem;
+  }
+  .button.is-normal-l {
+    font-size: 1rem;
   }
   .button.is-medium-l {
     font-size: 1.25rem;
