@@ -26,7 +26,8 @@ form,
 body,
 .tag,
 li,
-footer
+footer,
+container
   &.is-white
     background-color: $white
     color: #707070
@@ -53,7 +54,7 @@ footer
   &.is-dark
     background-color: $dark
 
-    & *
+    & > *
       color: $white
 
     &_hover:hover
@@ -63,12 +64,13 @@ footer
 
   &.is-lightdark
     background-color: $light-dark
+    
     &_hover:hover
       background-color: $light-dark !important
       & > *
         color: $white !important
 
-    & *
+    & > *
       color: $white
 
   &.is-light
