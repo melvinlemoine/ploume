@@ -2957,6 +2957,11 @@ th {
   padding-bottom: 25px;
 }
 
+.ptb-50, .pv-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .m-auto-s {
   margin: auto;
 }
