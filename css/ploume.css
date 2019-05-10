@@ -13,7 +13,7 @@ body.is-white,
 li.is-white,
 footer.is-white,
 container.is-white {
-  background-color: #FFF;
+  background-color: #FFFFFF;
   color: #707070;
 }
 
@@ -29,7 +29,7 @@ body.is-white_hover:hover,
 li.is-white_hover:hover,
 footer.is-white_hover:hover,
 container.is-white_hover:hover {
-  background-color: #FFF !important;
+  background-color: #FFFFFF !important;
 }
 
 div.is-white_hover:hover > *,
@@ -93,7 +93,7 @@ li.is-black,
 footer.is-black,
 container.is-black {
   background-color: #000;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-dark,
@@ -123,7 +123,7 @@ body.is-dark > *,
 li.is-dark > *,
 footer.is-dark > *,
 container.is-dark > * {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-dark_hover:hover,
@@ -153,7 +153,7 @@ body.is-dark_hover:hover > *,
 li.is-dark_hover:hover > *,
 footer.is-dark_hover:hover > *,
 container.is-dark_hover:hover > * {
-  color: #FFF !important;
+  color: #FFFFFF !important;
 }
 
 div.is-lightdark,
@@ -198,7 +198,7 @@ body.is-lightdark_hover:hover > *,
 li.is-lightdark_hover:hover > *,
 footer.is-lightdark_hover:hover > *,
 container.is-lightdark_hover:hover > * {
-  color: #FFF !important;
+  color: #FFFFFF !important;
 }
 
 div.is-lightdark > *,
@@ -213,7 +213,7 @@ body.is-lightdark > *,
 li.is-lightdark > *,
 footer.is-lightdark > *,
 container.is-lightdark > * {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-light,
@@ -274,7 +274,7 @@ li.is-primary,
 footer.is-primary,
 container.is-primary {
   background-color: #00d1b2;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-primary_hover:hover,
@@ -290,7 +290,7 @@ li.is-primary_hover:hover,
 footer.is-primary_hover:hover,
 container.is-primary_hover:hover {
   background-color: #00d1b2 !important;
-  color: #FFF !important;
+  color: #FFFFFF !important;
 }
 
 div.is-primary_hover:hover > *,
@@ -305,7 +305,7 @@ body.is-primary_hover:hover > *,
 li.is-primary_hover:hover > *,
 footer.is-primary_hover:hover > *,
 container.is-primary_hover:hover > * {
-  color: #FFF !important;
+  color: #FFFFFF !important;
 }
 
 div.is-primary.is-outlined,
@@ -354,7 +354,7 @@ li.is-link,
 footer.is-link,
 container.is-link {
   background-color: #3273dc;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-link_hover:hover,
@@ -433,7 +433,7 @@ li.is-info,
 footer.is-info,
 container.is-info {
   background-color: #209cee;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-info_hover:hover,
@@ -496,7 +496,7 @@ li.is-success,
 footer.is-success,
 container.is-success {
   background-color: #23d160;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-success.is-outlined,
@@ -512,7 +512,7 @@ li.is-success.is-outlined,
 footer.is-success.is-outlined,
 container.is-success.is-outlined {
   border: 1px solid #23d160;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 div.is-success_hover:hover,
@@ -664,7 +664,7 @@ li.is-caution,
 footer.is-caution,
 container.is-caution {
   background-color: #ED6E59;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-caution_hover:hover,
@@ -727,7 +727,7 @@ li.is-caution.is-outlined:hover,
 footer.is-caution.is-outlined:hover,
 container.is-caution.is-outlined:hover {
   background-color: #ED6E59;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-danger,
@@ -743,7 +743,7 @@ li.is-danger,
 footer.is-danger,
 container.is-danger {
   background-color: #ff3860;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-danger.is-outlined,
@@ -776,7 +776,7 @@ li.is-danger.is-outlined:hover,
 footer.is-danger.is-outlined:hover,
 container.is-danger.is-outlined:hover {
   background-color: #ff3860;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 div.is-danger_hover:hover,
@@ -822,11 +822,11 @@ li.is-purple,
 footer.is-purple,
 container.is-purple {
   background-color: #7d00e7;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 p.is-white, span.is-white, h1.is-white, h2.is-white, h3.is-white, h3.is-white, h5.is-white, h6.is-white, i.is-white {
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 p.is-black, span.is-black, h1.is-black, h2.is-black, h3.is-black, h3.is-black, h5.is-black, h6.is-black, i.is-black {
