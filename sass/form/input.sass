@@ -6,7 +6,6 @@
   padding-bottom: calc(.375em - 1px)
   line-height: 1.5
   height: 2.25em
-  font-size: 1em
 
   &:focus
     outline: none
@@ -49,3 +48,84 @@
       left: 0
     &.is-right
       right: 0
+
+// S = SMALL - Mobile
+
+.control
+  position: relative
+
+  &.has-icon
+    &-left .input
+      padding-left: 2.25em
+    &-right .input
+      padding-right: 2.25em
+
+  .icon-s
+    display: flex
+    position: absolute
+    top: 0
+    width: 2.25em
+    justify-content: center
+    align-items: center
+    height: 100%
+    color: #dbdbdb
+
+    &.is-left
+      left: 0
+    &.is-right
+      right: 0
+
+
+// M = MEDIUM - Tablette
+
+@media screen and (min-width: 768)
+  .control
+    position: relative
+
+    &.has-icon
+      &-left .input
+        padding-left: 2.25em
+      &-right .input
+        padding-right: 2.25em
+
+    .icon-m
+      display: flex
+      position: absolute
+      top: 0
+      width: 2.25em
+      justify-content: center
+      align-items: center
+      height: 100%
+      color: #dbdbdb
+
+      &.is-left
+        left: 0
+      &.is-right
+        right: 0
+
+// L = LARGE - Desktop
+
+@media screen and (min-width: 1024px)
+  .control
+    position: relative
+
+    &.has-icon
+      &-left .input
+        padding-left: 2.25em
+      &-right .input
+        padding-right: 2.25em
+
+    .icon-m
+      display: flex
+      position: absolute
+      top: 0
+      width: 2.25em
+      justify-content: center
+      align-items: center
+      height: 100%
+      color: #dbdbdb
+
+      &.is-left
+        left: 0
+      &.is-right
+        right: 0

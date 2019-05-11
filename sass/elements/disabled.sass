@@ -1,3 +1,35 @@
 *[disabled], *[disabled="disabled"]
   opacity: .5
   cursor: not-allowed
+
+.none
+  display: none
+
+.block
+  display: block
+
+// S = SMALL - Mobile
+
+.none-s
+  display: none
+
+.block-s
+  display: block
+
+// M = MEDIUM - Tablette
+
+@media screen and (min-width: 768px)
+  .none-m
+    display: none
+
+  .block-m
+    display: block
+
+// L = LARGE - Desktop
+
+@media screen and (min-width: 1024px)
+  .none-l
+    display: none
+
+  .block-l
+    display: block
