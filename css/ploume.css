@@ -1226,6 +1226,10 @@ th {
   flex-wrap: wrap;
 }
 
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
 .space-around {
   justify-content: space-around;
 }
@@ -1248,6 +1252,14 @@ th {
   flex-direction: column;
 }
 
+.wrap-s {
+  flex-wrap: wrap;
+}
+
+.no-wrap-s {
+  flex-wrap: nowrap;
+}
+
 @media screen and (min-width: 768px) {
   .flex-m {
     display: flex;
@@ -1259,6 +1271,12 @@ th {
   .flex-col-m, .flex-column-m, .flex-c-m, .flex-v-m {
     display: flex;
     flex-direction: column;
+  }
+  .wrap-m {
+    flex-wrap: wrap;
+  }
+  .no-wrap-m {
+    flex-wrap: nowrap;
   }
 }
 
@@ -1273,6 +1291,12 @@ th {
   .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l {
     display: flex;
     flex-direction: column;
+  }
+  .wrap-l {
+    flex-wrap: wrap;
+  }
+  .no-wrap-l {
+    flex-wrap: nowrap;
   }
 }
 
@@ -1300,6 +1324,10 @@ th {
 
 .w-fullscreen {
   width: 100vw;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-5 {
@@ -1580,6 +1608,10 @@ th {
   width: 100vw;
 }
 
+.w-auto-s {
+  width: auto;
+}
+
 .w-5-s {
   width: 5%;
 }
@@ -1845,6 +1877,9 @@ th {
     width: 100vw;
     height: 100vh;
   }
+  -auto-m {
+    width: auto;
+  }
   .w-half-m {
     width: 50%;
   }
@@ -2056,6 +2091,9 @@ th {
   .fullscreen-l {
     width: 100vw;
     height: 100vh;
+  }
+  -auto-l {
+    width: auto;
   }
   .w-half-l {
     width: 50%;
@@ -4023,7 +4061,7 @@ a {
   right: 0;
 }
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .control {
     position: relative;
   }
