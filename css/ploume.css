@@ -1212,6 +1212,10 @@ th {
   flex-wrap: wrap;
 }
 
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
 .space-around {
   justify-content: space-around;
 }
@@ -1234,6 +1238,14 @@ th {
   flex-direction: column;
 }
 
+.wrap-s {
+  flex-wrap: wrap;
+}
+
+.no-wrap-s {
+  flex-wrap: nowrap;
+}
+
 @media screen and (min-width: 768px) {
   .flex-m {
     display: flex;
@@ -1245,6 +1257,12 @@ th {
   .flex-col-m, .flex-column-m, .flex-c-m, .flex-v-m {
     display: flex;
     flex-direction: column;
+  }
+  .wrap-m {
+    flex-wrap: wrap;
+  }
+  .no-wrap-m {
+    flex-wrap: nowrap;
   }
 }
 
@@ -1259,6 +1277,12 @@ th {
   .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l {
     display: flex;
     flex-direction: column;
+  }
+  .wrap-l {
+    flex-wrap: wrap;
+  }
+  .no-wrap-l {
+    flex-wrap: nowrap;
   }
 }
 
@@ -1286,6 +1310,10 @@ th {
 
 .w-fullscreen {
   width: 100vw;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-5 {
@@ -1566,6 +1594,10 @@ th {
   width: 100vw;
 }
 
+.w-auto-s {
+  width: auto;
+}
+
 .w-5-s {
   width: 5%;
 }
@@ -1831,6 +1863,9 @@ th {
     width: 100vw;
     height: 100vh;
   }
+  -auto-m {
+    width: auto;
+  }
   .w-half-m {
     width: 50%;
   }
@@ -2042,6 +2077,9 @@ th {
   .fullscreen-l {
     width: 100vw;
     height: 100vh;
+  }
+  -auto-l {
+    width: auto;
   }
   .w-half-l {
     width: 50%;
@@ -3571,6 +3609,10 @@ a {
   text-align: justify;
 }
 
+.is-0 {
+  font-size: 0;
+}
+
 .is-1 {
   font-size: 3rem;
 }
@@ -3605,6 +3647,10 @@ a {
 
 .is-9 {
   font-size: .25em;
+}
+
+.is-0-s {
+  font-size: 0;
 }
 
 .is-1-s {
@@ -3644,6 +3690,9 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .is-0-m {
+    font-size: 0;
+  }
   .is-1-m {
     font-size: 3rem;
   }
@@ -3674,6 +3723,9 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+  .is-0-l {
+    font-size: 0;
+  }
   .is-1-l {
     font-size: 3rem;
   }
@@ -3859,6 +3911,40 @@ a {
   cursor: not-allowed;
 }
 
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.none-s {
+  display: none;
+}
+
+.block-s {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .none-m {
+    display: none;
+  }
+  .block-m {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .none-l {
+    display: none;
+  }
+  .block-l {
+    display: block;
+  }
+}
+
 .tag {
   padding: 5px;
   border-radius: 25px;
@@ -3873,7 +3959,6 @@ a {
   padding-bottom: calc(.375em - 1px);
   line-height: 1.5;
   height: 2.25em;
-  font-size: 1em;
 }
 
 .input:focus {
@@ -3929,6 +4014,93 @@ a {
 
 .control .icon.is-right {
   right: 0;
+}
+
+.control {
+  position: relative;
+}
+
+.control.has-icon-left .input {
+  padding-left: 2.25em;
+}
+
+.control.has-icon-right .input {
+  padding-right: 2.25em;
+}
+
+.control .icon-s {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 2.25em;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #dbdbdb;
+}
+
+.control .icon-s.is-left {
+  left: 0;
+}
+
+.control .icon-s.is-right {
+  right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .control {
+    position: relative;
+  }
+  .control.has-icon-left .input {
+    padding-left: 2.25em;
+  }
+  .control.has-icon-right .input {
+    padding-right: 2.25em;
+  }
+  .control .icon-m {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 2.25em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #dbdbdb;
+  }
+  .control .icon-m.is-left {
+    left: 0;
+  }
+  .control .icon-m.is-right {
+    right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .control {
+    position: relative;
+  }
+  .control.has-icon-left .input {
+    padding-left: 2.25em;
+  }
+  .control.has-icon-right .input {
+    padding-right: 2.25em;
+  }
+  .control .icon-m {
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 2.25em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #dbdbdb;
+  }
+  .control .icon-m.is-left {
+    left: 0;
+  }
+  .control .icon-m.is-right {
+    right: 0;
+  }
 }
 
 /*# sourceMappingURL=ploume.css.map */
