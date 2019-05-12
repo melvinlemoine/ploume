@@ -109,20 +109,6 @@ li.is-dark,
 footer.is-dark,
 container.is-dark {
   background-color: #363636;
-}
-
-div.is-dark > *,
-nav.is-dark > *,
-a.is-dark > *,
-header.is-dark > *,
-aside.is-dark > *,
-button.is-dark > *,
-form.is-dark > *,
-body.is-dark > *,
-.tag.is-dark > *,
-li.is-dark > *,
-footer.is-dark > *,
-container.is-dark > * {
   color: #FFFFFF;
 }
 
@@ -1211,15 +1197,15 @@ th {
 }
 
 .align-start {
-  align-content: flex-start;
+  align-items: flex-start;
 }
 
 .align-end {
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 .align-center {
-  align-content: center;
+  align-items: center;
 }
 
 .wrap {
