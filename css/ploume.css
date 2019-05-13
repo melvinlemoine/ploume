@@ -909,6 +909,10 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   background-size: auto;
 }
 
+.opacity-0, .op-0 {
+  opacity: 0;
+}
+
 .opacity-10, .op-10 {
   opacity: .10;
 }
