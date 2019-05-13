@@ -2822,6 +2822,11 @@ th {
   margin-right: 10px;
 }
 
+.mh-15 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 .mh-25 {
   margin-left: 25px;
   margin-right: 25px;
@@ -2901,6 +2906,10 @@ th {
 
 .pr-25 {
   padding-right: 25px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
 }
 
 .pb-25 {
