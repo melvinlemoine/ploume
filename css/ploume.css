@@ -941,6 +941,10 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   opacity: .85;
 }
 
+.opacity-95, .op-95 {
+  opacity: .95;
+}
+
 .is-tilted-right-1,
 .is-leaning-right-1 {
   transform: skewY(1deg);
@@ -1022,11 +1026,10 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   width: 100%;
   height: 100%;
   z-index: 0;
-  transform: skewY(0deg);
 }
 
 .has-overlay > * {
-  z-index: 0;
+  z-index: 1;
 }
 
 html {
@@ -2311,7 +2314,7 @@ th {
 
 .floating,
 .absolute {
-  position: absolute !important;
+  position: absolute;
 }
 
 .relative {
@@ -2687,6 +2690,10 @@ th {
   margin: 25px;
 }
 
+.m-50 {
+  margin: 50px;
+}
+
 .mt-auto {
   margin-top: auto;
 }
@@ -2705,6 +2712,10 @@ th {
 
 .mt-10perc {
   margin-top: 10%;
+}
+
+.mt-15 {
+  margin-top: 15px;
 }
 
 .mt-20 {
@@ -2856,6 +2867,11 @@ th {
   margin-bottom: 25px;
 }
 
+.mv-50 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .p-5 {
   padding: 5px;
 }
@@ -2918,6 +2934,10 @@ th {
 
 .pb-25 {
   padding-bottom: 25px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
 }
 
 .pl-25 {
