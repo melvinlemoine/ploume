@@ -875,6 +875,10 @@ p.is-dark, span.is-dark, h1.is-dark, h2.is-dark, h3.is-dark, h3.is-dark, h5.is-d
   color: #363636;
 }
 
+p.is-lightdark, span.is-lightdark, h1.is-lightdark, h2.is-lightdark, h3.is-lightdark, h3.is-lightdark, h5.is-lightdark, h6.is-lightdark, i.is-lightdark {
+  color: #505050;
+}
+
 p.is-lightgrey, span.is-lightgrey, h1.is-lightgrey, h2.is-lightgrey, h3.is-lightgrey, h3.is-lightgrey, h5.is-lightgrey, h6.is-lightgrey, i.is-lightgrey {
   color: #707070;
 }
