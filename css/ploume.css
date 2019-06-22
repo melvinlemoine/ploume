@@ -580,6 +580,7 @@ footer.is-success:hover,
 container.is-success:hover,
 section.is-success:hover {
   background-color: #22c65b;
+  color: white;
 }
 
 div.is-warning,
