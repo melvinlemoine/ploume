@@ -531,6 +531,7 @@ container.is-success.is-outlined,
 section.is-success.is-outlined {
   border: 1px solid #23d160;
   background-color: #FFFFFF;
+  color: #23d160;
 }
 
 div.is-success_hover:hover,
