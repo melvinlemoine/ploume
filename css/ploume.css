@@ -1163,44 +1163,70 @@ a {
   font-size: .25em;
 }
 
-.is-0-s {
-  font-size: 0;
+@media screen and (min-width: 300px) {
+  .is-0-xs {
+    font-size: 0;
+  }
+  .is-1-xs {
+    font-size: 3rem;
+  }
+  .is-2-xs {
+    font-size: 2.5rem;
+  }
+  .is-3-xs {
+    font-size: 2rem;
+  }
+  .is-4-xs {
+    font-size: 1.5rem;
+  }
+  .is-5-xs {
+    font-size: 1.25em;
+  }
+  .is-6-xs {
+    font-size: 1em;
+  }
+  .is-7-xs {
+    font-size: .75em;
+  }
+  .is-8-xs {
+    font-size: .5em;
+  }
+  .is-9-xs {
+    font-size: .25em;
+  }
 }
 
-.is-1-s {
-  font-size: 3rem;
-}
-
-.is-2-s {
-  font-size: 2.5rem;
-}
-
-.is-3-s {
-  font-size: 2rem;
-}
-
-.is-4-s {
-  font-size: 1.5rem;
-}
-
-.is-5-s {
-  font-size: 1.25em;
-}
-
-.is-6-s {
-  font-size: 1em;
-}
-
-.is-7-s {
-  font-size: .75em;
-}
-
-.is-8-s {
-  font-size: .5em;
-}
-
-.is-9-s {
-  font-size: .25em;
+@media screen and (min-width: 576px) {
+  .is-0-s {
+    font-size: 0;
+  }
+  .is-1-s {
+    font-size: 3rem;
+  }
+  .is-2-s {
+    font-size: 2.5rem;
+  }
+  .is-3-s {
+    font-size: 2rem;
+  }
+  .is-4-s {
+    font-size: 1.5rem;
+  }
+  .is-5-s {
+    font-size: 1.25em;
+  }
+  .is-6-s {
+    font-size: 1em;
+  }
+  .is-7-s {
+    font-size: .75em;
+  }
+  .is-8-s {
+    font-size: .5em;
+  }
+  .is-9-s {
+    font-size: .25em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1265,6 +1291,39 @@ a {
     font-size: .5em;
   }
   .is-9-l {
+    font-size: .25em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .is-0-xl {
+    font-size: 0;
+  }
+  .is-1-xl {
+    font-size: 3rem;
+  }
+  .is-2-xl {
+    font-size: 2.5rem;
+  }
+  .is-3-xl {
+    font-size: 2rem;
+  }
+  .is-4-xl {
+    font-size: 1.5rem;
+  }
+  .is-5-xl {
+    font-size: 1.25em;
+  }
+  .is-6-xl {
+    font-size: 1em;
+  }
+  .is-7-xl {
+    font-size: .75em;
+  }
+  .is-8-xl {
+    font-size: .5em;
+  }
+  .is-9-xl {
     font-size: .25em;
   }
 }
@@ -1582,27 +1641,27 @@ th {
 }
 
 .flex-row.v-center, .flex-row.v-centered, .flex-r.v-center, .flex-r.v-centered, .flex-h.v-center, .flex-h.v-centered {
-  justify-content: center;
-}
-
-.flex-row.v-end, .flex-r.v-end, .flex-h.v-end {
-  justify-content: flex-end;
-}
-
-.flex-row.v-start, .flex-r.v-start, .flex-h.v-start {
-  justify-content: flex-start;
-}
-
-.flex-row.h-center, .flex-row.h-centered, .flex-r.h-center, .flex-r.h-centered, .flex-h.h-center, .flex-h.h-centered {
   align-items: center;
 }
 
-.flex-row.h-end, .flex-r.h-end, .flex-h.h-end {
+.flex-row.v-end, .flex-r.v-end, .flex-h.v-end {
   align-items: flex-end;
 }
 
-.flex-row.h-start, .flex-r.h-start, .flex-h.h-start {
+.flex-row.v-start, .flex-r.v-start, .flex-h.v-start {
   align-items: flex-start;
+}
+
+.flex-row.h-center, .flex-row.h-centered, .flex-r.h-center, .flex-r.h-centered, .flex-h.h-center, .flex-h.h-centered {
+  justify-content: center;
+}
+
+.flex-row.h-end, .flex-r.h-end, .flex-h.h-end {
+  justify-content: flex-end;
+}
+
+.flex-row.h-start, .flex-r.h-start, .flex-h.h-start {
+  justify-content: flex-start;
 }
 
 .flex-col, .flex-c, .flex-column, .flex-v {
@@ -1614,8 +1673,24 @@ th {
   align-items: center;
 }
 
+.flex-col.v-end, .flex-c.v-end, .flex-column.v-end, .flex-v.v-end {
+  align-items: flex-end;
+}
+
+.flex-col.v-start, .flex-c.v-start, .flex-column.v-start, .flex-v.v-start {
+  align-items: flex-start;
+}
+
 .flex-col.h-center, .flex-col.h-centered, .flex-c.h-center, .flex-c.h-centered, .flex-column.h-center, .flex-column.h-centered, .flex-v.h-center, .flex-v.h-centered {
   justify-content: center;
+}
+
+.flex-col.h-end, .flex-c.h-end, .flex-column.h-end, .flex-v.h-end {
+  justify-content: flex-end;
+}
+
+.flex-col.h-start, .flex-c.h-start, .flex-column.h-start, .flex-v.h-start {
+  justify-content: flex-start;
 }
 
 .content-centered, .content-center, .allcentered, .allcenter, .all-center, .all-centered {
@@ -1734,6 +1809,14 @@ th {
 .fullscreen {
   width: 100vw;
   height: 100vh;
+}
+
+.fullscreenheight {
+  height: 100vh;
+}
+
+.fullscreenwidth {
+  width: 100vw;
 }
 
 .w-half {
@@ -3291,6 +3374,11 @@ th {
 .mh-25perc {
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.mv-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mv-5 {
