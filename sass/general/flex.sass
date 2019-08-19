@@ -6,18 +6,22 @@
     flex-direction: row
 
     &.v-center, &.v-centered
-      align-items: center
-    &.v-end
-      align-items: flex-end
-    &.v-start
-      align-items: flex-start
+      justify-content: center
+    &.v-end, &.v-right
+      justify-content: flex-end
+    &.v-start, &.v-left
+      justify-content: flex-start
+    &.v-between, &.v-spacebetween, &.v-space-between
+      justify-content: space-between
+    &.v-around, &.v-spacearound, &.v-space-around
+      justify-content: space-around
 
     &.h-center, &.h-centered
-      justify-content: center
+      align-items: center
     &.h-end
-      justify-content: flex-end
+      align-items: flex-end
     &.h-start
-      justify-content: flex-start
+      align-items: flex-start
 
   &-col, &-c, &-column, &-v
     display: flex
