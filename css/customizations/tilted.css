@@ -1,0 +1,11 @@
+.is-tilted-right-1,
+.is-leaning-right-1 {
+  transform: skewY(1deg);
+}
+.is-tilted-right-1 > p, .is-tilted-right-1 h1,
+.is-leaning-right-1 > p,
+.is-leaning-right-1 h1 {
+  transform: skewY(-1deg);
+}
+
+/*# sourceMappingURL=tilted.css.map */

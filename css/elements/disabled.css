@@ -1,0 +1,41 @@
+*[disabled], *[disabled=disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.none-s {
+  display: none;
+}
+
+.block-s {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .none-m {
+    display: none;
+  }
+
+  .block-m {
+    display: block;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .none-l {
+    display: none;
+  }
+
+  .block-l {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=disabled.css.map */

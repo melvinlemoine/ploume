@@ -1,0 +1,115 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.button {
+  display: inline-flex;
+  position: relative;
+  border: 0;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  padding-top: calc(.375em - 1px);
+  padding-bottom: calc(.375em - 1px);
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-size: 1em;
+  outline: none;
+}
+.button .icon, .button .icon.is-small, .button .icon.is-medium, .button .icon.is-large {
+  height: 1.5em;
+  width: 1.5em;
+}
+.button .icon {
+  margin-left: calc(-0.375em - 1px);
+  margin-right: 0.1875em;
+}
+.button .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.button.is-fullWidth {
+  display: flex;
+  width: 100%;
+}
+.button.is-small {
+  font-size: 0.75rem;
+}
+.button.is-medium {
+  font-size: 1.25rem;
+}
+.button.is-large {
+  font-size: 1.5rem;
+}
+.button.is-rounded {
+  border-radius: 25px;
+}
+.button.is-loading {
+  color: transparent !important;
+}
+.button.is-loading::after {
+  animation: spinAround 500ms infinite linear;
+  border: 2px solid #dbdbdb;
+  border-radius: 290486px;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  content: "";
+  display: block;
+  height: 1em;
+  position: relative;
+  width: 1em;
+  pointer-events: none;
+  position: absolute;
+  left: calc(50% - (1em / 2));
+  top: calc(50% - (1em / 2));
+  position: absolute !important;
+}
+.button.is-small-s {
+  font-size: 0.75rem;
+}
+.button.is-normal-s {
+  font-size: 1rem;
+}
+.button.is-medium-s {
+  font-size: 1.25rem;
+}
+.button.is-large-s {
+  font-size: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .button.is-small-m {
+    font-size: 0.75rem;
+  }
+  .button.is-normal-m {
+    font-size: 1rem;
+  }
+  .button.is-medium-m {
+    font-size: 1.25rem;
+  }
+  .button.is-large-m {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button.is-small-l {
+    font-size: 0.75rem;
+  }
+  .button.is-normal-l {
+    font-size: 1rem;
+  }
+  .button.is-medium-l {
+    font-size: 1.25rem;
+  }
+  .button.is-large-l {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=buttons.css.map */
