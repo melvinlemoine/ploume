@@ -1075,6 +1075,148 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   border-radius: 5px;
 }
 
+.bordered-10 {
+  border-radius: 10px;
+}
+
+.bordered-15 {
+  border-radius: 15px;
+}
+
+.bordered-20 {
+  border-radius: 20px;
+}
+
+.bordered-25 {
+  border-radius: 25px;
+}
+
+.bordered-30 {
+  border-radius: 30px;
+}
+
+.bordered-35 {
+  border-radius: 35px;
+}
+
+.bordered-40 {
+  border-radius: 40px;
+}
+
+.bordered-45 {
+  border-radius: 45px;
+}
+
+.bordered-50 {
+  border-radius: 50px;
+}
+
+.bordered-5-s {
+  border-radius: 5px;
+}
+
+.bordered-10-s {
+  border-radius: 10px;
+}
+
+.bordered-15-s {
+  border-radius: 15px;
+}
+
+.bordered-20-s {
+  border-radius: 20px;
+}
+
+.bordered-25-s {
+  border-radius: 25px;
+}
+
+.bordered-30-s {
+  border-radius: 30px;
+}
+
+.bordered-35-s {
+  border-radius: 35px;
+}
+
+.bordered-40-s {
+  border-radius: 40px;
+}
+
+.bordered-45-s {
+  border-radius: 45px;
+}
+
+.bordered-50-s {
+  border-radius: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .bordered-5-m {
+    border-radius: 5px;
+  }
+  .bordered-10-m {
+    border-radius: 10px;
+  }
+  .bordered-15-m {
+    border-radius: 15px;
+  }
+  .bordered-20-m {
+    border-radius: 20px;
+  }
+  .bordered-25-m {
+    border-radius: 25px;
+  }
+  .bordered-30-m {
+    border-radius: 30px;
+  }
+  .bordered-35-m {
+    border-radius: 35px;
+  }
+  .bordered-40-m {
+    border-radius: 40px;
+  }
+  .bordered-45-m {
+    border-radius: 45px;
+  }
+  .bordered-50-m {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .bordered-5-l {
+    border-radius: 5px;
+  }
+  .bordered-10-l {
+    border-radius: 10px;
+  }
+  .bordered-15-l {
+    border-radius: 15px;
+  }
+  .bordered-20-l {
+    border-radius: 20px;
+  }
+  .bordered-25-l {
+    border-radius: 25px;
+  }
+  .bordered-30-l {
+    border-radius: 30px;
+  }
+  .bordered-35-l {
+    border-radius: 35px;
+  }
+  .bordered-40-l {
+    border-radius: 40px;
+  }
+  .bordered-45-l {
+    border-radius: 45px;
+  }
+  .bordered-50-l {
+    border-radius: 50px;
+  }
+}
+
 .has-overlay {
   position: relative;
 }
@@ -2816,15 +2958,27 @@ th {
   }
 }
 
-.gridcontainer {
+.gridcontainer, .container {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.gridcontainer--1500, .container--1500 {
+  max-width: 1500px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
 }
 
 .fixed {
