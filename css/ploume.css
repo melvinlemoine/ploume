@@ -1,6 +1,10 @@
 /*! ploume.io v0.0.0 | MIT License | github.com/GentillePlume/ploume */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:100,300,400,500,600,700,800");
 @import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+.throught {
+  pointer-events: none;
+}
+
 div.is-white,
 nav.is-white,
 a.is-white,
@@ -1071,43 +1075,47 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   transform: skewY(-1deg);
 }
 
-.bordered-5 {
+.bordered-5, .border-5 {
   border-radius: 5px;
 }
 
-.bordered-10 {
+.bordered-10, .border-10 {
   border-radius: 10px;
 }
 
-.bordered-15 {
+.bordered, .border {
   border-radius: 15px;
 }
 
-.bordered-20 {
+.bordered-20, .border-20 {
   border-radius: 20px;
 }
 
-.bordered-25 {
+.bordered-25, .border-25 {
   border-radius: 25px;
 }
 
-.bordered-30 {
+.bordered-30, .border-30 {
   border-radius: 30px;
 }
 
-.bordered-35 {
+.bordered-35, .border-35 {
   border-radius: 35px;
 }
 
-.bordered-40 {
+.bordered-40, .border-40 {
   border-radius: 40px;
 }
 
-.bordered-45 {
+.bordered-45, .border-45 {
   border-radius: 45px;
 }
 
-.bordered-50 {
+.bordered-50, .border-50 {
+  border-radius: 50px;
+}
+
+.bordered-50.has-overlay .overlay, .border-50.has-overlay .overlay {
   border-radius: 50px;
 }
 
@@ -1215,6 +1223,14 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   .bordered-50-l {
     border-radius: 50px;
   }
+}
+
+.overflow-hidden, .of-hidden {
+  overflow: hidden;
+}
+
+.overflowx-hidden, .ofx-hidden {
+  overflow-x: hidden;
 }
 
 .has-overlay {
@@ -1772,6 +1788,29 @@ td,
 th {
   padding: 0;
   text-align: left;
+}
+
+.gridcontainer, .container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.gridcontainer--1500, .container--1500 {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 1500px;
 }
 
 .flex {
@@ -2958,29 +2997,6 @@ th {
   }
 }
 
-.gridcontainer, .container {
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.gridcontainer--1500, .container--1500 {
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-  max-width: 1500px;
-}
-
 .float-left {
   float: left;
 }
@@ -3382,6 +3398,38 @@ th {
 
 .m-auto {
   margin: auto;
+}
+
+.m-1 {
+  margin: .25rem;
+}
+
+.m-2 {
+  margin: .5rem;
+}
+
+.m-3 {
+  margin: .75rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
+.m-7 {
+  margin: 1.75rem;
+}
+
+.m-8 {
+  margin: 2rem;
 }
 
 .m-25 {
