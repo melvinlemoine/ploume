@@ -1367,6 +1367,22 @@ a {
   font-size: 3rem;
 }
 
+.is-1-more {
+  font-size: 3.5rem;
+}
+
+.is-1-more-more {
+  font-size: 4rem;
+}
+
+.is-1-more-more-more {
+  font-size: 4.5rem;
+}
+
+.is-1-more-more-more-more {
+  font-size: 5rem;
+}
+
 .is-2 {
   font-size: 2.5rem;
 }
