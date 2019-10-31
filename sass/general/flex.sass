@@ -1,3 +1,6 @@
+.inline-block
+  display: inline-block
+
 .flex
   display: flex
 
@@ -74,24 +77,121 @@
   &-between
     justify-content: space-between
 
+// XS = EXTRA SMALL - Mobile base
+
+@media screen and (min-width: 300px)
+  .flex-xs
+    display: flex
+
+  .flex-row-xs, .flex-r-xs, .flex-h-xs
+      display: flex
+      flex-direction: row
+
+      &.v-center, &.v-centered
+        justify-content: center
+      &.v-end, &.v-right
+        justify-content: flex-end
+      &.v-start, &.v-left
+        justify-content: flex-start
+      &.v-between, &.v-spacebetween, &.v-space-between
+        justify-content: space-between
+      &.v-around, &.v-spacearound, &.v-space-around
+        justify-content: space-around
+
+      &.h-center, &.h-centered
+        align-items: center
+      &.h-end
+        align-items: flex-end
+      &.h-start
+        align-items: flex-start
+
+  .flex-col-xs, .flex-column-xs, .flex-c-xs, .flex-v-xs
+      display: flex
+      flex-direction: column
+
+      &.v-center, &.v-centered
+        align-items: center
+      &.v-end
+        align-items: flex-end
+      &.v-start
+        align-items: flex-start
+
+      &.h-center, &.h-centered
+        justify-content: center
+      &.h-end
+        justify-content: flex-end
+      &.h-start
+        justify-content: flex-start
+
+  .wrap-xs
+    flex-wrap: wrap
+
+  .no-wrap-xs
+    flex-wrap: nowrap
+
+  .space
+    &-around-xs
+      justify-content: space-around
+    &-between-xs
+      justify-content: space-between
+
 // S = SMALL - Mobile
 
-.flex-s
-  display: flex
-
-.flex-row-s, .flex-r-s, .flex-h-s
+@media screen and (min-width: 576px)
+  .flex-s
     display: flex
-    flex-direction: row
 
-.flex-col-s, .flex-column-s, .flex-c-s, .flex-v-s
-    display: flex
-    flex-direction: column
+  .flex-row-s, .flex-r-s, .flex-h-s
+      display: flex
+      flex-direction: row
 
-.wrap-s
-  flex-wrap: wrap
+      &.v-center, &.v-centered
+        justify-content: center
+      &.v-end, &.v-right
+        justify-content: flex-end
+      &.v-start, &.v-left
+        justify-content: flex-start
+      &.v-between, &.v-spacebetween, &.v-space-between
+        justify-content: space-between
+      &.v-around, &.v-spacearound, &.v-space-around
+        justify-content: space-around
 
-.no-wrap-s
-  flex-wrap: nowrap
+      &.h-center, &.h-centered
+        align-items: center
+      &.h-end
+        align-items: flex-end
+      &.h-start
+        align-items: flex-start
+
+  .flex-col-s, .flex-column-s, .flex-c-s, .flex-v-s
+      display: flex
+      flex-direction: column
+
+      &.v-center, &.v-centered
+        align-items: center
+      &.v-end
+        align-items: flex-end
+      &.v-start
+        align-items: flex-start
+
+      &.h-center, &.h-centered
+        justify-content: center
+      &.h-end
+        justify-content: flex-end
+      &.h-start
+        justify-content: flex-start
+
+  .wrap-s
+    flex-wrap: wrap
+
+  .no-wrap-s
+    flex-wrap: nowrap
+
+  .space
+    &-around-s
+      justify-content: space-around
+    &-between-s
+      justify-content: space-between
 
 // M = MEDIUM - Tablette
 
@@ -103,15 +203,53 @@
       display: flex
       flex-direction: row
 
+      &.v-center, &.v-centered
+        justify-content: center
+      &.v-end, &.v-right
+        justify-content: flex-end
+      &.v-start, &.v-left
+        justify-content: flex-start
+      &.v-between, &.v-spacebetween, &.v-space-between
+        justify-content: space-between
+      &.v-around, &.v-spacearound, &.v-space-around
+        justify-content: space-around
+
+      &.h-center, &.h-centered
+        align-items: center
+      &.h-end
+        align-items: flex-end
+      &.h-start
+        align-items: flex-start
+
   .flex-col-m, .flex-column-m, .flex-c-m, .flex-v-m
       display: flex
       flex-direction: column
+
+      &.v-center, &.v-centered
+        align-items: center
+      &.v-end
+        align-items: flex-end
+      &.v-start
+        align-items: flex-start
+
+      &.h-center, &.h-centered
+        justify-content: center
+      &.h-end
+        justify-content: flex-end
+      &.h-start
+        justify-content: flex-start
 
   .wrap-m
     flex-wrap: wrap
 
   .no-wrap-m
     flex-wrap: nowrap
+
+  .space
+    &-around-m
+      justify-content: space-around
+    &-between-m
+      justify-content: space-between
 
 // L = LARGE - Desktop
 
@@ -122,6 +260,24 @@
   .flex-row-l, .flex-r-l, .flex-h-l
       display: flex
       flex-direction: row
+
+      &.v-center, &.v-centered
+        justify-content: center
+      &.v-end, &.v-right
+        justify-content: flex-end
+      &.v-start, &.v-left
+        justify-content: flex-start
+      &.v-between, &.v-spacebetween, &.v-space-between
+        justify-content: space-between
+      &.v-around, &.v-spacearound, &.v-space-around
+        justify-content: space-around
+
+      &.h-center, &.h-centered
+        align-items: center
+      &.h-end
+        align-items: flex-end
+      &.h-start
+        align-items: flex-start
 
   .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l
       display: flex
