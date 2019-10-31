@@ -17,8 +17,9 @@
   justify-content: center
   align-items: center
   line-height: 1.5
-  font-size: 1em
+  font-size: 1rem
   outline: none
+  text-align: center
 
   & .icon, & .icon.is-small, & .icon.is-medium, & .icon.is-large
     height: 1.5em
@@ -68,22 +69,35 @@
       top: calc(50% - (1em / 2))
       position: absolute !important
 
+  // XS = EXTRASMALL - Mobile
+  @media screen and (min-width: 300px)
+    &.is-small-xs
+      font-size: .75rem
+
+    &.is-normal-xs
+      font-size: 1rem
+
+    &.is-medium-xs
+      font-size: 1.25rem
+
+    &.is-large-xs
+      font-size: 1.5rem
+
   // S = SMALL - Mobile
+  @media screen and (min-width: 576px)
+    &.is-small-s
+      font-size: .75rem
 
-  &.is-small-s
-    font-size: .75rem
+    &.is-normal-s
+      font-size: 1rem
 
-  &.is-normal-s
-    font-size: 1rem
+    &.is-medium-s
+      font-size: 1.25rem
 
-  &.is-medium-s
-    font-size: 1.25rem
-
-  &.is-large-s
-    font-size: 1.5rem
+    &.is-large-s
+      font-size: 1.5rem
 
   // M = MEDIUM - Tablette
-
   @media screen and (min-width: 768px)
     &.is-small-m
       font-size: .75rem
@@ -98,7 +112,6 @@
       font-size: 1.5rem
 
   // L = LARGE - Desktop
-
   @media screen and (min-width: 1024px)
     &.is-small-l
       font-size: .75rem
