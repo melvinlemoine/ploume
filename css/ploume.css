@@ -1790,6 +1790,21 @@ a {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .button.is-small-xl {
+    font-size: .75rem;
+  }
+  .button.is-normal-xl {
+    font-size: 1rem;
+  }
+  .button.is-medium-xl {
+    font-size: 1.25rem;
+  }
+  .button.is-large-xl {
+    font-size: 1.5rem;
+  }
+}
+
 .pointer {
   cursor: pointer;
 }
