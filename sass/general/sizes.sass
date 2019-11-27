@@ -158,162 +158,321 @@
     &screen
       height: 100vh
 
-// S = SMALL - Mobile
+// XS = EXTRA SMALL - Mobile
+@media screen and (min-width: 300px)
 
-.fullsize-s
-    width: 100%
-    height: 100%
+  .fullsize-xs
+      width: 100%
+      height: 100%
 
-.fullscreen-s
-    width: 100vw
-    height: 100vh
-
-.w
-  &-half-s
-    width: 50%
-
-  &-full-s
-    width: 100%
-
-  &-fullscreen-s
+  .fullscreen-xs
       width: 100vw
+      height: 100vh
 
-  &-auto-s
-    width: auto
+  .w
+    &-half-xs
+      width: 50%
 
-  &-5-s
-    width: 5%
-  &-10-s
-    width: 10%
-  &-15-s
-    width: 15%
-  &-20-s
-    width: 20%
-  &-25-s
-    width: 25%
-  &-30-s
-    width: 30%
-  &-33-s
-    width: calc(100% / 3)
-  &-35-s
-    width: 35%
-  &-40-s
-    width: 40%
-  &-45-s
-    width: 45%
-  &-50-s
-    width: 50%
-  &-55-s
-    width: 55%
-  &-60-s
-    width: 60%
-  &-65-s
-    width: 65%
-  &-70-s
-    width: 70%
-  &-75-s
-    width: 75%
-  &-80-s
-    width: 80%
-  &-85-s
-    width: 85%
-  &-90-s
-    width: 90%
-  &-95-s
-    width: 95%
-  &-100-s
-    width: 100%
+    &-full-xs
+      width: 100%
 
-.h
-  &-half-s
-    height: 50%
+    &-fullscreen-xs
+        width: 100vw
 
-  &-5-s
-    height: 5%
-  &-10-s
-    height: 10%
-  &-15-s
-    height: 15%
-  &-20-s
-    height: 20%
-  &-25-s
-    height: 25%
-  &-30-s
-    height: 30%
-  &-35-s
-    height: 35%
-  &-40-s
-    height: 40%
-  &-45-s
-    height: 45%
-  &-50-s
-    height: 50%
-  &-55-s
-    height: 55%
-  &-60-s
-    height: 60%
-  &-65-s
-    height: 65%
-  &-70-s
-    height: 70%
-  &-75-s
-    height: 75px
-  &-75perc-s, &-75pe-s
-      height: 75%
-  &-80-s
-    height: 80%
-  &-85-s
-    height: 85%
-  &-90-s
-    height: 90%
-  &-95-s
-    height: 95%
+    &-auto-xs
+      width: auto
 
-  &-screen
-    height: 100vh
+    &-5-xs
+      width: 5%
+    &-10-xs
+      width: 10%
+    &-15-xs
+      width: 15%
+    &-20-xs
+      width: 20%
+    &-25-xs
+      width: 25%
+    &-30-xs
+      width: 30%
+    &-33-xs
+      width: calc(100% / 3)
+    &-35-xs
+      width: 35%
+    &-40-xs
+      width: 40%
+    &-45-xs
+      width: 45%
+    &-50-xs
+      width: 50%
+    &-55-xs
+      width: 55%
+    &-60-xs
+      width: 60%
+    &-65-xs
+      width: 65%
+    &-70-xs
+      width: 70%
+    &-75-xs
+      width: 75%
+    &-80-xs
+      width: 80%
+    &-85-xs
+      width: 85%
+    &-90-xs
+      width: 90%
+    &-95-xs
+      width: 95%
+    &-100-xs
+      width: 100%
+
+  .h
+    &-half-xs
+      height: 50%
+
+    &-5-xs
+      height: 5%
+    &-10-xs
+      height: 10%
+    &-15-xs
+      height: 15%
+    &-20-xs
+      height: 20%
+    &-25-xs
+      height: 25%
+    &-30-xs
+      height: 30%
+    &-35-xs
+      height: 35%
+    &-40-xs
+      height: 40%
+    &-45-xs
+      height: 45%
+    &-50-xs
+      height: 50%
+    &-55-xs
+      height: 55%
+    &-60-xs
+      height: 60%
+    &-65-xs
+      height: 65%
+    &-70-xs
+      height: 70%
+    &-75-xs
+      height: 75px
+    &-75perc-xs, &-75pe-xs
+        height: 75%
+    &-80-xs
+      height: 80%
+    &-85-xs
+      height: 85%
+    &-90-xs
+      height: 90%
+    &-95-xs
+      height: 95%
+
+    &-xscreen
+      height: 100vh
+      &-10-xs
+        height: 10vh
+      &-15-xs
+        height: 15vh
+      &-20-xs
+        height: 20vh
+      &-25-xs
+        height: 25vh
+      &-30-xs
+        height: 30vh
+      &-35-xs
+        height: 35vh
+      &-40-xs
+        height: 40vh
+      &-45-xs
+        height: 45vh
+      &-50-xs
+        height: 50vh
+      &-55-xs
+        height: 55vh
+      &-60-xs
+        height: 60vh
+      &-65-xs
+        height: 65vh
+      &-70-xs
+        height: 70vh
+      &-75-xs
+        height: 75vh
+      &-80-xs
+        height: 80vh
+      &-85-xs
+        height: 85vh
+      &-90-xs
+        height: 90vh
+      &-95-xs
+        height: 95vh
+      &-100-xs
+        height: 100vh
+
+    &-full-xs
+      height: 100%
+    &-fullscreen-xs
+        height: 100vh
+
+// S = SMALL - Mobile
+@media screen and (min-width: 576px)
+
+  .fullsize-s
+      width: 100%
+      height: 100%
+
+  .fullscreen-s
+      width: 100vw
+      height: 100vh
+
+  .w
+    &-half-s
+      width: 50%
+
+    &-full-s
+      width: 100%
+
+    &-fullscreen-s
+        width: 100vw
+
+    &-auto-s
+      width: auto
+
+    &-5-s
+      width: 5%
     &-10-s
-      height: 10vh
+      width: 10%
     &-15-s
-      height: 15vh
+      width: 15%
     &-20-s
-      height: 20vh
+      width: 20%
     &-25-s
-      height: 25vh
+      width: 25%
     &-30-s
-      height: 30vh
+      width: 30%
+    &-33-s
+      width: calc(100% / 3)
     &-35-s
-      height: 35vh
+      width: 35%
     &-40-s
-      height: 40vh
+      width: 40%
     &-45-s
-      height: 45vh
+      width: 45%
     &-50-s
-      height: 50vh
+      width: 50%
     &-55-s
-      height: 55vh
+      width: 55%
     &-60-s
-      height: 60vh
+      width: 60%
     &-65-s
-      height: 65vh
+      width: 65%
     &-70-s
-      height: 70vh
+      width: 70%
     &-75-s
-      height: 75vh
+      width: 75%
     &-80-s
-      height: 80vh
+      width: 80%
     &-85-s
-      height: 85vh
+      width: 85%
     &-90-s
-      height: 90vh
+      width: 90%
     &-95-s
-      height: 95vh
+      width: 95%
     &-100-s
-      height: 100vh
+      width: 100%
 
-  &-full-s
-    height: 100%
-  &-fullscreen-s
+  .h
+    &-half-s
+      height: 50%
+
+    &-5-s
+      height: 5%
+    &-10-s
+      height: 10%
+    &-15-s
+      height: 15%
+    &-20-s
+      height: 20%
+    &-25-s
+      height: 25%
+    &-30-s
+      height: 30%
+    &-35-s
+      height: 35%
+    &-40-s
+      height: 40%
+    &-45-s
+      height: 45%
+    &-50-s
+      height: 50%
+    &-55-s
+      height: 55%
+    &-60-s
+      height: 60%
+    &-65-s
+      height: 65%
+    &-70-s
+      height: 70%
+    &-75-s
+      height: 75px
+    &-75perc-s, &-75pe-s
+        height: 75%
+    &-80-s
+      height: 80%
+    &-85-s
+      height: 85%
+    &-90-s
+      height: 90%
+    &-95-s
+      height: 95%
+
+    &-screen
       height: 100vh
+      &-10-s
+        height: 10vh
+      &-15-s
+        height: 15vh
+      &-20-s
+        height: 20vh
+      &-25-s
+        height: 25vh
+      &-30-s
+        height: 30vh
+      &-35-s
+        height: 35vh
+      &-40-s
+        height: 40vh
+      &-45-s
+        height: 45vh
+      &-50-s
+        height: 50vh
+      &-55-s
+        height: 55vh
+      &-60-s
+        height: 60vh
+      &-65-s
+        height: 65vh
+      &-70-s
+        height: 70vh
+      &-75-s
+        height: 75vh
+      &-80-s
+        height: 80vh
+      &-85-s
+        height: 85vh
+      &-90-s
+        height: 90vh
+      &-95-s
+        height: 95vh
+      &-100-s
+        height: 100vh
+
+    &-full-s
+      height: 100%
+    &-fullscreen-s
+        height: 100vh
 
 // M = MEDIUM - Tablette
 

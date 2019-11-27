@@ -2666,286 +2666,434 @@ th {
   height: 100vh;
 }
 
-.fullsize-s {
-  width: 100%;
-  height: 100%;
-}
-
-.fullscreen-s {
-  width: 100vw;
-  height: 100vh;
-}
-
-.w-half-s {
-  width: 50%;
-}
-
-.w-full-s {
-  width: 100%;
-}
-
-.w-fullscreen-s {
-  width: 100vw;
-}
-
-.w-auto-s {
-  width: auto;
-}
-
-.w-5-s {
-  width: 5%;
-}
-
-.w-10-s {
-  width: 10%;
-}
-
-.w-15-s {
-  width: 15%;
-}
-
-.w-20-s {
-  width: 20%;
-}
-
-.w-25-s {
-  width: 25%;
-}
-
-.w-30-s {
-  width: 30%;
-}
-
-.w-33-s {
-  width: calc(100% / 3);
-}
-
-.w-35-s {
-  width: 35%;
-}
-
-.w-40-s {
-  width: 40%;
-}
-
-.w-45-s {
-  width: 45%;
-}
-
-.w-50-s {
-  width: 50%;
-}
-
-.w-55-s {
-  width: 55%;
-}
-
-.w-60-s {
-  width: 60%;
-}
-
-.w-65-s {
-  width: 65%;
-}
-
-.w-70-s {
-  width: 70%;
-}
-
-.w-75-s {
-  width: 75%;
-}
-
-.w-80-s {
-  width: 80%;
-}
-
-.w-85-s {
-  width: 85%;
-}
-
-.w-90-s {
-  width: 90%;
-}
-
-.w-95-s {
-  width: 95%;
-}
-
-.w-100-s {
-  width: 100%;
-}
-
-.h-half-s {
-  height: 50%;
-}
-
-.h-5-s {
-  height: 5%;
-}
-
-.h-10-s {
-  height: 10%;
-}
-
-.h-15-s {
-  height: 15%;
-}
-
-.h-20-s {
-  height: 20%;
-}
-
-.h-25-s {
-  height: 25%;
-}
-
-.h-30-s {
-  height: 30%;
-}
-
-.h-35-s {
-  height: 35%;
-}
-
-.h-40-s {
-  height: 40%;
-}
-
-.h-45-s {
-  height: 45%;
-}
-
-.h-50-s {
-  height: 50%;
-}
-
-.h-55-s {
-  height: 55%;
-}
-
-.h-60-s {
-  height: 60%;
-}
-
-.h-65-s {
-  height: 65%;
-}
-
-.h-70-s {
-  height: 70%;
-}
-
-.h-75-s {
-  height: 75px;
-}
-
-.h-75perc-s, .h-75pe-s {
-  height: 75%;
-}
-
-.h-80-s {
-  height: 80%;
-}
-
-.h-85-s {
-  height: 85%;
-}
-
-.h-90-s {
-  height: 90%;
-}
-
-.h-95-s {
-  height: 95%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-screen-10-s {
-  height: 10vh;
-}
-
-.h-screen-15-s {
-  height: 15vh;
-}
-
-.h-screen-20-s {
-  height: 20vh;
-}
-
-.h-screen-25-s {
-  height: 25vh;
-}
-
-.h-screen-30-s {
-  height: 30vh;
-}
-
-.h-screen-35-s {
-  height: 35vh;
-}
-
-.h-screen-40-s {
-  height: 40vh;
-}
-
-.h-screen-45-s {
-  height: 45vh;
-}
-
-.h-screen-50-s {
-  height: 50vh;
-}
-
-.h-screen-55-s {
-  height: 55vh;
-}
-
-.h-screen-60-s {
-  height: 60vh;
-}
-
-.h-screen-65-s {
-  height: 65vh;
-}
-
-.h-screen-70-s {
-  height: 70vh;
-}
-
-.h-screen-75-s {
-  height: 75vh;
-}
-
-.h-screen-80-s {
-  height: 80vh;
-}
-
-.h-screen-85-s {
-  height: 85vh;
-}
-
-.h-screen-90-s {
-  height: 90vh;
-}
-
-.h-screen-95-s {
-  height: 95vh;
-}
-
-.h-screen-100-s {
-  height: 100vh;
-}
-
-.h-full-s {
-  height: 100%;
-}
-
-.h-fullscreen-s {
-  height: 100vh;
+@media screen and (min-width: 300px) {
+  .fullsize-xs {
+    width: 100%;
+    height: 100%;
+  }
+  .fullscreen-xs {
+    width: 100vw;
+    height: 100vh;
+  }
+  .w-half-xs {
+    width: 50%;
+  }
+  .w-full-xs {
+    width: 100%;
+  }
+  .w-fullscreen-xs {
+    width: 100vw;
+  }
+  .w-auto-xs {
+    width: auto;
+  }
+  .w-5-xs {
+    width: 5%;
+  }
+  .w-10-xs {
+    width: 10%;
+  }
+  .w-15-xs {
+    width: 15%;
+  }
+  .w-20-xs {
+    width: 20%;
+  }
+  .w-25-xs {
+    width: 25%;
+  }
+  .w-30-xs {
+    width: 30%;
+  }
+  .w-33-xs {
+    width: calc(100% / 3);
+  }
+  .w-35-xs {
+    width: 35%;
+  }
+  .w-40-xs {
+    width: 40%;
+  }
+  .w-45-xs {
+    width: 45%;
+  }
+  .w-50-xs {
+    width: 50%;
+  }
+  .w-55-xs {
+    width: 55%;
+  }
+  .w-60-xs {
+    width: 60%;
+  }
+  .w-65-xs {
+    width: 65%;
+  }
+  .w-70-xs {
+    width: 70%;
+  }
+  .w-75-xs {
+    width: 75%;
+  }
+  .w-80-xs {
+    width: 80%;
+  }
+  .w-85-xs {
+    width: 85%;
+  }
+  .w-90-xs {
+    width: 90%;
+  }
+  .w-95-xs {
+    width: 95%;
+  }
+  .w-100-xs {
+    width: 100%;
+  }
+  .h-half-xs {
+    height: 50%;
+  }
+  .h-5-xs {
+    height: 5%;
+  }
+  .h-10-xs {
+    height: 10%;
+  }
+  .h-15-xs {
+    height: 15%;
+  }
+  .h-20-xs {
+    height: 20%;
+  }
+  .h-25-xs {
+    height: 25%;
+  }
+  .h-30-xs {
+    height: 30%;
+  }
+  .h-35-xs {
+    height: 35%;
+  }
+  .h-40-xs {
+    height: 40%;
+  }
+  .h-45-xs {
+    height: 45%;
+  }
+  .h-50-xs {
+    height: 50%;
+  }
+  .h-55-xs {
+    height: 55%;
+  }
+  .h-60-xs {
+    height: 60%;
+  }
+  .h-65-xs {
+    height: 65%;
+  }
+  .h-70-xs {
+    height: 70%;
+  }
+  .h-75-xs {
+    height: 75px;
+  }
+  .h-75perc-xs, .h-75pe-xs {
+    height: 75%;
+  }
+  .h-80-xs {
+    height: 80%;
+  }
+  .h-85-xs {
+    height: 85%;
+  }
+  .h-90-xs {
+    height: 90%;
+  }
+  .h-95-xs {
+    height: 95%;
+  }
+  .h-xscreen {
+    height: 100vh;
+  }
+  .h-xscreen-10-xs {
+    height: 10vh;
+  }
+  .h-xscreen-15-xs {
+    height: 15vh;
+  }
+  .h-xscreen-20-xs {
+    height: 20vh;
+  }
+  .h-xscreen-25-xs {
+    height: 25vh;
+  }
+  .h-xscreen-30-xs {
+    height: 30vh;
+  }
+  .h-xscreen-35-xs {
+    height: 35vh;
+  }
+  .h-xscreen-40-xs {
+    height: 40vh;
+  }
+  .h-xscreen-45-xs {
+    height: 45vh;
+  }
+  .h-xscreen-50-xs {
+    height: 50vh;
+  }
+  .h-xscreen-55-xs {
+    height: 55vh;
+  }
+  .h-xscreen-60-xs {
+    height: 60vh;
+  }
+  .h-xscreen-65-xs {
+    height: 65vh;
+  }
+  .h-xscreen-70-xs {
+    height: 70vh;
+  }
+  .h-xscreen-75-xs {
+    height: 75vh;
+  }
+  .h-xscreen-80-xs {
+    height: 80vh;
+  }
+  .h-xscreen-85-xs {
+    height: 85vh;
+  }
+  .h-xscreen-90-xs {
+    height: 90vh;
+  }
+  .h-xscreen-95-xs {
+    height: 95vh;
+  }
+  .h-xscreen-100-xs {
+    height: 100vh;
+  }
+  .h-full-xs {
+    height: 100%;
+  }
+  .h-fullscreen-xs {
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .fullsize-s {
+    width: 100%;
+    height: 100%;
+  }
+  .fullscreen-s {
+    width: 100vw;
+    height: 100vh;
+  }
+  .w-half-s {
+    width: 50%;
+  }
+  .w-full-s {
+    width: 100%;
+  }
+  .w-fullscreen-s {
+    width: 100vw;
+  }
+  .w-auto-s {
+    width: auto;
+  }
+  .w-5-s {
+    width: 5%;
+  }
+  .w-10-s {
+    width: 10%;
+  }
+  .w-15-s {
+    width: 15%;
+  }
+  .w-20-s {
+    width: 20%;
+  }
+  .w-25-s {
+    width: 25%;
+  }
+  .w-30-s {
+    width: 30%;
+  }
+  .w-33-s {
+    width: calc(100% / 3);
+  }
+  .w-35-s {
+    width: 35%;
+  }
+  .w-40-s {
+    width: 40%;
+  }
+  .w-45-s {
+    width: 45%;
+  }
+  .w-50-s {
+    width: 50%;
+  }
+  .w-55-s {
+    width: 55%;
+  }
+  .w-60-s {
+    width: 60%;
+  }
+  .w-65-s {
+    width: 65%;
+  }
+  .w-70-s {
+    width: 70%;
+  }
+  .w-75-s {
+    width: 75%;
+  }
+  .w-80-s {
+    width: 80%;
+  }
+  .w-85-s {
+    width: 85%;
+  }
+  .w-90-s {
+    width: 90%;
+  }
+  .w-95-s {
+    width: 95%;
+  }
+  .w-100-s {
+    width: 100%;
+  }
+  .h-half-s {
+    height: 50%;
+  }
+  .h-5-s {
+    height: 5%;
+  }
+  .h-10-s {
+    height: 10%;
+  }
+  .h-15-s {
+    height: 15%;
+  }
+  .h-20-s {
+    height: 20%;
+  }
+  .h-25-s {
+    height: 25%;
+  }
+  .h-30-s {
+    height: 30%;
+  }
+  .h-35-s {
+    height: 35%;
+  }
+  .h-40-s {
+    height: 40%;
+  }
+  .h-45-s {
+    height: 45%;
+  }
+  .h-50-s {
+    height: 50%;
+  }
+  .h-55-s {
+    height: 55%;
+  }
+  .h-60-s {
+    height: 60%;
+  }
+  .h-65-s {
+    height: 65%;
+  }
+  .h-70-s {
+    height: 70%;
+  }
+  .h-75-s {
+    height: 75px;
+  }
+  .h-75perc-s, .h-75pe-s {
+    height: 75%;
+  }
+  .h-80-s {
+    height: 80%;
+  }
+  .h-85-s {
+    height: 85%;
+  }
+  .h-90-s {
+    height: 90%;
+  }
+  .h-95-s {
+    height: 95%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .h-screen-10-s {
+    height: 10vh;
+  }
+  .h-screen-15-s {
+    height: 15vh;
+  }
+  .h-screen-20-s {
+    height: 20vh;
+  }
+  .h-screen-25-s {
+    height: 25vh;
+  }
+  .h-screen-30-s {
+    height: 30vh;
+  }
+  .h-screen-35-s {
+    height: 35vh;
+  }
+  .h-screen-40-s {
+    height: 40vh;
+  }
+  .h-screen-45-s {
+    height: 45vh;
+  }
+  .h-screen-50-s {
+    height: 50vh;
+  }
+  .h-screen-55-s {
+    height: 55vh;
+  }
+  .h-screen-60-s {
+    height: 60vh;
+  }
+  .h-screen-65-s {
+    height: 65vh;
+  }
+  .h-screen-70-s {
+    height: 70vh;
+  }
+  .h-screen-75-s {
+    height: 75vh;
+  }
+  .h-screen-80-s {
+    height: 80vh;
+  }
+  .h-screen-85-s {
+    height: 85vh;
+  }
+  .h-screen-90-s {
+    height: 90vh;
+  }
+  .h-screen-95-s {
+    height: 95vh;
+  }
+  .h-screen-100-s {
+    height: 100vh;
+  }
+  .h-full-s {
+    height: 100%;
+  }
+  .h-fullscreen-s {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 768px) {
