@@ -5,6 +5,10 @@
   pointer-events: none;
 }
 
+.c-white {
+  color: white;
+}
+
 div.is-white,
 nav.is-white,
 a.is-white,
