@@ -1821,6 +1821,36 @@ a {
   display: none !important;
 }
 
+@media screen and (min-width: 300px) {
+  .undisplayed-xs {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .undisplayed-s {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .undisplayed-m {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .undisplayed-l {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .undisplayed-xl {
+    display: none !important;
+  }
+}
+
 .invisible {
   opacity: 0 !important;
 }
