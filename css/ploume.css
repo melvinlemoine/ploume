@@ -1359,6 +1359,10 @@ a {
   font-weight: bold;
 }
 
+.thin {
+  font-weight: lighter;
+}
+
 .text-centered, .text-center {
   text-align: center;
 }
