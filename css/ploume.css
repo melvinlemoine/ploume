@@ -1772,6 +1772,10 @@ a {
   border-radius: 25px;
 }
 
+.button.is-smallrounded {
+  border-radius: 5px;
+}
+
 .button.is-loading {
   color: transparent !important;
 }
