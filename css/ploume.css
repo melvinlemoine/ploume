@@ -4444,6 +4444,15 @@ th {
   .ml-auto-xs {
     margin-left: auto;
   }
+  .mr-auto-xs {
+    margin-top: auto;
+  }
+  .mr-0-xs {
+    margin-right: 0;
+  }
+  .mr-2-xs {
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 576px) {
