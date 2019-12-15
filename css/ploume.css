@@ -1526,6 +1526,15 @@ a {
   .is-9-xs {
     font-size: .25em;
   }
+  .is .text-centered-xs, .is .text-center-xs {
+    text-align: center;
+  }
+  .is .text-right-xs {
+    text-align: right;
+  }
+  .is .text-justify-xs {
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -1570,6 +1579,15 @@ a {
   }
   .is-9-s {
     font-size: .25em;
+  }
+  .is .text-centered-s, .is .text-center-s {
+    text-align: center;
+  }
+  .is .text-right-s {
+    text-align: right;
+  }
+  .is .text-justify-s {
+    text-align: justify;
   }
 }
 
@@ -1616,6 +1634,15 @@ a {
   .is-9-m {
     font-size: .25em;
   }
+  .text-centered-m, .text-center-m {
+    text-align: center;
+  }
+  .text-right-m {
+    text-align: right;
+  }
+  .text-justify-m {
+    text-align: justify;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -1660,6 +1687,15 @@ a {
   }
   .is-9-l {
     font-size: .25em;
+  }
+  .text-centered-l, .text-center-l {
+    text-align: center;
+  }
+  .text-right-l {
+    text-align: right;
+  }
+  .text-justify-l {
+    text-align: justify;
   }
 }
 
