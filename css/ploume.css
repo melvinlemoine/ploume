@@ -2242,7 +2242,7 @@ th {
   flex-wrap: wrap;
 }
 
-.no-wrap {
+.no-wrap, .nowrap {
   flex-wrap: nowrap;
 }
 
@@ -2311,7 +2311,7 @@ th {
   .wrap-xs {
     flex-wrap: wrap;
   }
-  .no-wrap-xs {
+  .no-wrap-xs, .nowrap-xs {
     flex-wrap: nowrap;
   }
   .space-around-xs {
@@ -2379,7 +2379,7 @@ th {
   .wrap-s {
     flex-wrap: wrap;
   }
-  .no-wrap-s {
+  .no-wrap-s, .nowrap-s {
     flex-wrap: nowrap;
   }
   .space-around-s {
@@ -2447,7 +2447,7 @@ th {
   .wrap-m {
     flex-wrap: wrap;
   }
-  .no-wrap-m {
+  .no-wrap-m, .nowrap-m {
     flex-wrap: nowrap;
   }
   .space-around-m {
@@ -2497,7 +2497,7 @@ th {
   .wrap-l {
     flex-wrap: wrap;
   }
-  .no-wrap-l {
+  .no-wrap-l, .nowrap-l {
     flex-wrap: nowrap;
   }
 }
