@@ -3656,6 +3656,221 @@ th {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .fullsize-xl {
+    width: 100%;
+    height: 100%;
+  }
+  .fullscreen-xl {
+    width: 100vw;
+    height: 100vh;
+  }
+  -auto-xl {
+    width: auto;
+  }
+  .w-half-xl {
+    width: 50%;
+  }
+  .w-full-xl {
+    width: 100%;
+  }
+  .w-fullscreen-xl {
+    width: 100vw;
+  }
+  .w-5-xl {
+    width: 5%;
+  }
+  .w-10-xl {
+    width: 10%;
+  }
+  .w-15-xl {
+    width: 15%;
+  }
+  .w-20-xl {
+    width: 20%;
+  }
+  .w-25-xl {
+    width: 25%;
+  }
+  .w-30-xl {
+    width: 30%;
+  }
+  .w-33-xl {
+    width: calc(100% / 3);
+  }
+  .w-35-xl {
+    width: 35%;
+  }
+  .w-40-xl {
+    width: 40%;
+  }
+  .w-45-xl {
+    width: 45%;
+  }
+  .w-50-xl {
+    width: 50%;
+  }
+  .w-55-xl {
+    width: 55%;
+  }
+  .w-60-xl {
+    width: 60%;
+  }
+  .w-65-xl {
+    width: 65%;
+  }
+  .w-70-xl {
+    width: 70%;
+  }
+  .w-75-xl {
+    width: 75%;
+  }
+  .w-80-xl {
+    width: 80%;
+  }
+  .w-85-xl {
+    width: 85%;
+  }
+  .w-90-xl {
+    width: 90%;
+  }
+  .w-95-xl {
+    width: 95%;
+  }
+  .w-100-xl {
+    width: 100%;
+  }
+  .h-half-xl {
+    height: 50%;
+  }
+  .h-5-xl {
+    height: 5%;
+  }
+  .h-10-xl {
+    height: 10%;
+  }
+  .h-15-m {
+    height: 15%;
+  }
+  .h-20-xl {
+    height: 20%;
+  }
+  .h-25-xl {
+    height: 25%;
+  }
+  .h-30-xl {
+    height: 30%;
+  }
+  .h-35-xl {
+    height: 35%;
+  }
+  .h-40-xl {
+    height: 40%;
+  }
+  .h-45-xl {
+    height: 45%;
+  }
+  .h-50-xl {
+    height: 50%;
+  }
+  .h-55-xl {
+    height: 55%;
+  }
+  .h-60-xl {
+    height: 60%;
+  }
+  .h-65-xl {
+    height: 65%;
+  }
+  .h-70-xl {
+    height: 70%;
+  }
+  .h-75-xl {
+    height: 75px;
+  }
+  .h-75perc-xl, .h-75pe-xl {
+    height: 75%;
+  }
+  .h-80-xl {
+    height: 80%;
+  }
+  .h-85-xl {
+    height: 85%;
+  }
+  .h-90-xl {
+    height: 90%;
+  }
+  .h-95-xl {
+    height: 95%;
+  }
+  .h-screen {
+    height: 100vh;
+  }
+  .h-screen-10-xl {
+    height: 10vh;
+  }
+  .h-screen-15-xl {
+    height: 15vh;
+  }
+  .h-screen-20-xl {
+    height: 20vh;
+  }
+  .h-screen-25-xl {
+    height: 25vh;
+  }
+  .h-screen-30-xl {
+    height: 30vh;
+  }
+  .h-screen-35-xl {
+    height: 35vh;
+  }
+  .h-screen-40-xl {
+    height: 40vh;
+  }
+  .h-screen-45-xl {
+    height: 45vh;
+  }
+  .h-screen-50-xl {
+    height: 50vh;
+  }
+  .h-screen-55-xl {
+    height: 55vh;
+  }
+  .h-screen-60-xl {
+    height: 60vh;
+  }
+  .h-screen-65-xl {
+    height: 65vh;
+  }
+  .h-screen-70-xl {
+    height: 70vh;
+  }
+  .h-screen-75-xl {
+    height: 75vh;
+  }
+  .h-screen-80-xl {
+    height: 80vh;
+  }
+  .h-screen-85-xl {
+    height: 85vh;
+  }
+  .h-screen-90-xl {
+    height: 90vh;
+  }
+  .h-screen-95-xl {
+    height: 95vh;
+  }
+  .h-screen-100-xl {
+    height: 100vh;
+  }
+  .h-full-xl {
+    height: 100%;
+  }
+  .h-fullscreen-xl {
+    height: 100vh;
+  }
+}
+
 .float-left {
   float: left;
 }
