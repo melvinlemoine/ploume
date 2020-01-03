@@ -1,25 +1,6 @@
 .pointer
   cursor: pointer
 
-.displayed, .display
-  display: inherit
-
-  @media screen and (min-width: 300px)
-    &-xs
-      display: inherit
-  @media screen and (min-width: 576px)
-    &-s
-      display: inherit
-  @media screen and (min-width: 768px)
-    &-m
-      display: inherit
-  @media screen and (min-width: 1024px)
-    &-l
-      display: inherit
-  @media screen and (min-width: 1200px)
-    &-xl
-      display: inherit
-
 .undisplayed, .undisplay
   display: none
 
@@ -38,6 +19,25 @@
   @media screen and (min-width: 1200px)
     &-xl
       display: none
+
+.displayed, .display
+  display: inherit
+
+  @media screen and (min-width: 300px)
+    &-xs
+      display: inherit
+  @media screen and (min-width: 576px)
+    &-s
+      display: inherit
+  @media screen and (min-width: 768px)
+    &-m
+      display: inherit
+  @media screen and (min-width: 1024px)
+    &-l
+      display: inherit
+  @media screen and (min-width: 1200px)
+    &-xl
+      display: inherit
 
 .invisible
   opacity: 0

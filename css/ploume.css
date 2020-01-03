@@ -1965,40 +1965,6 @@ a {
   cursor: pointer;
 }
 
-.displayed, .display {
-  display: inherit;
-}
-
-@media screen and (min-width: 300px) {
-  .displayed-xs, .display-xs {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .displayed-s, .display-s {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .displayed-m, .display-m {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .displayed-l, .display-l {
-    display: inherit;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .displayed-xl, .display-xl {
-    display: inherit;
-  }
-}
-
 .undisplayed, .undisplay {
   display: none;
 }
@@ -2030,6 +1996,40 @@ a {
 @media screen and (min-width: 1200px) {
   .undisplayed-xl, .undisplay-xl {
     display: none;
+  }
+}
+
+.displayed, .display {
+  display: inherit;
+}
+
+@media screen and (min-width: 300px) {
+  .displayed-xs, .display-xs {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .displayed-s, .display-s {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .displayed-m, .display-m {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .displayed-l, .display-l {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .displayed-xl, .display-xl {
+    display: inherit;
   }
 }
 
