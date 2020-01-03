@@ -1965,36 +1965,70 @@ a {
   cursor: pointer;
 }
 
-.undisplayed {
+.displayed, .display {
+  display: inherit;
+}
+
+@media screen and (min-width: 300px) {
+  .displayed-xs, .display-xs {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .displayed-s, .display-s {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .displayed-m, .display-m {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .displayed-l, .display-l {
+    display: inherit;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .displayed-xl, .display-xl {
+    display: inherit;
+  }
+}
+
+.undisplayed, .undisplay {
   display: none;
 }
 
 @media screen and (min-width: 300px) {
-  .undisplayed-xs {
+  .undisplayed-xs, .undisplay-xs {
     display: none;
   }
 }
 
-@media screen and (min-width: 300px) {
-  .undisplayed-s {
+@media screen and (min-width: 576px) {
+  .undisplayed-s, .undisplay-s {
     display: none;
   }
 }
 
-@media screen and (min-width: 300px) {
-  .undisplayed-m {
+@media screen and (min-width: 768px) {
+  .undisplayed-m, .undisplay-m {
     display: none;
   }
 }
 
-@media screen and (min-width: 300px) {
-  .undisplayed-l {
+@media screen and (min-width: 1024px) {
+  .undisplayed-l, .undisplay-l {
     display: none;
   }
 }
 
-@media screen and (min-width: 300px) {
-  .undisplayed-xl {
+@media screen and (min-width: 1200px) {
+  .undisplayed-xl, .undisplay-xl {
     display: none;
   }
 }
