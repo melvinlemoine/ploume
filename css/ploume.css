@@ -646,6 +646,7 @@ main.is-info.is-outlined.is-info_hover:hover,
 article.is-info.is-outlined.is-info_hover:hover,
 hr.is-info.is-outlined.is-info_hover:hover {
   background-color: #209cee !important;
+  color: white;
 }
 
 div.is-info.is-outlined.is-info_hover:hover > *,
