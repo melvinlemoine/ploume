@@ -1,10 +1,26 @@
 .pointer
   cursor: pointer
 
-.displayed
+.displayed, .display
   display: inherit
 
-.undisplayed
+  @media screen and (min-width: 300px)
+    &-xs
+      display: inherit
+  @media screen and (min-width: 300px)
+    &-s
+      display: inherit
+  @media screen and (min-width: 300px)
+    &-m
+      display: inherit
+  @media screen and (min-width: 300px)
+    &-l
+      display: inherit
+  @media screen and (min-width: 300px)
+    &-xl
+      display: inherit
+
+.undisplayed, .undisplay
   display: none
 
   @media screen and (min-width: 300px)
