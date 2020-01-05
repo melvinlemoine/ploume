@@ -5192,6 +5192,12 @@ th {
   .ml-m-auto {
     margin-left: auto;
   }
+  .mr-auto-m {
+    margin-right: auto;
+  }
+  .mr-1-m {
+    margin-right: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
