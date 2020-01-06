@@ -2397,7 +2397,7 @@ th {
     display: flex;
     flex-direction: row;
   }
-  .flex-row-xs.reverse, .flex-r-xs.reverse, .flex-h-xs.reverse {
+  .flex-row-xs.reverse-xs, .flex-r-xs.reverse-xs, .flex-h-xs.reverse-xs {
     flex-direction: row-reverse;
   }
   .flex-row-xs.v-center, .flex-row-xs.v-centered, .flex-r-xs.v-center, .flex-r-xs.v-centered, .flex-h-xs.v-center, .flex-h-xs.v-centered {
@@ -6761,11 +6761,11 @@ th {
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.25em;
+  padding-left: 2.50em;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.25em;
+  padding-right: 2.50em;
 }
 
 .control .icon {
@@ -6792,11 +6792,11 @@ th {
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.25em;
+  padding-left: 2.50em;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.25em;
+  padding-right: 2.50em;
 }
 
 .control .icon-s {
@@ -6823,10 +6823,10 @@ th {
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.25em;
+    padding-left: 2505em;
   }
   .control.has-icon-right .input {
-    padding-right: 2.25em;
+    padding-right: 2.50em;
   }
   .control .icon-m {
     display: flex;
@@ -6851,10 +6851,10 @@ th {
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.25em;
+    padding-left: 2.50em;
   }
   .control.has-icon-right .input {
-    padding-right: 2.25em;
+    padding-right: 2.50em;
   }
   .control .icon-m {
     display: flex;
