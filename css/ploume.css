@@ -6740,6 +6740,18 @@ th {
   border-radius: 25px;
 }
 
+.input.is-small {
+  font-size: 0.75rem;
+}
+
+.input.is-small.has-icon-left .input {
+  padding-left: 2.25em;
+}
+
+.input.is-small.has-icon-right .input {
+  padding-right: 2.25em;
+}
+
 .input.is-medium {
   font-size: 1rem;
 }
@@ -6761,11 +6773,11 @@ th {
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.50em;
+  padding-left: 2.25em;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.50em;
+  padding-right: 2.25em;
 }
 
 .control .icon {
@@ -6792,11 +6804,11 @@ th {
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.50em;
+  padding-left: 2.25em;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.50em;
+  padding-right: 2.25em;
 }
 
 .control .icon-s {
@@ -6823,10 +6835,10 @@ th {
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.50em;
+    padding-left: 2.25em;
   }
   .control.has-icon-right .input {
-    padding-right: 2.50em;
+    padding-right: 2.25em;
   }
   .control .icon-m {
     display: flex;
@@ -6851,10 +6863,10 @@ th {
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.50em;
+    padding-left: 2.25em;
   }
   .control.has-icon-right .input {
-    padding-right: 2.50em;
+    padding-right: 2.25em;
   }
   .control .icon-m {
     display: flex;
