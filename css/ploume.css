@@ -1625,6 +1625,9 @@ a {
   .text-right-xs {
     text-align: right;
   }
+  .text-left-xs {
+    text-align: left;
+  }
   .text-justify-xs {
     text-align: justify;
   }
@@ -1678,6 +1681,9 @@ a {
   }
   .text-right-s {
     text-align: right;
+  }
+  .text-left-s {
+    text-align: left;
   }
   .text-justify-s {
     text-align: justify;
@@ -1733,6 +1739,9 @@ a {
   .text-right-m {
     text-align: right;
   }
+  .text-left-m {
+    text-align: left;
+  }
   .text-justify-m {
     text-align: justify;
   }
@@ -1786,6 +1795,9 @@ a {
   }
   .text-right-l {
     text-align: right;
+  }
+  .text-left-l {
+    text-align: left;
   }
   .text-justify-l {
     text-align: justify;
