@@ -6,14 +6,14 @@ $sizes: 5, 10, 15, 20, 25, 50
       border-radius: #{$size}px
 
 // XS = EXTRA SMALL - Small Mobile
-@mediascreen and (min-width: 300px)
+@media screen and (min-width: 300px)
   @each $size in $sizes
     .bordered, .border
       &-#{$size}-xs
         border-radius: #{$size}px
 
 // S = SMALL - Mobile
-@mediascreen and (min-width: 300px)
+@media screen and (min-width: 300px)
   @each $size in $sizes
     .bordered, .border
       &-#{$size}-s
