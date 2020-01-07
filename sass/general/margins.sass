@@ -9,668 +9,133 @@ $m-8: 4rem
 $m-9: 4.5rem
 $m-10: 5rem
 
-.m
-  &-auto
-    margin: auto
-  &-0
-    margin: 0
-  &-1
-    margin: $m-1
-  &-2
-    margin: $m-2
-  &-3
-    margin: $m-3
-  &-4
-    margin: $m-4
-  &-5
-    margin: $m-5
-  &-6
-    margin: $m-6
-  &-7
-    margin: $m-7
-  &-8
-    margin: $m-8
-  &-9
-    margin: $m-9
-  &-10
-    margin: $m-10
+$sizes: ("auto": auto, "0": 0, "1": $m-1,"2": $m-2,"3": $m-3,"4": $m-4,"5": $m-5,"6": $m-6,"7": $m-7,"8": $m-8,"9": $m-9,"10": $m-10)
 
-  &v
-    &-auto
-      margin-top: auto
-      margin-bottom: auto
-    &-0-xs
-      margin-top: 0
-      margin-bottom: 0
-    &-1
-      margin-top: $m-1
-      margin-bottom: $m-1
-    &-2
-      margin-top: $m-2
-      margin-bottom: $m-2
-    &-3
-      margin-top: $m-3
-      margin-bottom: $m-3
-    &-4
-      margin-top: $m-4
-      margin-bottom: $m-4
-    &-5
-      margin-top: $m-5
-      margin-bottom: $m-5
-    &-6
-      margin-top: $m-6
-      margin-bottom: $m-6
-    &-7
-      margin-top: $m-7
-      margin-bottom: $m-7
-    &-8
-      margin-top: $m-8
-      margin-bottom: $m-8
-    &-9
-      margin-top: $m-9
-      margin-bottom: $m-9
-    &-10
-      margin-top: $m-10
-      margin-bottom: $m-10
-  &b
-    &-auto
-      margin-bottom: auto
-    &-0-xs
-      margin-bottom: 0
-    &-1
-      margin-bottom: $m-1
-    &-2
-      margin-bottom: $m-2
-    &-3
-      margin-bottom: $m-3
-    &-4
-      margin-bottom: $m-4
-    &-5
-      margin-bottom: $m-5
-    &-6
-      margin-bottom: $m-6
-    &-7
-      margin-bottom: $m-7
-    &-8
-      margin-bottom: $m-8
-    &-9
-      margin-bottom: $m-9
-    &-10
-      margin-bottom: $m-10
-  &t
-    &-auto
-      margin-top: auto
-    &-0-xs
-      margin-top: 0
-    &-1
-      margin-top: $m-1
-    &-2
-      margin-top: $m-2
-    &-3
-      margin-top: $m-3
-    &-4
-      margin-top: $m-4
-    &-5
-      margin-top: $m-5
-    &-6
-      margin-top: $m-6
-    &-7
-      margin-top: $m-7
-    &-8
-      margin-top: $m-8
-    &-9
-      margin-top: $m-9
-    &-10
-      margin-top: $m-10
-  &r
-    &-auto
-      margin-right: auto
-    &-0-xs
-      margin-right: 0
-    &-1
-      margin-right: $m-1
-    &-2
-      margin-right: $m-2
-    &-3
-      margin-right: $m-3
-    &-4
-      margin-right: $m-4
-    &-5
-      margin-right: $m-5
-    &-6
-      margin-right: $m-6
-    &-7
-      margin-right: $m-7
-    &-8
-      margin-right: $m-8
-    &-9
-      margin-right: $m-9
-    &-10
-      margin-right: $m-10
-  &h
-    &-auto
-      margin-left: auto
-      margin-right: auto
-  &l
-    &-auto
-      margin-left: auto
+@each $size, $value in $sizes
+  .m
+    &-#{$size}
+      margin: $value
+    &v
+      &-#{$size}
+        margin-top: $value
+        margin-bottom: $value
+    &h
+      &-#{$size}
+        margin-left: $value
+        margin-right: $value
+    &l
+      &-#{$size}
+        margin-left: $value
+    &r
+      &-#{$size}
+        margin-right: $value
+    &b
+      &-#{$size}
+        margin-bottom: $value
+    &t
+      &-#{$size}
+        margin-top: $value
 
 @media screen and (min-width: 300px)
-  .m
-    &-auto-xs
-      margin: auto
-    &-0-xs
-      margin: 0
-    &-1-xs
-      margin: $m-1
-    &-2-xs
-      margin: $m-2
-    &-3-xs
-      margin: $m-3
-    &-4-xs
-      margin: $m-4
-    &-5-xs
-      margin: $m-5
-    &-6-xs
-      margin: $m-6
-    &-7-xs
-      margin: $m-7
-    &-8-xs
-      margin: $m-8
-    &-9-xs
-      margin: $m-9
-    &-10-xs
-      margin: $m-10
-
-    &v
-      &-auto-xs
-        margin-top: auto
-        margin-bottom: auto
-      &-0-xs
-        margin-top: 0
-        margin-bottom: 0
-      &-1-xs
-        margin-top: $m-1
-        margin-bottom: $m-1
-      &-2-xs
-        margin-top: $m-2
-        margin-bottom: $m-2
-      &-3-xs
-        margin-top: $m-3
-        margin-bottom: $m-3
-      &-4-xs
-        margin-top: $m-4
-        margin-bottom: $m-4
-      &-5-xs
-        margin-top: $m-5
-        margin-bottom: $m-5
-      &-6-xs
-        margin-top: $m-6
-        margin-bottom: $m-6
-      &-7-xs
-        margin-top: $m-7
-        margin-bottom: $m-7
-      &-8-xs
-        margin-top: $m-8
-        margin-bottom: $m-8
-      &-9-xs
-        margin-top: $m-9
-        margin-bottom: $m-9
-      &-10-xs
-        margin-top: $m-10
-        margin-bottom: $m-10
-    &b
-      &-auto-xs
-        margin-bottom: auto
-      &-0-xs
-        margin-bottom: 0
-      &-1-xs
-        margin-bottom: $m-1
-      &-2-xs
-        margin-bottom: $m-2
-      &-3-xs
-        margin-bottom: $m-3
-      &-4-xs
-        margin-bottom: $m-4
-      &-5-xs
-        margin-bottom: $m-5
-      &-6-xs
-        margin-bottom: $m-6
-      &-7-xs
-        margin-bottom: $m-7
-      &-8-xs
-        margin-bottom: $m-8
-      &-9-xs
-        margin-bottom: $m-9
-      &-10-xs
-        margin-bottom: $m-10
-    &t
-      &-auto-xs
-        margin-top: auto
-      &-0-xs
-        margin-top: 0
-      &-1-xs
-        margin-top: $m-1
-      &-2-xs
-        margin-top: $m-2
-      &-3-xs
-        margin-top: $m-3
-      &-4-xs
-        margin-top: $m-4
-      &-5-xs
-        margin-top: $m-5
-      &-6-xs
-        margin-top: $m-6
-      &-7-xs
-        margin-top: $m-7
-      &-8-xs
-        margin-top: $m-8
-      &-9-xs
-        margin-top: $m-9
-      &-10-xs
-        margin-top: $m-10
-    &h
-      &-auto-xs
-        margin-left: auto
-        margin-right: auto
-    &l
-      &-auto-xs
-        margin-left: auto
-    &r
-      &-auto-xs
-        margin-top: auto
-      &-0-xs
-        margin-right: 0
-      &-2-xs
-        margin-right: $m-2
+  @each $size, $value in $sizes
+    .m
+      &-#{$size}-xs
+        margin: $value
+      &v
+        &-#{$size}-xs
+          margin-top: $value
+          margin-bottom: $value
+      &h
+        &-#{$size}-xs
+          margin-left: $value
+          margin-right: $value
+      &l
+        &-#{$size}-xs
+          margin-left: $value
+      &r
+        &-#{$size}-xs
+          margin-right: $value
+      &b
+        &-#{$size}-xs
+          margin-bottom: $value
+      &t
+        &-#{$size}-xs
+          margin-top: $value
 
 @media screen and (min-width: 576px)
-  .m
-    &-auto-s
-      margin: auto
-    &-0-s
-      margin: 0
-    &-1-s
-      margin: $m-1
-    &-2-s
-      margin: $m-2
-    &-3-s
-      margin: $m-3
-    &-4-s
-      margin: $m-4
-    &-5-s
-      margin: $m-5
-    &-6-s
-      margin: $m-6
-    &-7-s
-      margin: $m-7
-    &-8-s
-      margin: $m-8
-    &-9-s
-      margin: $m-9
-    &-10-s
-      margin: $m-10
-
-    &v
-      &-auto-s
-        margin-top: auto
-        margin-bottom: auto
-      &-0-s
-        margin-top: 0
-        margin-bottom: 0
-      &-1-s
-        margin-top: $m-1
-        margin-bottom: $m-1
-      &-2-s
-        margin-top: $m-2
-        margin-bottom: $m-2
-      &-3-s
-        margin-top: $m-3
-        margin-bottom: $m-3
-      &-4-s
-        margin-top: $m-4
-        margin-bottom: $m-4
-      &-5-s
-        margin-top: $m-5
-        margin-bottom: $m-5
-      &-6-s
-        margin-top: $m-6
-        margin-bottom: $m-6
-      &-7-s
-        margin-top: $m-7
-        margin-bottom: $m-7
-      &-8-s
-        margin-top: $m-8
-        margin-bottom: $m-8
-      &-9-s
-        margin-top: $m-9
-        margin-bottom: $m-9
-      &-10-s
-        margin-top: $m-10
-        margin-bottom: $m-10
-    &b
-      &-auto-s
-        margin-bottom: auto
-      &-0-s
-        margin-bottom: 0
-      &-1-s
-        margin-bottom: $m-1
-      &-2-s
-        margin-bottom: $m-2
-      &-3-s
-        margin-bottom: $m-3
-      &-4-s
-        margin-bottom: $m-4
-      &-5-s
-        margin-bottom: $m-5
-      &-6-s
-        margin-bottom: $m-6
-      &-7-s
-        margin-bottom: $m-7
-      &-8-s
-        margin-bottom: $m-8
-      &-9-s
-        margin-bottom: $m-9
-      &-10-s
-        margin-bottom: $m-10
-    &t
-      &-auto-s
-        margin-top: auto
-      &-0-s
-        margin-top: 0
-      &-1-s
-        margin-top: $m-1
-      &-2-s
-        margin-top: $m-2
-      &-3-s
-        margin-top: $m-3
-      &-4-s
-        margin-top: $m-4
-      &-5-s
-        margin-top: $m-5
-      &-6-s
-        margin-top: $m-6
-      &-7-s
-        margin-top: $m-7
-      &-8-s
-        margin-top: $m-8
-      &-9-s
-        margin-top: $m-9
-      &-10-s
-        margin-top: $m-10
-    &h
-      &-auto-s
-        margin-left: auto
-        margin-right: auto
-    &l
-      &-auto-s
-        margin-left: auto
+  @each $size, $value in $sizes
+    .m
+      &-#{$size}-s
+        margin: $value
+      &v
+        &-#{$size}-s
+          margin-top: $value
+          margin-bottom: $value
+      &h
+        &-#{$size}-s
+          margin-left: $value
+          margin-right: $value
+      &l
+        &-#{$size}-s
+          margin-left: $value
+      &r
+        &-#{$size}-s
+          margin-right: $value
+      &b
+        &-#{$size}-s
+          margin-bottom: $value
+      &t
+        &-#{$size}-s
+          margin-top: $value
 
 @media screen and (min-width: 768px)
-  .m
-    &-auto-m
-      margin: auto
-    &-0-m
-      margin: 0
-    &-1-m
-      margin: $m-1
-    &-2-m
-      margin: $m-2
-    &-3-m
-      margin: $m-3
-    &-4-m
-      margin: $m-4
-    &-5-m
-      margin: $m-5
-    &-6-m
-      margin: $m-6
-    &-7-m
-      margin: $m-7
-    &-8-m
-      margin: $m-8
-    &-9-m
-      margin: $m-9
-    &-10-m
-      margin: $m-10
-
-    &v
-      &-auto-m
-        margin-top: auto
-        margin-bottom: auto
-      &-0-m
-        margin-top: 0
-        margin-bottom: 0
-      &-1-m
-        margin-top: $m-1
-        margin-bottom: $m-1
-      &-2-m
-        margin-top: $m-2
-        margin-bottom: $m-2
-      &-3-m
-        margin-top: $m-3
-        margin-bottom: $m-3
-      &-4-m
-        margin-top: $m-4
-        margin-bottom: $m-4
-      &-5-m
-        margin-top: $m-5
-        margin-bottom: $m-5
-      &-6-m
-        margin-top: $m-6
-        margin-bottom: $m-6
-      &-7-m
-        margin-top: $m-7
-        margin-bottom: $m-7
-      &-8-m
-        margin-top: $m-8
-        margin-bottom: $m-8
-      &-9-m
-        margin-top: $m-9
-        margin-bottom: $m-9
-      &-10-m
-        margin-top: $m-10
-        margin-bottom: $m-10
-    &b
-      &-auto-m
-        margin-bottom: auto
-      &-0-m
-        margin-bottom: 0
-      &-1-m
-        margin-bottom: $m-1
-      &-2-m
-        margin-bottom: $m-2
-      &-3-m
-        margin-bottom: $m-3
-      &-4-m
-        margin-bottom: $m-4
-      &-5-m
-        margin-bottom: $m-5
-      &-6-m
-        margin-bottom: $m-6
-      &-7-m
-        margin-bottom: $m-7
-      &-8-m
-        margin-bottom: $m-8
-      &-9-m
-        margin-bottom: $m-9
-      &-10-m
-        margin-bottom: $m-10
-    &t
-      &-auto-m
-        margin-top: auto
-      &-0-m
-        margin-top: 0
-      &-1-m
-        margin-top: $m-1
-      &-2-m
-        margin-top: $m-2
-      &-3-m
-        margin-top: $m-3
-      &-4-m
-        margin-top: $m-4
-      &-5-m
-        margin-top: $m-5
-      &-6-m
-        margin-top: $m-6
-      &-7-m
-        margin-top: $m-7
-      &-8-m
-        margin-top: $m-8
-      &-9-m
-        margin-top: $m-9
-      &-10-m
-        margin-top: $m-10
-    &h
-      &-auto-m
-        margin-left: auto
-        margin-right: auto
-    &l-m
-      &-auto
-        margin-left: auto
-    &r
-      &-auto-m
-        margin-right: auto
-      &-0-m
-        margin-right: 0
-      &-1-m
-        margin-right: $m-1
-      &-2-m
-        margin-right: $m-2
-      &-3-m
-        margin-right: $m-3
-      &-4-m
-        margin-right: $m-4
-      &-5-m
-        margin-right: $m-5
-      &-6-m
-        margin-right: $m-6
-      &-7-m
-        margin-right: $m-7
-      &-8-m
-        margin-right: $m-8
-      &-9-m
-        margin-right: $m-9
-      &-100-m
-        margin-right: $m-10
+  @each $size, $value in $sizes
+    .m
+      &-#{$size}-m
+        margin: $value
+      &v
+        &-#{$size}-m
+          margin-top: $value
+          margin-bottom: $value
+      &h
+        &-#{$size}-m
+          margin-left: $value
+          margin-right: $value
+      &l
+        &-#{$size}-m
+          margin-left: $value
+      &r
+        &-#{$size}-m
+          margin-right: $value
+      &b
+        &-#{$size}-m
+          margin-bottom: $value
+      &t
+        &-#{$size}-m
+          margin-top: $value
 
 @media screen and (min-width: 1024px)
-  .m
-    &-auto-l
-      margin: auto
-    &-0-l
-      margin: 0
-    &-1-l
-      margin: $m-1
-    &-2-l
-      margin: $m-2
-    &-3-l
-      margin: $m-3
-    &-4-l
-      margin: $m-4
-    &-5-l
-      margin: $m-5
-    &-6-l
-      margin: $m-6
-    &-7-l
-      margin: $m-7
-    &-8-l
-      margin: $m-8
-    &-9-l
-      margin: $m-9
-    &-10-l
-      margin: $m-10
-
-    &v
-      &-auto-l
-        margin-top: auto
-        margin-bottom: auto
-      &-0-l
-        margin-top: 0
-        margin-bottom: 0
-      &-1-l
-        margin-top: $m-1
-        margin-bottom: $m-1
-      &-2-l
-        margin-top: $m-2
-        margin-bottom: $m-2
-      &-3-l
-        margin-top: $m-3
-        margin-bottom: $m-3
-      &-4-l
-        margin-top: $m-4
-        margin-bottom: $m-4
-      &-5-l
-        margin-top: $m-5
-        margin-bottom: $m-5
-      &-6-l
-        margin-top: $m-6
-        margin-bottom: $m-6
-      &-7-l
-        margin-top: $m-7
-        margin-bottom: $m-7
-      &-8-l
-        margin-top: $m-8
-        margin-bottom: $m-8
-      &-9-l
-        margin-top: $m-9
-        margin-bottom: $m-9
-      &-10-l
-        margin-top: $m-10
-        margin-bottom: $m-10
-    &b
-      &-auto-l
-        margin-bottom: auto
-      &-0-l
-        margin-bottom: 0
-      &-1-l
-        margin-bottom: $m-1
-      &-2-l
-        margin-bottom: $m-2
-      &-3-l
-        margin-bottom: $m-3
-      &-4-l
-        margin-bottom: $m-4
-      &-5-l
-        margin-bottom: $m-5
-      &-6-l
-        margin-bottom: $m-6
-      &-7-l
-        margin-bottom: $m-7
-      &-8-l
-        margin-bottom: $m-8
-      &-9-l
-        margin-bottom: $m-9
-      &-10-l
-        margin-bottom: $m-10
-    &t
-      &-auto-l
-        margin-top: auto
-      &-0-l
-        margin-top: 0
-      &-1-l
-        margin-top: $m-1
-      &-2-l
-        margin-top: $m-2
-      &-3-l
-        margin-top: $m-3
-      &-4-l
-        margin-top: $m-4
-      &-5-l
-        margin-top: $m-5
-      &-6-l
-        margin-top: $m-6
-      &-7-l
-        margin-top: $m-7
-      &-8-l
-        margin-top: $m-8
-      &-9-l
-        margin-top: $m-9
-      &-10-l
-        margin-top: $m-10
-    &h
-      &-auto-l
-        margin-left: auto
-        margin-right: auto
-    &l
-      &-auto-l
-        margin-left: auto
+  @each $size, $value in $sizes
+    .m
+      &-#{$size}-l
+        margin: $value
+      &v
+        &-#{$size}-l
+          margin-top: $value
+          margin-bottom: $value
+      &h
+        &-#{$size}-l
+          margin-left: $value
+          margin-right: $value
+      &l
+        &-#{$size}-l
+          margin-left: $value
+      &r
+        &-#{$size}-l
+          margin-right: $value
+      &b
+        &-#{$size}-l
+          margin-bottom: $value
+      &t
+        &-#{$size}-l
+          margin-top: $value
