@@ -1941,7 +1941,7 @@ a {
   border-radius: 25px;
 }
 
-.button.is-smallrounded {
+.button.is-smallrounded, .button.is-bordered {
   border-radius: 5px;
 }
 
