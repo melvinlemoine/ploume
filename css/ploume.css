@@ -4134,6 +4134,22 @@ th {
   position: relative;
 }
 
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.left {
+  left: 0;
+}
+
 .m-auto {
   margin: auto;
 }
