@@ -139,3 +139,29 @@ $sizes: ("auto": auto, "0": 0, "1": $p-1,"2": $p-2,"3": $p-3,"4": $p-4,"5": $p-5
       &t
         &-#{$size}-l
           padding-top: $value
+
+@media screen and (min-width: 1200px)
+  @each $size, $value in $sizes
+    .p
+      &-#{$size}-xl
+        padding: $value
+      &v
+        &-#{$size}-xl
+          padding-top: $value
+          padding-bottom: $value
+      &h
+        &-#{$size}-xl
+          padding-left: $value
+          padding-right: $value
+      &l
+        &-#{$size}-xl
+          padding-left: $value
+      &r
+        &-#{$size}-xl
+          padding-right: $value
+      &b
+        &-#{$size}-xl
+          padding-bottom: $value
+      &t
+        &-#{$size}-xl
+          padding-top: $value

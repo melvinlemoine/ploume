@@ -7102,6 +7102,285 @@ th {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .p-auto-xl {
+    padding: auto;
+  }
+  .pv-auto-xl {
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  .ph-auto-xl {
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .pl-auto-xl {
+    padding-left: auto;
+  }
+  .pr-auto-xl {
+    padding-right: auto;
+  }
+  .pb-auto-xl {
+    padding-bottom: auto;
+  }
+  .pt-auto-xl {
+    padding-top: auto;
+  }
+  .p-0-xl {
+    padding: 0;
+  }
+  .pv-0-xl {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .ph-0-xl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .pl-0-xl {
+    padding-left: 0;
+  }
+  .pr-0-xl {
+    padding-right: 0;
+  }
+  .pb-0-xl {
+    padding-bottom: 0;
+  }
+  .pt-0-xl {
+    padding-top: 0;
+  }
+  .p-1-xl {
+    padding: 0.5rem;
+  }
+  .pv-1-xl {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .ph-1-xl {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .pl-1-xl {
+    padding-left: 0.5rem;
+  }
+  .pr-1-xl {
+    padding-right: 0.5rem;
+  }
+  .pb-1-xl {
+    padding-bottom: 0.5rem;
+  }
+  .pt-1-xl {
+    padding-top: 0.5rem;
+  }
+  .p-2-xl {
+    padding: 1rem;
+  }
+  .pv-2-xl {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .ph-2-xl {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .pl-2-xl {
+    padding-left: 1rem;
+  }
+  .pr-2-xl {
+    padding-right: 1rem;
+  }
+  .pb-2-xl {
+    padding-bottom: 1rem;
+  }
+  .pt-2-xl {
+    padding-top: 1rem;
+  }
+  .p-3-xl {
+    padding: 1.5rem;
+  }
+  .pv-3-xl {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .ph-3-xl {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .pl-3-xl {
+    padding-left: 1.5rem;
+  }
+  .pr-3-xl {
+    padding-right: 1.5rem;
+  }
+  .pb-3-xl {
+    padding-bottom: 1.5rem;
+  }
+  .pt-3-xl {
+    padding-top: 1.5rem;
+  }
+  .p-4-xl {
+    padding: 2rem;
+  }
+  .pv-4-xl {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .ph-4-xl {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .pl-4-xl {
+    padding-left: 2rem;
+  }
+  .pr-4-xl {
+    padding-right: 2rem;
+  }
+  .pb-4-xl {
+    padding-bottom: 2rem;
+  }
+  .pt-4-xl {
+    padding-top: 2rem;
+  }
+  .p-5-xl {
+    padding: 2.5rem;
+  }
+  .pv-5-xl {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+  .ph-5-xl {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  .pl-5-xl {
+    padding-left: 2.5rem;
+  }
+  .pr-5-xl {
+    padding-right: 2.5rem;
+  }
+  .pb-5-xl {
+    padding-bottom: 2.5rem;
+  }
+  .pt-5-xl {
+    padding-top: 2.5rem;
+  }
+  .p-6-xl {
+    padding: 3rem;
+  }
+  .pv-6-xl {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .ph-6-xl {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .pl-6-xl {
+    padding-left: 3rem;
+  }
+  .pr-6-xl {
+    padding-right: 3rem;
+  }
+  .pb-6-xl {
+    padding-bottom: 3rem;
+  }
+  .pt-6-xl {
+    padding-top: 3rem;
+  }
+  .p-7-xl {
+    padding: 3.5rem;
+  }
+  .pv-7-xl {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .ph-7-xl {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  .pl-7-xl {
+    padding-left: 3.5rem;
+  }
+  .pr-7-xl {
+    padding-right: 3.5rem;
+  }
+  .pb-7-xl {
+    padding-bottom: 3.5rem;
+  }
+  .pt-7-xl {
+    padding-top: 3.5rem;
+  }
+  .p-8-xl {
+    padding: 4rem;
+  }
+  .pv-8-xl {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .ph-8-xl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .pl-8-xl {
+    padding-left: 4rem;
+  }
+  .pr-8-xl {
+    padding-right: 4rem;
+  }
+  .pb-8-xl {
+    padding-bottom: 4rem;
+  }
+  .pt-8-xl {
+    padding-top: 4rem;
+  }
+  .p-9-xl {
+    padding: 4.5rem;
+  }
+  .pv-9-xl {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+  .ph-9-xl {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+  }
+  .pl-9-xl {
+    padding-left: 4.5rem;
+  }
+  .pr-9-xl {
+    padding-right: 4.5rem;
+  }
+  .pb-9-xl {
+    padding-bottom: 4.5rem;
+  }
+  .pt-9-xl {
+    padding-top: 4.5rem;
+  }
+  .p-10-xl {
+    padding: 5rem;
+  }
+  .pv-10-xl {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .ph-10-xl {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .pl-10-xl {
+    padding-left: 5rem;
+  }
+  .pr-10-xl {
+    padding-right: 5rem;
+  }
+  .pb-10-xl {
+    padding-bottom: 5rem;
+  }
+  .pt-10-xl {
+    padding-top: 5rem;
+  }
+}
+
 .input {
   border: 1px solid #dbdbdb;
   padding-left: .75em;
