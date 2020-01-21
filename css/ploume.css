@@ -324,6 +324,86 @@ hr.is-lightdark > * {
   color: #FFFFFF;
 }
 
+div.is-lightgrey,
+nav.is-lightgrey,
+a.is-lightgrey,
+header.is-lightgrey,
+aside.is-lightgrey,
+button.is-lightgrey,
+input.button.is-lightgrey,
+form.is-lightgrey,
+body.is-lightgrey,
+.tag.is-lightgrey,
+li.is-lightgrey,
+footer.is-lightgrey,
+container.is-lightgrey,
+section.is-lightgrey,
+main.is-lightgrey,
+article.is-lightgrey,
+hr.is-lightgrey {
+  background-color: #707070;
+}
+
+div.is-lightgrey_hover:hover,
+nav.is-lightgrey_hover:hover,
+a.is-lightgrey_hover:hover,
+header.is-lightgrey_hover:hover,
+aside.is-lightgrey_hover:hover,
+button.is-lightgrey_hover:hover,
+input.button.is-lightgrey_hover:hover,
+form.is-lightgrey_hover:hover,
+body.is-lightgrey_hover:hover,
+.tag.is-lightgrey_hover:hover,
+li.is-lightgrey_hover:hover,
+footer.is-lightgrey_hover:hover,
+container.is-lightgrey_hover:hover,
+section.is-lightgrey_hover:hover,
+main.is-lightgrey_hover:hover,
+article.is-lightgrey_hover:hover,
+hr.is-lightgrey_hover:hover {
+  background-color: #505050 !important;
+}
+
+div.is-lightgrey_hover:hover > *,
+nav.is-lightgrey_hover:hover > *,
+a.is-lightgrey_hover:hover > *,
+header.is-lightgrey_hover:hover > *,
+aside.is-lightgrey_hover:hover > *,
+button.is-lightgrey_hover:hover > *,
+input.button.is-lightgrey_hover:hover > *,
+form.is-lightgrey_hover:hover > *,
+body.is-lightgrey_hover:hover > *,
+.tag.is-lightgrey_hover:hover > *,
+li.is-lightgrey_hover:hover > *,
+footer.is-lightgrey_hover:hover > *,
+container.is-lightgrey_hover:hover > *,
+section.is-lightgrey_hover:hover > *,
+main.is-lightgrey_hover:hover > *,
+article.is-lightgrey_hover:hover > *,
+hr.is-lightgrey_hover:hover > * {
+  color: #FFFFFF !important;
+}
+
+div.is-lightgrey > *,
+nav.is-lightgrey > *,
+a.is-lightgrey > *,
+header.is-lightgrey > *,
+aside.is-lightgrey > *,
+button.is-lightgrey > *,
+input.button.is-lightgrey > *,
+form.is-lightgrey > *,
+body.is-lightgrey > *,
+.tag.is-lightgrey > *,
+li.is-lightgrey > *,
+footer.is-lightgrey > *,
+container.is-lightgrey > *,
+section.is-lightgrey > *,
+main.is-lightgrey > *,
+article.is-lightgrey > *,
+hr.is-lightgrey > * {
+  color: #FFFFFF;
+}
+
 div.is-light,
 nav.is-light,
 a.is-light,
