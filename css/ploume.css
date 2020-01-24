@@ -2347,7 +2347,7 @@ a {
 
 *[disabled], *[disabled="disabled"], .disabled, .disable {
   opacity: .5;
-  cursor: not-allowed !important;
+  cursor: not-allowed;
 }
 
 .none {
