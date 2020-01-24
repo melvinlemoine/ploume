@@ -757,24 +757,24 @@ hr.is-info.is-outlined {
   color: #209cee;
 }
 
-div.is-info.is-outlined:hover,
-nav.is-info.is-outlined:hover,
-a.is-info.is-outlined:hover,
-header.is-info.is-outlined:hover,
-aside.is-info.is-outlined:hover,
-button.is-info.is-outlined:hover,
-input.button.is-info.is-outlined:hover,
-form.is-info.is-outlined:hover,
-body.is-info.is-outlined:hover,
-.tag.is-info.is-outlined:hover,
-li.is-info.is-outlined:hover,
-footer.is-info.is-outlined:hover,
-container.is-info.is-outlined:hover,
-section.is-info.is-outlined:hover,
-main.is-info.is-outlined:hover,
-article.is-info.is-outlined:hover,
-hr.is-info.is-outlined:hover {
-  background-color: #209cee;
+div.is-info:hover,
+nav.is-info:hover,
+a.is-info:hover,
+header.is-info:hover,
+aside.is-info:hover,
+button.is-info:hover,
+input.button.is-info:hover,
+form.is-info:hover,
+body.is-info:hover,
+.tag.is-info:hover,
+li.is-info:hover,
+footer.is-info:hover,
+container.is-info:hover,
+section.is-info:hover,
+main.is-info:hover,
+article.is-info:hover,
+hr.is-info:hover {
+  background-color: #209cee !important;
   color: white;
 }
 
