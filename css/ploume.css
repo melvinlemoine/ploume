@@ -2352,6 +2352,7 @@ a {
 
 *[disabled] *, *[disabled="disabled"] *, .disabled *, .disable * {
   cursor: not-allowed !important;
+  pointer-events: none;
 }
 
 .none {
