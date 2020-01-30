@@ -7655,6 +7655,10 @@ th {
   pointer-events: none;
 }
 
+*[disabled], *[disabled="disabled"] {
+  cursor: not-allowed !important;
+}
+
 .none {
   display: none;
 }
