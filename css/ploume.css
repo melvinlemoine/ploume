@@ -839,6 +839,7 @@ main.is-success_hover:hover,
 article.is-success_hover:hover,
 hr.is-success_hover:hover {
   background-color: #23d160 !important;
+  color: white;
 }
 
 div.is-success_hover:hover > *,
