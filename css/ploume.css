@@ -7645,12 +7645,12 @@ th {
   left: 0;
 }
 
-*[disabled], *[disabled="disabled"], .disabled, .disable {
+*[disabled], *[disabled="disabled"], .disabled, .disable, .is-disabled, .is-disable {
   opacity: .5;
   cursor: not-allowed !important;
 }
 
-*[disabled] *, *[disabled="disabled"] *, .disabled *, .disable * {
+*[disabled] *, *[disabled="disabled"] *, .disabled *, .disable *, .is-disabled *, .is-disable * {
   cursor: not-allowed !important;
   pointer-events: none;
 }
