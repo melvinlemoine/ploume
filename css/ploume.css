@@ -1580,7 +1580,7 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   padding-top: calc(.375em - 1px);
   padding-bottom: calc(.375em - 1px);
   line-height: 1.5;
-  height: 2.25em;
+  height: 2.25rem;
 }
 
 .input:focus {
@@ -1600,11 +1600,11 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
 }
 
 .input.is-small.has-icon-left .input {
-  padding-left: 2.25em;
+  padding-left: 2.25rem;
 }
 
 .input.is-small.has-icon-right .input {
-  padding-right: 2.25em;
+  padding-right: 2.25rem;
 }
 
 .input.is-medium {
@@ -1628,18 +1628,18 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.25em;
+  padding-left: 2.25rem;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.25em;
+  padding-right: 2.25rem;
 }
 
 .control .icon {
   display: flex;
   position: absolute;
   top: 0;
-  width: 2.25em;
+  width: 2.25rem;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -1659,18 +1659,18 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
 }
 
 .control.has-icon-left .input {
-  padding-left: 2.25em;
+  padding-left: 2.25rem;
 }
 
 .control.has-icon-right .input {
-  padding-right: 2.25em;
+  padding-right: 2.25rem;
 }
 
 .control .icon-s {
   display: flex;
   position: absolute;
   top: 0;
-  width: 2.25em;
+  width: 2.25rem;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -1690,16 +1690,16 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.25em;
+    padding-left: 2.25rem;
   }
   .control.has-icon-right .input {
-    padding-right: 2.25em;
+    padding-right: 2.25rem;
   }
   .control .icon-m {
     display: flex;
     position: absolute;
     top: 0;
-    width: 2.25em;
+    width: 2.25rem;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -1718,16 +1718,16 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
     position: relative;
   }
   .control.has-icon-left .input {
-    padding-left: 2.25em;
+    padding-left: 2.25rem;
   }
   .control.has-icon-right .input {
-    padding-right: 2.25em;
+    padding-right: 2.25rem;
   }
   .control .icon-m {
     display: flex;
     position: absolute;
     top: 0;
-    width: 2.25em;
+    width: 2.25rem;
     justify-content: center;
     align-items: center;
     height: 100%;
