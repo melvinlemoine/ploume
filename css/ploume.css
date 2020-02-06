@@ -1043,6 +1043,7 @@ main.is-caution_hover:hover,
 article.is-caution_hover:hover,
 hr.is-caution_hover:hover {
   background-color: #ED6E59 !important;
+  color: white !important;
 }
 
 div.is-caution_hover:hover > *,
