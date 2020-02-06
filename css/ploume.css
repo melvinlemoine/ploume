@@ -1085,7 +1085,7 @@ article.is-caution.is-outlined,
 hr.is-caution.is-outlined {
   background-color: transparent;
   border: 1px solid #ED6E59;
-  color: #ED6E59;
+  color: #ED6E59 !important;
 }
 
 div.is-caution.is-outlined:hover,
