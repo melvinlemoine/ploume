@@ -442,7 +442,7 @@ section.is-light_hover:hover,
 main.is-light_hover:hover,
 article.is-light_hover:hover,
 hr.is-light_hover:hover {
-  background-color: #f5f5f5 !important;
+  background-color: #f5f5f5;
 }
 
 div.is-light_hover:hover > *,
@@ -462,7 +462,7 @@ section.is-light_hover:hover > *,
 main.is-light_hover:hover > *,
 article.is-light_hover:hover > *,
 hr.is-light_hover:hover > * {
-  color: #707070 !important;
+  color: #707070;
 }
 
 div.is-primary,
