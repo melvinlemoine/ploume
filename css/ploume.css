@@ -2571,6 +2571,238 @@ th {
   max-width: 1500px;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.w-fitcontent {
+  width: fit-content;
+}
+
+.h-fitcontent {
+  height: fit-content;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.h-fit-content {
+  height: fit-content;
+}
+
+.w-0 {
+  width: 0;
+}
+
+.h-0 {
+  height: 0;
+}
+
+.w-5 {
+  width: 5%;
+}
+
+.h-5 {
+  height: 5%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.h-15 {
+  height: 15%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.h-20 {
+  height: 20%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.h-30 {
+  height: 30%;
+}
+
+.w-33 {
+  width: calc(100% / 3);
+}
+
+.h-33 {
+  height: calc(100% / 3);
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.h-35 {
+  height: 35%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.h-45 {
+  height: 45%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.h-half {
+  height: 50%;
+}
+
+.w-55 {
+  width: 55%;
+}
+
+.h-55 {
+  height: 55%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.h-60 {
+  height: 60%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.h-65 {
+  height: 65%;
+}
+
+.w-66 {
+  width: calc((100% / 3) * 2);
+}
+
+.h-66 {
+  height: calc((100% / 3) * 2);
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.h-70 {
+  height: 70%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.h-75 {
+  height: 75%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.h-80 {
+  height: 80%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.h-85 {
+  height: 85%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.h-95 {
+  height: 95%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-fullscreen {
+  width: 100vw;
+}
+
+.w-fullscreen {
+  height: 100vh;
+}
+
 .fullsize {
   width: 100%;
   height: 100%;
@@ -2587,282 +2819,6 @@ th {
 
 .fullscreenwidth {
   width: 100vw;
-}
-
-.w-half {
-  width: 50%;
-}
-
-.w-fit {
-  width: fit-content;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-fullscreen {
-  width: 100vw;
-}
-
-.w-auto {
-  width: auto;
-}
-
-.w-5 {
-  width: 5%;
-}
-
-.w-10 {
-  width: 10%;
-}
-
-.w-15 {
-  width: 15%;
-}
-
-.w-20 {
-  width: 20%;
-}
-
-.w-25 {
-  width: 25%;
-}
-
-.w-30 {
-  width: 30%;
-}
-
-.w-33 {
-  width: calc(100% / 3);
-}
-
-.w-35 {
-  width: 35%;
-}
-
-.w-40 {
-  width: 40%;
-}
-
-.w-45 {
-  width: 45%;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-55 {
-  width: 55%;
-}
-
-.w-60 {
-  width: 60%;
-}
-
-.w-65 {
-  width: 65%;
-}
-
-.w-70 {
-  width: 70%;
-}
-
-.w-75 {
-  width: 75%;
-}
-
-.w-80 {
-  width: 80%;
-}
-
-.w-85 {
-  width: 85%;
-}
-
-.w-90 {
-  width: 90%;
-}
-
-.w-95 {
-  width: 95%;
-}
-
-.w-100 {
-  width: 100%;
-}
-
-.h-half {
-  height: 50%;
-}
-
-.h-5 {
-  height: 5%;
-}
-
-.h-10 {
-  height: 10%;
-}
-
-.h-15 {
-  height: 15%;
-}
-
-.h-20 {
-  height: 20%;
-}
-
-.h-25 {
-  height: 25%;
-}
-
-.h-30 {
-  height: 30%;
-}
-
-.h-35 {
-  height: 35%;
-}
-
-.h-40 {
-  height: 40%;
-}
-
-.h-45 {
-  height: 45%;
-}
-
-.h-50 {
-  height: 50%;
-}
-
-.h-55 {
-  height: 55%;
-}
-
-.h-60 {
-  height: 60%;
-}
-
-.h-65 {
-  height: 65%;
-}
-
-.h-70 {
-  height: 70%;
-}
-
-.h-75 {
-  height: 75px;
-}
-
-.h-75perc, .h-75pe {
-  height: 75%;
-}
-
-.h-80 {
-  height: 80%;
-}
-
-.h-85 {
-  height: 85%;
-}
-
-.h-90 {
-  height: 90%;
-}
-
-.h-95 {
-  height: 95%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-screen-10 {
-  height: 10vh;
-}
-
-.h-screen-15 {
-  height: 15vh;
-}
-
-.h-screen-20 {
-  height: 20vh;
-}
-
-.h-screen-25 {
-  height: 25vh;
-}
-
-.h-screen-30 {
-  height: 30vh;
-}
-
-.h-screen-35 {
-  height: 35vh;
-}
-
-.h-screen-40 {
-  height: 40vh;
-}
-
-.h-screen-45 {
-  height: 45vh;
-}
-
-.h-screen-50 {
-  height: 50vh;
-}
-
-.h-screen-55 {
-  height: 55vh;
-}
-
-.h-screen-60 {
-  height: 60vh;
-}
-
-.h-screen-65 {
-  height: 65vh;
-}
-
-.h-screen-70 {
-  height: 70vh;
-}
-
-.h-screen-75 {
-  height: 75vh;
-}
-
-.h-screen-80 {
-  height: 80vh;
-}
-
-.h-screen-85 {
-  height: 85vh;
-}
-
-.h-screen-90 {
-  height: 90vh;
-}
-
-.h-screen-95 {
-  height: 95vh;
-}
-
-.h-screen-100 {
-  height: 100vh;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-fullscreen {
-  height: 100vh;
 }
 
 @media screen and (min-width: 300px) {
