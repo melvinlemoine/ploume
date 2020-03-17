@@ -2361,6 +2361,10 @@ a {
   cursor: pointer;
 }
 
+.noselect, .no-select {
+  user-select: none;
+}
+
 .undisplayed, .undisplay {
   display: none;
 }
