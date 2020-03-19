@@ -8001,53 +8001,53 @@ th {
   .flex-row-xs.reverse-xs, .flex-r-xs.reverse-xs, .flex-h-xs.reverse-xs {
     flex-direction: row-reverse;
   }
-  .flex-row-xs.v-center, .flex-row-xs.v-centered, .flex-r-xs.v-center, .flex-r-xs.v-centered, .flex-h-xs.v-center, .flex-h-xs.v-centered {
+  .flex-row-xs.v-center-xs, .flex-row-xs.v-centered-xs, .flex-r-xs.v-center-xs, .flex-r-xs.v-centered-xs, .flex-h-xs.v-center-xs, .flex-h-xs.v-centered-xs {
     justify-content: center;
   }
-  .flex-row-xs.v-end, .flex-row-xs.v-right, .flex-r-xs.v-end, .flex-r-xs.v-right, .flex-h-xs.v-end, .flex-h-xs.v-right {
+  .flex-row-xs.v-end-xs, .flex-row-xs.v-right-xs, .flex-r-xs.v-end-xs, .flex-r-xs.v-right-xs, .flex-h-xs.v-end-xs, .flex-h-xs.v-right-xs {
     justify-content: flex-end;
   }
-  .flex-row-xs.v-start, .flex-row-xs.v-left, .flex-r-xs.v-start, .flex-r-xs.v-left, .flex-h-xs.v-start, .flex-h-xs.v-left {
+  .flex-row-xs.v-start-xs, .flex-row-xs.v-left-xs, .flex-r-xs.v-start-xs, .flex-r-xs.v-left-xs, .flex-h-xs.v-start-xs, .flex-h-xs.v-left-xs {
     justify-content: flex-start;
   }
-  .flex-row-xs.v-between, .flex-row-xs.v-spacebetween, .flex-row-xs.v-space-between, .flex-r-xs.v-between, .flex-r-xs.v-spacebetween, .flex-r-xs.v-space-between, .flex-h-xs.v-between, .flex-h-xs.v-spacebetween, .flex-h-xs.v-space-between {
+  .flex-row-xs.v-between-xs, .flex-row-xs.v-spacebetween-xs, .flex-row-xs.v-space-between-xs, .flex-r-xs.v-between-xs, .flex-r-xs.v-spacebetween-xs, .flex-r-xs.v-space-between-xs, .flex-h-xs.v-between-xs, .flex-h-xs.v-spacebetween-xs, .flex-h-xs.v-space-between-xs {
     justify-content: space-between;
   }
-  .flex-row-xs.v-around, .flex-row-xs.v-spacearound, .flex-row-xs.v-space-around, .flex-r-xs.v-around, .flex-r-xs.v-spacearound, .flex-r-xs.v-space-around, .flex-h-xs.v-around, .flex-h-xs.v-spacearound, .flex-h-xs.v-space-around {
+  .flex-row-xs.v-around-xs, .flex-row-xs.v-spacearound-xs, .flex-row-xs.v-space-around-xs, .flex-r-xs.v-around-xs, .flex-r-xs.v-spacearound-xs, .flex-r-xs.v-space-around-xs, .flex-h-xs.v-around-xs, .flex-h-xs.v-spacearound-xs, .flex-h-xs.v-space-around-xs {
     justify-content: space-around;
   }
-  .flex-row-xs.h-center, .flex-row-xs.h-centered, .flex-r-xs.h-center, .flex-r-xs.h-centered, .flex-h-xs.h-center, .flex-h-xs.h-centered {
+  .flex-row-xs.h-center-xs, .flex-row-xs.h-centered-xs, .flex-r-xs.h-center-xs, .flex-r-xs.h-centered-xs, .flex-h-xs.h-center-xs, .flex-h-xs.h-centered-xs {
     align-items: center;
   }
-  .flex-row-xs.h-end, .flex-r-xs.h-end, .flex-h-xs.h-end {
+  .flex-row-xs.h-end-xs, .flex-r-xs.h-end-xs, .flex-h-xs.h-end-xs {
     align-items: flex-end;
   }
-  .flex-row-xs.h-start, .flex-r-xs.h-start, .flex-h-xs.h-start {
+  .flex-row-xs.h-start-xs, .flex-r-xs.h-start-xs, .flex-h-xs.h-start-xs {
     align-items: flex-start;
   }
   .flex-col-xs, .flex-column-xs, .flex-c-xs, .flex-v-xs {
     display: flex;
     flex-direction: column;
   }
-  .flex-col-xs.reverse, .flex-column-xs.reverse, .flex-c-xs.reverse, .flex-v-xs.reverse {
+  .flex-col-xs.reverse-xs, .flex-column-xs.reverse-xs, .flex-c-xs.reverse-xs, .flex-v-xs.reverse-xs {
     flex-direction: column-reverse;
   }
-  .flex-col-xs.v-center, .flex-col-xs.v-centered, .flex-column-xs.v-center, .flex-column-xs.v-centered, .flex-c-xs.v-center, .flex-c-xs.v-centered, .flex-v-xs.v-center, .flex-v-xs.v-centered {
+  .flex-col-xs.v-center-xs, .flex-col-xs.v-centered-xs, .flex-column-xs.v-center-xs, .flex-column-xs.v-centered-xs, .flex-c-xs.v-center-xs, .flex-c-xs.v-centered-xs, .flex-v-xs.v-center-xs, .flex-v-xs.v-centered-xs {
     align-items: center;
   }
-  .flex-col-xs.v-end, .flex-column-xs.v-end, .flex-c-xs.v-end, .flex-v-xs.v-end {
+  .flex-col-xs.v-end-xs, .flex-column-xs.v-end-xs, .flex-c-xs.v-end-xs, .flex-v-xs.v-end-xs {
     align-items: flex-end;
   }
-  .flex-col-xs.v-start, .flex-column-xs.v-start, .flex-c-xs.v-start, .flex-v-xs.v-start {
+  .flex-col-xs.v-start-xs, .flex-column-xs.v-start-xs, .flex-c-xs.v-start-xs, .flex-v-xs.v-start-xs {
     align-items: flex-start;
   }
-  .flex-col-xs.h-center, .flex-col-xs.h-centered, .flex-column-xs.h-center, .flex-column-xs.h-centered, .flex-c-xs.h-center, .flex-c-xs.h-centered, .flex-v-xs.h-center, .flex-v-xs.h-centered {
+  .flex-col-xs.h-center-xs, .flex-col-xs.h-centered-xs, .flex-column-xs.h-center-xs, .flex-column-xs.h-centered-xs, .flex-c-xs.h-center-xs, .flex-c-xs.h-centered-xs, .flex-v-xs.h-center-xs, .flex-v-xs.h-centered-xs {
     justify-content: center;
   }
-  .flex-col-xs.h-end, .flex-column-xs.h-end, .flex-c-xs.h-end, .flex-v-xs.h-end {
+  .flex-col-xs.h-end-xs, .flex-column-xs.h-end-xs, .flex-c-xs.h-end-xs, .flex-v-xs.h-end-xs {
     justify-content: flex-end;
   }
-  .flex-col-xs.h-start, .flex-column-xs.h-start, .flex-c-xs.h-start, .flex-v-xs.h-start {
+  .flex-col-xs.h-start-xs, .flex-column-xs.h-start-xs, .flex-c-xs.h-start-xs, .flex-v-xs.h-start-xs {
     justify-content: flex-start;
   }
   .wrap-xs {
@@ -8072,38 +8072,38 @@ th {
     display: flex;
     flex-direction: row;
   }
-  .flex-row-s.reverse, .flex-r-s.reverse, .flex-h-s.reverse {
+  .flex-row-s.reverse-s, .flex-r-s.reverse-s, .flex-h-s.reverse-s {
     flex-direction: row-reverse;
   }
-  .flex-row-s.v-center, .flex-row-s.v-centered, .flex-r-s.v-center, .flex-r-s.v-centered, .flex-h-s.v-center, .flex-h-s.v-centered {
+  .flex-row-s.v-center-s, .flex-row-s.v-centered-s, .flex-r-s.v-center-s, .flex-r-s.v-centered-s, .flex-h-s.v-center-s, .flex-h-s.v-centered-s {
     justify-content: center;
   }
-  .flex-row-s.v-end, .flex-row-s.v-right, .flex-r-s.v-end, .flex-r-s.v-right, .flex-h-s.v-end, .flex-h-s.v-right {
+  .flex-row-s.v-end-s, .flex-row-s.v-right-s, .flex-r-s.v-end-s, .flex-r-s.v-right-s, .flex-h-s.v-end-s, .flex-h-s.v-right-s {
     justify-content: flex-end;
   }
-  .flex-row-s.v-start, .flex-row-s.v-left, .flex-r-s.v-start, .flex-r-s.v-left, .flex-h-s.v-start, .flex-h-s.v-left {
+  .flex-row-s.v-start-s, .flex-row-s.v-left-s, .flex-r-s.v-start-s, .flex-r-s.v-left-s, .flex-h-s.v-start-s, .flex-h-s.v-left-s {
     justify-content: flex-start;
   }
-  .flex-row-s.v-between, .flex-row-s.v-spacebetween, .flex-row-s.v-space-between, .flex-r-s.v-between, .flex-r-s.v-spacebetween, .flex-r-s.v-space-between, .flex-h-s.v-between, .flex-h-s.v-spacebetween, .flex-h-s.v-space-between {
+  .flex-row-s.v-between-s, .flex-row-s.v-spacebetween-s, .flex-row-s.v-space-between-s, .flex-r-s.v-between-s, .flex-r-s.v-spacebetween-s, .flex-r-s.v-space-between-s, .flex-h-s.v-between-s, .flex-h-s.v-spacebetween-s, .flex-h-s.v-space-between-s {
     justify-content: space-between;
   }
-  .flex-row-s.v-around, .flex-row-s.v-spacearound, .flex-row-s.v-space-around, .flex-r-s.v-around, .flex-r-s.v-spacearound, .flex-r-s.v-space-around, .flex-h-s.v-around, .flex-h-s.v-spacearound, .flex-h-s.v-space-around {
+  .flex-row-s.v-around-s, .flex-row-s.v-spacearound-s, .flex-row-s.v-space-around-s, .flex-r-s.v-around-s, .flex-r-s.v-spacearound-s, .flex-r-s.v-space-around-s, .flex-h-s.v-around-s, .flex-h-s.v-spacearound-s, .flex-h-s.v-space-around-s {
     justify-content: space-around;
   }
-  .flex-row-s.h-center, .flex-row-s.h-centered, .flex-r-s.h-center, .flex-r-s.h-centered, .flex-h-s.h-center, .flex-h-s.h-centered {
+  .flex-row-s.h-center-s, .flex-row-s.h-centered-s, .flex-r-s.h-center-s, .flex-r-s.h-centered-s, .flex-h-s.h-center-s, .flex-h-s.h-centered-s {
     align-items: center;
   }
-  .flex-row-s.h-end, .flex-r-s.h-end, .flex-h-s.h-end {
+  .flex-row-s.h-end-s, .flex-r-s.h-end-s, .flex-h-s.h-end-s {
     align-items: flex-end;
   }
-  .flex-row-s.h-start, .flex-r-s.h-start, .flex-h-s.h-start {
+  .flex-row-s.h-start-s, .flex-r-s.h-start-s, .flex-h-s.h-start-s {
     align-items: flex-start;
   }
   .flex-col-s, .flex-column-s, .flex-c-s, .flex-v-s {
     display: flex;
     flex-direction: column;
   }
-  .flex-col-s.reverse, .flex-column-s.reverse, .flex-c-s.reverse, .flex-v-s.reverse {
+  .flex-col-s.reverse-s, .flex-column-s.reverse-s, .flex-c-s.reverse-s, .flex-v-s.reverse-s {
     flex-direction: column-reverse;
   }
   .flex-col-s.v-center-s, .flex-col-s.v-centered-s, .flex-column-s.v-center-s, .flex-column-s.v-centered-s, .flex-c-s.v-center-s, .flex-c-s.v-centered-s, .flex-v-s.v-center-s, .flex-v-s.v-centered-s {
@@ -8146,56 +8146,56 @@ th {
     display: flex;
     flex-direction: row;
   }
-  .flex-row-m.reverse, .flex-r-m.reverse, .flex-h-m.reverse {
+  .flex-row-m.reverse-m, .flex-r-m.reverse-m, .flex-h-m.reverse-m {
     flex-direction: row-reverse;
   }
-  .flex-row-m.v-center, .flex-row-m.v-centered, .flex-r-m.v-center, .flex-r-m.v-centered, .flex-h-m.v-center, .flex-h-m.v-centered {
+  .flex-row-m.v-center-m, .flex-row-m.v-centered-m, .flex-r-m.v-center-m, .flex-r-m.v-centered-m, .flex-h-m.v-center-m, .flex-h-m.v-centered-m {
     justify-content: center;
   }
-  .flex-row-m.v-end, .flex-row-m.v-right, .flex-r-m.v-end, .flex-r-m.v-right, .flex-h-m.v-end, .flex-h-m.v-right {
+  .flex-row-m.v-end-m, .flex-row-m.v-right-m, .flex-r-m.v-end-m, .flex-r-m.v-right-m, .flex-h-m.v-end-m, .flex-h-m.v-right-m {
     justify-content: flex-end;
   }
-  .flex-row-m.v-start, .flex-row-m.v-left, .flex-r-m.v-start, .flex-r-m.v-left, .flex-h-m.v-start, .flex-h-m.v-left {
+  .flex-row-m.v-start-m, .flex-row-m.v-left-m, .flex-r-m.v-start-m, .flex-r-m.v-left-m, .flex-h-m.v-start-m, .flex-h-m.v-left-m {
     justify-content: flex-start;
   }
-  .flex-row-m.v-between, .flex-row-m.v-spacebetween, .flex-row-m.v-space-between, .flex-r-m.v-between, .flex-r-m.v-spacebetween, .flex-r-m.v-space-between, .flex-h-m.v-between, .flex-h-m.v-spacebetween, .flex-h-m.v-space-between {
+  .flex-row-m.v-between-m, .flex-row-m.v-spacebetween-m, .flex-row-m.v-space-between-m, .flex-r-m.v-between-m, .flex-r-m.v-spacebetween-m, .flex-r-m.v-space-between-m, .flex-h-m.v-between-m, .flex-h-m.v-spacebetween-m, .flex-h-m.v-space-between-m {
     justify-content: space-between;
   }
-  .flex-row-m.v-around, .flex-row-m.v-spacearound, .flex-row-m.v-space-around, .flex-r-m.v-around, .flex-r-m.v-spacearound, .flex-r-m.v-space-around, .flex-h-m.v-around, .flex-h-m.v-spacearound, .flex-h-m.v-space-around {
+  .flex-row-m.v-around-m, .flex-row-m.v-spacearound-m, .flex-row-m.v-space-around-m, .flex-r-m.v-around-m, .flex-r-m.v-spacearound-m, .flex-r-m.v-space-around-m, .flex-h-m.v-around-m, .flex-h-m.v-spacearound-m, .flex-h-m.v-space-around-m {
     justify-content: space-around;
   }
-  .flex-row-m.h-center, .flex-row-m.h-centered, .flex-r-m.h-center, .flex-r-m.h-centered, .flex-h-m.h-center, .flex-h-m.h-centered {
+  .flex-row-m.h-center-m, .flex-row-m.h-centered-m, .flex-r-m.h-center-m, .flex-r-m.h-centered-m, .flex-h-m.h-center-m, .flex-h-m.h-centered-m {
     align-items: center;
   }
-  .flex-row-m.h-end, .flex-r-m.h-end, .flex-h-m.h-end {
+  .flex-row-m.h-end-m, .flex-r-m.h-end-m, .flex-h-m.h-end-m {
     align-items: flex-end;
   }
-  .flex-row-m.h-start, .flex-r-m.h-start, .flex-h-m.h-start {
+  .flex-row-m.h-start-m, .flex-r-m.h-start-m, .flex-h-m.h-start-m {
     align-items: flex-start;
   }
   .flex-col-m, .flex-column-m, .flex-c-m, .flex-v-m {
     display: flex;
     flex-direction: column;
   }
-  .flex-col-m.reverse, .flex-column-m.reverse, .flex-c-m.reverse, .flex-v-m.reverse {
+  .flex-col-m.reverse-m, .flex-column-m.reverse-m, .flex-c-m.reverse-m, .flex-v-m.reverse-m {
     flex-direction: column-reverse;
   }
-  .flex-col-m.v-center, .flex-col-m.v-centered, .flex-column-m.v-center, .flex-column-m.v-centered, .flex-c-m.v-center, .flex-c-m.v-centered, .flex-v-m.v-center, .flex-v-m.v-centered {
+  .flex-col-m.v-center-m, .flex-col-m.v-centered-m, .flex-column-m.v-center-m, .flex-column-m.v-centered-m, .flex-c-m.v-center-m, .flex-c-m.v-centered-m, .flex-v-m.v-center-m, .flex-v-m.v-centered-m {
     align-items: center;
   }
-  .flex-col-m.v-end, .flex-column-m.v-end, .flex-c-m.v-end, .flex-v-m.v-end {
+  .flex-col-m.v-end-m, .flex-column-m.v-end-m, .flex-c-m.v-end-m, .flex-v-m.v-end-m {
     align-items: flex-end;
   }
-  .flex-col-m.v-start, .flex-column-m.v-start, .flex-c-m.v-start, .flex-v-m.v-start {
+  .flex-col-m.v-start-m, .flex-column-m.v-start-m, .flex-c-m.v-start-m, .flex-v-m.v-start-m {
     align-items: flex-start;
   }
-  .flex-col-m.h-center, .flex-col-m.h-centered, .flex-column-m.h-center, .flex-column-m.h-centered, .flex-c-m.h-center, .flex-c-m.h-centered, .flex-v-m.h-center, .flex-v-m.h-centered {
+  .flex-col-m.h-center-m, .flex-col-m.h-centered-m, .flex-column-m.h-center-m, .flex-column-m.h-centered-m, .flex-c-m.h-center-m, .flex-c-m.h-centered-m, .flex-v-m.h-center-m, .flex-v-m.h-centered-m {
     justify-content: center;
   }
-  .flex-col-m.h-end, .flex-column-m.h-end, .flex-c-m.h-end, .flex-v-m.h-end {
+  .flex-col-m.h-end-m, .flex-column-m.h-end-m, .flex-c-m.h-end-m, .flex-v-m.h-end-m {
     justify-content: flex-end;
   }
-  .flex-col-m.h-start, .flex-column-m.h-start, .flex-c-m.h-start, .flex-v-m.h-start {
+  .flex-col-m.h-start-m, .flex-column-m.h-start-m, .flex-c-m.h-start-m, .flex-v-m.h-start-m {
     justify-content: flex-start;
   }
   .wrap-m {
@@ -8220,31 +8220,31 @@ th {
     display: flex;
     flex-direction: row;
   }
-  .flex-row-l.reverse, .flex-r-l.reverse, .flex-h-l.reverse {
+  .flex-row-l.reverse-l, .flex-r-l.reverse-l, .flex-h-l.reverse-l {
     flex-direction: row-reverse;
   }
-  .flex-row-l.v-center, .flex-row-l.v-centered, .flex-r-l.v-center, .flex-r-l.v-centered, .flex-h-l.v-center, .flex-h-l.v-centered {
+  .flex-row-l.v-center-l, .flex-row-l.v-centered-l, .flex-r-l.v-center-l, .flex-r-l.v-centered-l, .flex-h-l.v-center-l, .flex-h-l.v-centered-l {
     justify-content: center;
   }
-  .flex-row-l.v-end, .flex-row-l.v-right, .flex-r-l.v-end, .flex-r-l.v-right, .flex-h-l.v-end, .flex-h-l.v-right {
+  .flex-row-l.v-end-l, .flex-row-l.v-right-l, .flex-r-l.v-end-l, .flex-r-l.v-right-l, .flex-h-l.v-end-l, .flex-h-l.v-right-l {
     justify-content: flex-end;
   }
-  .flex-row-l.v-start, .flex-row-l.v-left, .flex-r-l.v-start, .flex-r-l.v-left, .flex-h-l.v-start, .flex-h-l.v-left {
+  .flex-row-l.v-start-l, .flex-row-l.v-left-l, .flex-r-l.v-start-l, .flex-r-l.v-left-l, .flex-h-l.v-start-l, .flex-h-l.v-left-l {
     justify-content: flex-start;
   }
-  .flex-row-l.v-between, .flex-row-l.v-spacebetween, .flex-row-l.v-space-between, .flex-r-l.v-between, .flex-r-l.v-spacebetween, .flex-r-l.v-space-between, .flex-h-l.v-between, .flex-h-l.v-spacebetween, .flex-h-l.v-space-between {
+  .flex-row-l.v-between-l, .flex-row-l.v-spacebetween-l, .flex-row-l.v-space-between-l, .flex-r-l.v-between-l, .flex-r-l.v-spacebetween-l, .flex-r-l.v-space-between-l, .flex-h-l.v-between-l, .flex-h-l.v-spacebetween-l, .flex-h-l.v-space-between-l {
     justify-content: space-between;
   }
-  .flex-row-l.v-around, .flex-row-l.v-spacearound, .flex-row-l.v-space-around, .flex-r-l.v-around, .flex-r-l.v-spacearound, .flex-r-l.v-space-around, .flex-h-l.v-around, .flex-h-l.v-spacearound, .flex-h-l.v-space-around {
+  .flex-row-l.v-around-l, .flex-row-l.v-spacearound-l, .flex-row-l.v-space-around-l, .flex-r-l.v-around-l, .flex-r-l.v-spacearound-l, .flex-r-l.v-space-around-l, .flex-h-l.v-around-l, .flex-h-l.v-spacearound-l, .flex-h-l.v-space-around-l {
     justify-content: space-around;
   }
-  .flex-row-l.h-center, .flex-row-l.h-centered, .flex-r-l.h-center, .flex-r-l.h-centered, .flex-h-l.h-center, .flex-h-l.h-centered {
+  .flex-row-l.h-center-l, .flex-row-l.h-centered-l, .flex-r-l.h-center-l, .flex-r-l.h-centered-l, .flex-h-l.h-center-l, .flex-h-l.h-centered-l {
     align-items: center;
   }
-  .flex-row-l.h-end, .flex-r-l.h-end, .flex-h-l.h-end {
+  .flex-row-l.h-end-l, .flex-r-l.h-end-l, .flex-h-l.h-end-l {
     align-items: flex-end;
   }
-  .flex-row-l.h-start, .flex-r-l.h-start, .flex-h-l.h-start {
+  .flex-row-l.h-start-l, .flex-r-l.h-start-l, .flex-h-l.h-start-l {
     align-items: flex-start;
   }
   .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l {
