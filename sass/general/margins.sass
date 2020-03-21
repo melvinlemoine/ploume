@@ -128,3 +128,29 @@ $sizes: ("auto": auto, "33": 33%, "66": 66%, "half": 50%, "25": 25%, "50": 50%, 
       &t
         &-#{$size}-l
           margin-top: $value
+
+@media screen and (min-width: 1200px)
+  @each $size, $value in $sizes
+    .m
+      &-#{$size}-xl
+        margin: $value
+      &v
+        &-#{$size}-xl
+          margin-top: $value
+          margin-bottom: $value
+      &h
+        &-#{$size}-xl
+          margin-xleft: $value
+          margin-right: $value
+      &l
+        &-#{$size}-xl
+          margin-xleft: $value
+      &r
+        &-#{$size}-xl
+          margin-right: $value
+      &b
+        &-#{$size}-xl
+          margin-bottom: $value
+      &t
+        &-#{$size}-xl
+          margin-top: $value
