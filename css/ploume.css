@@ -3478,7 +3478,7 @@ th {
     width: 100vw;
     height: 100vh;
   }
-  -auto-l {
+  .w-auto-l {
     width: auto;
   }
   .w-half-l {
