@@ -8263,6 +8263,53 @@ th {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .flex-xl {
+    display: flex;
+  }
+  .flex-row-xl, .flex-r-xl, .flex-h-xl {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-row-xl.reverse-xl, .flex-r-xl.reverse-xl, .flex-h-xl.reverse-xl {
+    flex-direction: row-reverse;
+  }
+  .flex-row-xl.v-center-xl, .flex-row-xl.v-centered-xl, .flex-r-xl.v-center-xl, .flex-r-xl.v-centered-xl, .flex-h-xl.v-center-xl, .flex-h-xl.v-centered-xl {
+    justify-content: center;
+  }
+  .flex-row-xl.v-end-xl, .flex-row-xl.v-right-xl, .flex-r-xl.v-end-xl, .flex-r-xl.v-right-xl, .flex-h-xl.v-end-xl, .flex-h-xl.v-right-xl {
+    justify-content: flex-end;
+  }
+  .flex-row-xl.v-start-xl, .flex-row-xl.v-xleft-xl, .flex-r-xl.v-start-xl, .flex-r-xl.v-xleft-xl, .flex-h-xl.v-start-xl, .flex-h-xl.v-xleft-xl {
+    justify-content: flex-start;
+  }
+  .flex-row-xl.v-between-xl, .flex-row-xl.v-spacebetween-xl, .flex-row-xl.v-space-between-xl, .flex-r-xl.v-between-xl, .flex-r-xl.v-spacebetween-xl, .flex-r-xl.v-space-between-xl, .flex-h-xl.v-between-xl, .flex-h-xl.v-spacebetween-xl, .flex-h-xl.v-space-between-xl {
+    justify-content: space-between;
+  }
+  .flex-row-xl.v-around-xl, .flex-row-xl.v-spacearound-xl, .flex-row-xl.v-space-around-xl, .flex-r-xl.v-around-xl, .flex-r-xl.v-spacearound-xl, .flex-r-xl.v-space-around-xl, .flex-h-xl.v-around-xl, .flex-h-xl.v-spacearound-xl, .flex-h-xl.v-space-around-xl {
+    justify-content: space-around;
+  }
+  .flex-row-xl.h-center-xl, .flex-row-xl.h-centered-xl, .flex-r-xl.h-center-xl, .flex-r-xl.h-centered-xl, .flex-h-xl.h-center-xl, .flex-h-xl.h-centered-xl {
+    align-items: center;
+  }
+  .flex-row-xl.h-end-xl, .flex-r-xl.h-end-xl, .flex-h-xl.h-end-xl {
+    align-items: flex-end;
+  }
+  .flex-row-xl.h-start-xl, .flex-r-xl.h-start-xl, .flex-h-xl.h-start-xl {
+    align-items: flex-start;
+  }
+  .flex-col-xl, .flex-column-xl, .flex-c-xl, .flex-v-xl {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrap-xl {
+    flex-wrap: wrap;
+  }
+  .no-wrap-xl, .nowrap-xl {
+    flex-wrap: nowrap;
+  }
+}
+
 .float-left {
   float: left;
 }

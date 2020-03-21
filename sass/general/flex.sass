@@ -318,3 +318,44 @@
 
   .no-wrap-l, .nowrap-l
     flex-wrap: nowrap
+
+// XL = EXTRA LARGE - Large Desktop
+
+@media screen and (min-width: 1200px)
+  .flex-xl
+    display: flex
+
+  .flex-row-xl, .flex-r-xl, .flex-h-xl
+      display: flex
+      flex-direction: row
+
+      &.reverse-xl
+        flex-direction: row-reverse
+
+      &.v-center-xl, &.v-centered-xl
+        justify-content: center
+      &.v-end-xl, &.v-right-xl
+        justify-content: flex-end
+      &.v-start-xl, &.v-xleft-xl
+        justify-content: flex-start
+      &.v-between-xl, &.v-spacebetween-xl, &.v-space-between-xl
+        justify-content: space-between
+      &.v-around-xl, &.v-spacearound-xl, &.v-space-around-xl
+        justify-content: space-around
+
+      &.h-center-xl, &.h-centered-xl
+        align-items: center
+      &.h-end-xl
+        align-items: flex-end
+      &.h-start-xl
+        align-items: flex-start
+
+  .flex-col-xl, .flex-column-xl, .flex-c-xl, .flex-v-xl
+      display: flex
+      flex-direction: column
+
+  .wrap-xl
+    flex-wrap: wrap
+
+  .no-wrap-xl, .nowrap-xl
+    flex-wrap: nowrap
