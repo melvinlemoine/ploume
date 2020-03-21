@@ -1,13 +1,3 @@
-$sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-content": fit-content, "0": 0, "5": 5%, "10": 10%, "15": 15%, "20": 20%, "25": 25%, "30": 30%, "33": calc(100% / 3), "35": 35%, "40": 40%, "45": 45%, "50": 50%, "half": 50%, "55": 55%, "60": 60%, "65": 65%, "66": calc((100% / 3) * 2), "70": 70%, "75": 75%, "80": 80%, "85": 85%, "90": 90%, "95": 95%, "full": 100%)
-
-@each $size, $value in $sizes
-  .w
-    &-#{$size}
-      width: $value
-  .h
-    &-#{$size}
-      height: $value
-
 .w-fullscreen
   width: 100vw
 .w-fullscreen
@@ -24,6 +14,16 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
     &width
       width: 100vw
 
+$sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-content": fit-content, "0": 0, "5": 5%, "10": 10%, "15": 15%, "20": 20%, "25": 25%, "30": 30%, "33": calc(100% / 3), "35": 35%, "40": 40%, "45": 45%, "50": 50%, "half": 50%, "55": 55%, "60": 60%, "65": 65%, "66": calc((100% / 3) * 2), "70": 70%, "75": 75%, "80": 80%, "85": 85%, "90": 90%, "95": 95%, "full": 100%)
+
+@each $size, $value in $sizes
+  .w
+    &-#{$size}
+      width: $value
+  .h
+    &-#{$size}
+      height: $value
+
 // XS = EXTRA SMALL - Mobile
 @media screen and (min-width: 300px)
 
@@ -35,152 +35,13 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
       width: 100vw
       height: 100vh
 
-  .w
-    &-half-xs
-      width: 50%
-
-    &-full-xs
-      width: 100%
-
-    &-fullscreen-xs
-        width: 100vw
-
-    &-auto-xs
-      width: auto
-
-    &-5-xs
-      width: 5%
-    &-10-xs
-      width: 10%
-    &-15-xs
-      width: 15%
-    &-20-xs
-      width: 20%
-    &-25-xs
-      width: 25%
-    &-30-xs
-      width: 30%
-    &-33-xs
-      width: calc(100% / 3)
-    &-35-xs
-      width: 35%
-    &-40-xs
-      width: 40%
-    &-45-xs
-      width: 45%
-    &-50-xs
-      width: 50%
-    &-55-xs
-      width: 55%
-    &-60-xs
-      width: 60%
-    &-65-xs
-      width: 65%
-    &-70-xs
-      width: 70%
-    &-75-xs
-      width: 75%
-    &-80-xs
-      width: 80%
-    &-85-xs
-      width: 85%
-    &-90-xs
-      width: 90%
-    &-95-xs
-      width: 95%
-    &-100-xs
-      width: 100%
-
-  .h
-    &-half-xs
-      height: 50%
-
-    &-5-xs
-      height: 5%
-    &-10-xs
-      height: 10%
-    &-15-xs
-      height: 15%
-    &-20-xs
-      height: 20%
-    &-25-xs
-      height: 25%
-    &-30-xs
-      height: 30%
-    &-35-xs
-      height: 35%
-    &-40-xs
-      height: 40%
-    &-45-xs
-      height: 45%
-    &-50-xs
-      height: 50%
-    &-55-xs
-      height: 55%
-    &-60-xs
-      height: 60%
-    &-65-xs
-      height: 65%
-    &-70-xs
-      height: 70%
-    &-75-xs
-      height: 75px
-    &-75perc-xs, &-75pe-xs
-        height: 75%
-    &-80-xs
-      height: 80%
-    &-85-xs
-      height: 85%
-    &-90-xs
-      height: 90%
-    &-95-xs
-      height: 95%
-
-    &-xscreen
-      height: 100vh
-      &-10-xs
-        height: 10vh
-      &-15-xs
-        height: 15vh
-      &-20-xs
-        height: 20vh
-      &-25-xs
-        height: 25vh
-      &-30-xs
-        height: 30vh
-      &-35-xs
-        height: 35vh
-      &-40-xs
-        height: 40vh
-      &-45-xs
-        height: 45vh
-      &-50-xs
-        height: 50vh
-      &-55-xs
-        height: 55vh
-      &-60-xs
-        height: 60vh
-      &-65-xs
-        height: 65vh
-      &-70-xs
-        height: 70vh
-      &-75-xs
-        height: 75vh
-      &-80-xs
-        height: 80vh
-      &-85-xs
-        height: 85vh
-      &-90-xs
-        height: 90vh
-      &-95-xs
-        height: 95vh
-      &-100-xs
-        height: 100vh
-
-    &-full-xs
-      height: 100%
-    &-fullscreen-xs
-        height: 100vh
+  @each $size, $value in $sizes
+    .w
+      &-#{$size}-xs
+        width: $value
+    .h
+      &-#{$size}-xs
+        height: $value
 
 // S = SMALL - Mobile
 @media screen and (min-width: 576px)
@@ -193,152 +54,13 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
       width: 100vw
       height: 100vh
 
-  .w
-    &-half-s
-      width: 50%
-
-    &-full-s
-      width: 100%
-
-    &-fullscreen-s
-      width: 100vw
-
-    &-auto-s
-      width: auto
-
-    &-5-s
-      width: 5%
-    &-10-s
-      width: 10%
-    &-15-s
-      width: 15%
-    &-20-s
-      width: 20%
-    &-25-s
-      width: 25%
-    &-30-s
-      width: 30%
-    &-33-s
-      width: calc(100% / 3)
-    &-35-s
-      width: 35%
-    &-40-s
-      width: 40%
-    &-45-s
-      width: 45%
-    &-50-s
-      width: 50%
-    &-55-s
-      width: 55%
-    &-60-s
-      width: 60%
-    &-65-s
-      width: 65%
-    &-70-s
-      width: 70%
-    &-75-s
-      width: 75%
-    &-80-s
-      width: 80%
-    &-85-s
-      width: 85%
-    &-90-s
-      width: 90%
-    &-95-s
-      width: 95%
-    &-100-s
-      width: 100%
-
-  .h
-    &-half-s
-      height: 50%
-
-    &-5-s
-      height: 5%
-    &-10-s
-      height: 10%
-    &-15-s
-      height: 15%
-    &-20-s
-      height: 20%
-    &-25-s
-      height: 25%
-    &-30-s
-      height: 30%
-    &-35-s
-      height: 35%
-    &-40-s
-      height: 40%
-    &-45-s
-      height: 45%
-    &-50-s
-      height: 50%
-    &-55-s
-      height: 55%
-    &-60-s
-      height: 60%
-    &-65-s
-      height: 65%
-    &-70-s
-      height: 70%
-    &-75-s
-      height: 75px
-    &-75perc-s, &-75pe-s
-        height: 75%
-    &-80-s
-      height: 80%
-    &-85-s
-      height: 85%
-    &-90-s
-      height: 90%
-    &-95-s
-      height: 95%
-
-    &-screen
-      height: 100vh
-      &-10-s
-        height: 10vh
-      &-15-s
-        height: 15vh
-      &-20-s
-        height: 20vh
-      &-25-s
-        height: 25vh
-      &-30-s
-        height: 30vh
-      &-35-s
-        height: 35vh
-      &-40-s
-        height: 40vh
-      &-45-s
-        height: 45vh
-      &-50-s
-        height: 50vh
-      &-55-s
-        height: 55vh
-      &-60-s
-        height: 60vh
-      &-65-s
-        height: 65vh
-      &-70-s
-        height: 70vh
-      &-75-s
-        height: 75vh
-      &-80-s
-        height: 80vh
-      &-85-s
-        height: 85vh
-      &-90-s
-        height: 90vh
-      &-95-s
-        height: 95vh
-      &-100-s
-        height: 100vh
-
-    &-full-s
-      height: 100%
-    &-fullscreen-s
-        height: 100vh
+  @each $size, $value in $sizes
+    .w
+      &-#{$size}-s
+        width: $value
+    .h
+      &-#{$size}-s
+        height: $value
 
 // M = MEDIUM - Tablette
 
@@ -351,152 +73,13 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
       width: 100vw
       height: 100vh
 
-  &-auto-m
-    width: auto
-
-  .w
-    &-half-m
-      width: 50%
-
-    &-full-m
-      width: 100%
-
-    &-fullscreen-m
-        width: 100vw
-
-    &-5-m
-      width: 5%
-    &-10-m
-      width: 10%
-    &-15-m
-      width: 15%
-    &-20-m
-      width: 20%
-    &-25-m
-      width: 25%
-    &-30-m
-      width: 30%
-    &-33-m
-      width: calc(100% / 3)
-    &-35-m
-      width: 35%
-    &-40-m
-      width: 40%
-    &-45-m
-      width: 45%
-    &-50-m
-      width: 50%
-    &-55-m
-      width: 55%
-    &-60-m
-      width: 60%
-    &-65-m
-      width: 65%
-    &-70-m
-      width: 70%
-    &-75-m
-      width: 75%
-    &-80-m
-      width: 80%
-    &-85-m
-      width: 85%
-    &-90-m
-      width: 90%
-    &-95-m
-      width: 95%
-    &-100-m
-      width: 100%
-
-  .h
-    &-half-m
-      height: 50%
-
-    &-5-m
-      height: 5%
-    &-10-m
-      height: 10%
-    &-15-m
-      height: 15%
-    &-20-m
-      height: 20%
-    &-25-m
-      height: 25%
-    &-30-m
-      height: 30%
-    &-35-m
-      height: 35%
-    &-40-m
-      height: 40%
-    &-45-m
-      height: 45%
-    &-50-m
-      height: 50%
-    &-55-m
-      height: 55%
-    &-60-m
-      height: 60%
-    &-65-m
-      height: 65%
-    &-70-m
-      height: 70%
-    &-75-m
-      height: 75px
-    &-75perc-m, &-75pe-m
-        height: 75%
-    &-80-m
-      height: 80%
-    &-85-m
-      height: 85%
-    &-90-m
-      height: 90%
-    &-95-m
-      height: 95%
-
-    &-screen
-      height: 100vh
-      &-10-m
-        height: 10vh
-      &-15-m
-        height: 15vh
-      &-20-m
-        height: 20vh
-      &-25-m
-        height: 25vh
-      &-30-m
-        height: 30vh
-      &-35-m
-        height: 35vh
-      &-40-m
-        height: 40vh
-      &-45-m
-        height: 45vh
-      &-50-m
-        height: 50vh
-      &-55-m
-        height: 55vh
-      &-60-m
-        height: 60vh
-      &-65-m
-        height: 65vh
-      &-70-m
-        height: 70vh
-      &-75-m
-        height: 75vh
-      &-80-m
-        height: 80vh
-      &-85-m
-        height: 85vh
-      &-90-m
-        height: 90vh
-      &-95-m
-        height: 95vh
-      &-100-m
-        height: 100vh
-
-    &-full-m
-      height: 100%
-    &-fullscreen-m
-        height: 100vh
+  @each $size, $value in $sizes
+    .w
+      &-#{$size}-m
+        width: $value
+    .h
+      &-#{$size}-m
+        height: $value
 
 // L = LARGE - Desktop
 @media screen and (min-width: 1024px)
@@ -508,152 +91,13 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
       width: 100vw
       height: 100vh
 
-  .w
-    &-auto-l
-      width: auto
-
-    &-half-l
-      width: 50%
-
-    &-full-l
-      width: 100%
-
-    &-fullscreen-l
-        width: 100vw
-
-    &-5-l
-      width: 5%
-    &-10-l
-      width: 10%
-    &-15-l
-      width: 15%
-    &-20-l
-      width: 20%
-    &-25-l
-      width: 25%
-    &-30-l
-      width: 30%
-    &-33-l
-      width: calc(100% / 3)
-    &-35-l
-      width: 35%
-    &-40-l
-      width: 40%
-    &-45-l
-      width: 45%
-    &-50-l
-      width: 50%
-    &-55-l
-      width: 55%
-    &-60-l
-      width: 60%
-    &-65-l
-      width: 65%
-    &-70-l
-      width: 70%
-    &-75-l
-      width: 75%
-    &-80-l
-      width: 80%
-    &-85-l
-      width: 85%
-    &-90-l
-      width: 90%
-    &-95-l
-      width: 95%
-    &-100-l
-      width: 100%
-
-  .h
-    &-half-l
-      height: 50%
-
-    &-5-l
-      height: 5%
-    &-10-l
-      height: 10%
-    &-15-m
-      height: 15%
-    &-20-l
-      height: 20%
-    &-25-l
-      height: 25%
-    &-30-l
-      height: 30%
-    &-35-l
-      height: 35%
-    &-40-l
-      height: 40%
-    &-45-l
-      height: 45%
-    &-50-l
-      height: 50%
-    &-55-l
-      height: 55%
-    &-60-l
-      height: 60%
-    &-65-l
-      height: 65%
-    &-70-l
-      height: 70%
-    &-75-l
-      height: 75px
-    &-75perc-l, &-75pe-l
-        height: 75%
-    &-80-l
-      height: 80%
-    &-85-l
-      height: 85%
-    &-90-l
-      height: 90%
-    &-95-l
-      height: 95%
-
-    &-screen
-      height: 100vh
-      &-10-l
-        height: 10vh
-      &-15-l
-        height: 15vh
-      &-20-l
-        height: 20vh
-      &-25-l
-        height: 25vh
-      &-30-l
-        height: 30vh
-      &-35-l
-        height: 35vh
-      &-40-l
-        height: 40vh
-      &-45-l
-        height: 45vh
-      &-50-l
-        height: 50vh
-      &-55-l
-        height: 55vh
-      &-60-l
-        height: 60vh
-      &-65-l
-        height: 65vh
-      &-70-l
-        height: 70vh
-      &-75-l
-        height: 75vh
-      &-80-l
-        height: 80vh
-      &-85-l
-        height: 85vh
-      &-90-l
-        height: 90vh
-      &-95-l
-        height: 95vh
-      &-100-l
-        height: 100vh
-
-    &-full-l
-      height: 100%
-    &-fullscreen-l
-        height: 100vh
+  @each $size, $value in $sizes
+    .w
+      &-#{$size}-l
+        width: $value
+    .h
+      &-#{$size}-l
+        height: $value
 
 // XL = EXTRA LARGE - Large Desktop
 @media screen and (min-width: 1200px)
@@ -665,149 +109,10 @@ $sizes: ("auto": auto, "fit": fit-content, "fitcontent": fit-content, "fit-conte
       width: 100vw
       height: 100vh
 
-  &-auto-xl
-    width: auto
-
-  .w
-    &-half-xl
-      width: 50%
-
-    &-full-xl
-      width: 100%
-
-    &-fullscreen-xl
-        width: 100vw
-
-    &-5-xl
-      width: 5%
-    &-10-xl
-      width: 10%
-    &-15-xl
-      width: 15%
-    &-20-xl
-      width: 20%
-    &-25-xl
-      width: 25%
-    &-30-xl
-      width: 30%
-    &-33-xl
-      width: calc(100% / 3)
-    &-35-xl
-      width: 35%
-    &-40-xl
-      width: 40%
-    &-45-xl
-      width: 45%
-    &-50-xl
-      width: 50%
-    &-55-xl
-      width: 55%
-    &-60-xl
-      width: 60%
-    &-65-xl
-      width: 65%
-    &-70-xl
-      width: 70%
-    &-75-xl
-      width: 75%
-    &-80-xl
-      width: 80%
-    &-85-xl
-      width: 85%
-    &-90-xl
-      width: 90%
-    &-95-xl
-      width: 95%
-    &-100-xl
-      width: 100%
-
-  .h
-    &-half-xl
-      height: 50%
-
-    &-5-xl
-      height: 5%
-    &-10-xl
-      height: 10%
-    &-15-m
-      height: 15%
-    &-20-xl
-      height: 20%
-    &-25-xl
-      height: 25%
-    &-30-xl
-      height: 30%
-    &-35-xl
-      height: 35%
-    &-40-xl
-      height: 40%
-    &-45-xl
-      height: 45%
-    &-50-xl
-      height: 50%
-    &-55-xl
-      height: 55%
-    &-60-xl
-      height: 60%
-    &-65-xl
-      height: 65%
-    &-70-xl
-      height: 70%
-    &-75-xl
-      height: 75px
-    &-75perc-xl, &-75pe-xl
-        height: 75%
-    &-80-xl
-      height: 80%
-    &-85-xl
-      height: 85%
-    &-90-xl
-      height: 90%
-    &-95-xl
-      height: 95%
-
-    &-screen
-      height: 100vh
-      &-10-xl
-        height: 10vh
-      &-15-xl
-        height: 15vh
-      &-20-xl
-        height: 20vh
-      &-25-xl
-        height: 25vh
-      &-30-xl
-        height: 30vh
-      &-35-xl
-        height: 35vh
-      &-40-xl
-        height: 40vh
-      &-45-xl
-        height: 45vh
-      &-50-xl
-        height: 50vh
-      &-55-xl
-        height: 55vh
-      &-60-xl
-        height: 60vh
-      &-65-xl
-        height: 65vh
-      &-70-xl
-        height: 70vh
-      &-75-xl
-        height: 75vh
-      &-80-xl
-        height: 80vh
-      &-85-xl
-        height: 85vh
-      &-90-xl
-        height: 90vh
-      &-95-xl
-        height: 95vh
-      &-100-xl
-        height: 100vh
-
-    &-full-xl
-      height: 100%
-    &-fullscreen-xl
-        height: 100vh
+  @each $size, $value in $sizes
+    .w
+      &-#{$size}-xl
+        width: $value
+    .h
+      &-#{$size}-xl
+        height: $value
