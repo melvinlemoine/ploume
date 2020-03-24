@@ -1531,6 +1531,10 @@ p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-pur
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
+.shadow_hover:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
 .has-overlay {
   position: relative;
 }
