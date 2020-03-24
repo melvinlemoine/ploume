@@ -261,6 +261,7 @@ main.is-lightdark,
 article.is-lightdark,
 hr.is-lightdark {
   background-color: #505050;
+  color: white;
 }
 
 div.is-lightdark_hover:hover,
