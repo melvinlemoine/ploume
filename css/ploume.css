@@ -444,26 +444,6 @@ hr.is-light_hover:hover {
   background-color: #f5f5f5;
 }
 
-div.is-light_hover:hover > *,
-nav.is-light_hover:hover > *,
-a.is-light_hover:hover > *,
-header.is-light_hover:hover > *,
-aside.is-light_hover:hover > *,
-button.is-light_hover:hover > *,
-input.button.is-light_hover:hover > *,
-form.is-light_hover:hover > *,
-body.is-light_hover:hover > *,
-.tag.is-light_hover:hover > *,
-li.is-light_hover:hover > *,
-footer.is-light_hover:hover > *,
-container.is-light_hover:hover > *,
-section.is-light_hover:hover > *,
-main.is-light_hover:hover > *,
-article.is-light_hover:hover > *,
-hr.is-light_hover:hover > * {
-  color: #707070;
-}
-
 div.is-primary,
 nav.is-primary,
 a.is-primary,
