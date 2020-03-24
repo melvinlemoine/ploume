@@ -341,6 +341,7 @@ main.is-lightgrey,
 article.is-lightgrey,
 hr.is-lightgrey {
   background-color: #707070;
+  color: white;
 }
 
 div.is-lightgrey_hover:hover,
