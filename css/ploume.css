@@ -5922,7 +5922,7 @@ th {
     margin-bottom: auto;
   }
   .mh-auto-xl {
-    margin-xleft: auto;
+    margin-left: auto;
     margin-right: auto;
   }
   .ml-auto-xl {
@@ -5945,7 +5945,7 @@ th {
     margin-bottom: 33%;
   }
   .mh-33-xl {
-    margin-xleft: 33%;
+    margin-left: 33%;
     margin-right: 33%;
   }
   .ml-33-xl {
@@ -5968,7 +5968,7 @@ th {
     margin-bottom: 66%;
   }
   .mh-66-xl {
-    margin-xleft: 66%;
+    margin-left: 66%;
     margin-right: 66%;
   }
   .ml-66-xl {
@@ -5991,7 +5991,7 @@ th {
     margin-bottom: 50%;
   }
   .mh-half-xl {
-    margin-xleft: 50%;
+    margin-left: 50%;
     margin-right: 50%;
   }
   .ml-half-xl {
@@ -6014,7 +6014,7 @@ th {
     margin-bottom: 25%;
   }
   .mh-25-xl {
-    margin-xleft: 25%;
+    margin-left: 25%;
     margin-right: 25%;
   }
   .ml-25-xl {
@@ -6037,7 +6037,7 @@ th {
     margin-bottom: 50%;
   }
   .mh-50-xl {
-    margin-xleft: 50%;
+    margin-left: 50%;
     margin-right: 50%;
   }
   .ml-50-xl {
@@ -6060,7 +6060,7 @@ th {
     margin-bottom: 75%;
   }
   .mh-75-xl {
-    margin-xleft: 75%;
+    margin-left: 75%;
     margin-right: 75%;
   }
   .ml-75-xl {
@@ -6083,7 +6083,7 @@ th {
     margin-bottom: 0;
   }
   .mh-0-xl {
-    margin-xleft: 0;
+    margin-left: 0;
     margin-right: 0;
   }
   .ml-0-xl {
@@ -6106,7 +6106,7 @@ th {
     margin-bottom: 0.5rem;
   }
   .mh-1-xl {
-    margin-xleft: 0.5rem;
+    margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
   .ml-1-xl {
@@ -6129,7 +6129,7 @@ th {
     margin-bottom: 1rem;
   }
   .mh-2-xl {
-    margin-xleft: 1rem;
+    margin-left: 1rem;
     margin-right: 1rem;
   }
   .ml-2-xl {
@@ -6152,7 +6152,7 @@ th {
     margin-bottom: 1.5rem;
   }
   .mh-3-xl {
-    margin-xleft: 1.5rem;
+    margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
   .ml-3-xl {
@@ -6175,7 +6175,7 @@ th {
     margin-bottom: 2rem;
   }
   .mh-4-xl {
-    margin-xleft: 2rem;
+    margin-left: 2rem;
     margin-right: 2rem;
   }
   .ml-4-xl {
@@ -6198,7 +6198,7 @@ th {
     margin-bottom: 2.5rem;
   }
   .mh-5-xl {
-    margin-xleft: 2.5rem;
+    margin-left: 2.5rem;
     margin-right: 2.5rem;
   }
   .ml-5-xl {
@@ -6221,7 +6221,7 @@ th {
     margin-bottom: 3rem;
   }
   .mh-6-xl {
-    margin-xleft: 3rem;
+    margin-left: 3rem;
     margin-right: 3rem;
   }
   .ml-6-xl {
@@ -6244,7 +6244,7 @@ th {
     margin-bottom: 3.5rem;
   }
   .mh-7-xl {
-    margin-xleft: 3.5rem;
+    margin-left: 3.5rem;
     margin-right: 3.5rem;
   }
   .ml-7-xl {
@@ -6267,7 +6267,7 @@ th {
     margin-bottom: 4rem;
   }
   .mh-8-xl {
-    margin-xleft: 4rem;
+    margin-left: 4rem;
     margin-right: 4rem;
   }
   .ml-8-xl {
@@ -6290,7 +6290,7 @@ th {
     margin-bottom: 4.5rem;
   }
   .mh-9-xl {
-    margin-xleft: 4.5rem;
+    margin-left: 4.5rem;
     margin-right: 4.5rem;
   }
   .ml-9-xl {
@@ -6313,7 +6313,7 @@ th {
     margin-bottom: 5rem;
   }
   .mh-10-xl {
-    margin-xleft: 5rem;
+    margin-left: 5rem;
     margin-right: 5rem;
   }
   .ml-10-xl {
