@@ -5926,7 +5926,7 @@ th {
     margin-right: auto;
   }
   .ml-auto-xl {
-    margin-xleft: auto;
+    margin-left: auto;
   }
   .mr-auto-xl {
     margin-right: auto;
@@ -5949,7 +5949,7 @@ th {
     margin-right: 33%;
   }
   .ml-33-xl {
-    margin-xleft: 33%;
+    margin-left: 33%;
   }
   .mr-33-xl {
     margin-right: 33%;
@@ -5972,7 +5972,7 @@ th {
     margin-right: 66%;
   }
   .ml-66-xl {
-    margin-xleft: 66%;
+    margin-left: 66%;
   }
   .mr-66-xl {
     margin-right: 66%;
@@ -5995,7 +5995,7 @@ th {
     margin-right: 50%;
   }
   .ml-half-xl {
-    margin-xleft: 50%;
+    margin-left: 50%;
   }
   .mr-half-xl {
     margin-right: 50%;
@@ -6018,7 +6018,7 @@ th {
     margin-right: 25%;
   }
   .ml-25-xl {
-    margin-xleft: 25%;
+    margin-left: 25%;
   }
   .mr-25-xl {
     margin-right: 25%;
@@ -6041,7 +6041,7 @@ th {
     margin-right: 50%;
   }
   .ml-50-xl {
-    margin-xleft: 50%;
+    margin-left: 50%;
   }
   .mr-50-xl {
     margin-right: 50%;
@@ -6064,7 +6064,7 @@ th {
     margin-right: 75%;
   }
   .ml-75-xl {
-    margin-xleft: 75%;
+    margin-left: 75%;
   }
   .mr-75-xl {
     margin-right: 75%;
@@ -6087,7 +6087,7 @@ th {
     margin-right: 0;
   }
   .ml-0-xl {
-    margin-xleft: 0;
+    margin-left: 0;
   }
   .mr-0-xl {
     margin-right: 0;
@@ -6110,7 +6110,7 @@ th {
     margin-right: 0.5rem;
   }
   .ml-1-xl {
-    margin-xleft: 0.5rem;
+    margin-left: 0.5rem;
   }
   .mr-1-xl {
     margin-right: 0.5rem;
@@ -6133,7 +6133,7 @@ th {
     margin-right: 1rem;
   }
   .ml-2-xl {
-    margin-xleft: 1rem;
+    margin-left: 1rem;
   }
   .mr-2-xl {
     margin-right: 1rem;
@@ -6156,7 +6156,7 @@ th {
     margin-right: 1.5rem;
   }
   .ml-3-xl {
-    margin-xleft: 1.5rem;
+    margin-left: 1.5rem;
   }
   .mr-3-xl {
     margin-right: 1.5rem;
@@ -6179,7 +6179,7 @@ th {
     margin-right: 2rem;
   }
   .ml-4-xl {
-    margin-xleft: 2rem;
+    margin-left: 2rem;
   }
   .mr-4-xl {
     margin-right: 2rem;
@@ -6202,7 +6202,7 @@ th {
     margin-right: 2.5rem;
   }
   .ml-5-xl {
-    margin-xleft: 2.5rem;
+    margin-left: 2.5rem;
   }
   .mr-5-xl {
     margin-right: 2.5rem;
@@ -6225,7 +6225,7 @@ th {
     margin-right: 3rem;
   }
   .ml-6-xl {
-    margin-xleft: 3rem;
+    margin-left: 3rem;
   }
   .mr-6-xl {
     margin-right: 3rem;
@@ -6248,7 +6248,7 @@ th {
     margin-right: 3.5rem;
   }
   .ml-7-xl {
-    margin-xleft: 3.5rem;
+    margin-left: 3.5rem;
   }
   .mr-7-xl {
     margin-right: 3.5rem;
@@ -6271,7 +6271,7 @@ th {
     margin-right: 4rem;
   }
   .ml-8-xl {
-    margin-xleft: 4rem;
+    margin-left: 4rem;
   }
   .mr-8-xl {
     margin-right: 4rem;
@@ -6294,7 +6294,7 @@ th {
     margin-right: 4.5rem;
   }
   .ml-9-xl {
-    margin-xleft: 4.5rem;
+    margin-left: 4.5rem;
   }
   .mr-9-xl {
     margin-right: 4.5rem;
@@ -6317,7 +6317,7 @@ th {
     margin-right: 5rem;
   }
   .ml-10-xl {
-    margin-xleft: 5rem;
+    margin-left: 5rem;
   }
   .mr-10-xl {
     margin-right: 5rem;
