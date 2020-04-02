@@ -8171,6 +8171,10 @@ th {
   justify-content: flex-start;
 }
 
+.flex-col.h-space-between, .flex-c.h-space-between, .flex-column.h-space-between, .flex-v.h-space-between {
+  justify-content: space-between;
+}
+
 .content-centered, .content-center, .allcentered, .allcenter, .all-center, .all-centered {
   display: flex;
   justify-content: center;
