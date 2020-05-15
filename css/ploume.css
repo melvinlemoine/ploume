@@ -8658,18 +8658,14 @@ th {
   left: 0;
 }
 
-.disabled, .disable, .is-disabled, .is-disable {
+.disabled, .disable, .is-disabled, .is-disable, *[disabled], *[disabled="disabled"] {
   opacity: .5;
   cursor: not-allowed !important;
 }
 
-.disabled *, .disable *, .is-disabled *, .is-disable * {
+.disabled *, .disable *, .is-disabled *, .is-disable *, *[disabled] *, *[disabled="disabled"] * {
   cursor: not-allowed !important;
   pointer-events: none;
-}
-
-*[disabled], *[disabled="disabled"] {
-  cursor: not-allowed !important;
 }
 
 .none {
