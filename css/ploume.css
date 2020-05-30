@@ -8331,6 +8331,11 @@ th {
   .space-between-xs {
     justify-content: space-between;
   }
+  .content-centered-xs, .content-center-xs, .cc-xs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -8404,6 +8409,11 @@ th {
   }
   .space-between-s {
     justify-content: space-between;
+  }
+  .content-centered-s, .content-center-s, .cc-s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -8479,6 +8489,11 @@ th {
   .space-between-m {
     justify-content: space-between;
   }
+  .content-centered-m, .content-center-m, .cc-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -8526,6 +8541,11 @@ th {
   .no-wrap-l, .nowrap-l {
     flex-wrap: nowrap;
   }
+  .content-centered-l, .content-center-l, .cc-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -8572,6 +8592,11 @@ th {
   }
   .no-wrap-xl, .nowrap-xl {
     flex-wrap: nowrap;
+  }
+  .content-centered-xl, .content-center-xl, .cc-xl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
