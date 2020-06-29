@@ -1814,6 +1814,14 @@ a {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.underline_hover:hover {
+  text-decoration: underline;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
