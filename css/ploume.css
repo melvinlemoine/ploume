@@ -1822,6 +1822,10 @@ a {
   text-decoration: underline;
 }
 
+.noselect {
+  user-select: none;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
