@@ -1,26 +1,16 @@
 .float
-  &-l
+  &-l,
   &-left
     float: left
-  &-r
+  &-r,
   &-right
     float: right
 
 .fixed
   position: fixed
 
-  &-top
-    position: fixed
-    top: 0
-
-    &-5
-      top: 5px
-    &-15
-      top: 15px
-
-  &-right
-    &-15
-      right: 15px
+.relative
+  position: relative
 
 .absolute
   position: absolute
@@ -40,9 +30,6 @@
   @media screen and (min-width: 1200px)
     &-xl
       position: absolute
-
-.relative
-  position: relative
 
 .top
   top: 0
