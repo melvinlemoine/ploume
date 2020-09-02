@@ -13,16 +13,33 @@ a
   user-select: none
 
 .uppercase
-    text-transform: uppercase
+  text-transform: uppercase
 
 .semi-bold, .semibold, .is-semibold, .is-semi-bold
-    font-weight: 500
+  font-weight: 500
 
 .bold, .is-bold
-    font-weight: bold
+  font-weight: bold
 
 .thin
   font-weight: lighter
+
+$is-1: 3rem
+$is-2: 2.5rem
+$is-3: 2rem
+$is-4: 1.5rem
+$is-5: 1.25rem
+$is-6: 1rem
+$is-7: 0.75rem
+$is-8: .65rem
+$is-9: .5rem
+
+$sizes: ("0": 0, "1": $is-1,"2": $is-2,"3": $is-3,"4": $is-4,"5": $is-5,"6": $is-6,"7": $is-7,"8": $is-8,"9": $is-9)
+
+@each $size, $value in $sizes
+  .is
+    &-#{$size}
+      font-size: $value
 
 .text
   &-centered, &-center
@@ -34,233 +51,87 @@ a
   &-justify
     text-align: justify
 
-.is
-  &-0
-    font-size: 0
-  &-1
-    font-size: 3rem
-    &-more
-      font-size: 3.5rem
-      &-more
-        font-size: 4rem
-        &-more
-          font-size: 4.5rem
-          &-more
-            font-size: 5rem
-  &-2
-    font-size: 2.5rem
-  &-3
-    font-size: 2rem
-  &-4
-    font-size: 1.5rem
-  &-5
-    font-size: 1.25em
-  &-6
-    font-size: 1em
-  &-7
-    font-size: .75em
-  &-8
-    font-size: .5em
-  &-9
-    font-size: .25em
-
 // XS = EXTRA SMALL - Mobile
 @media screen and (min-width: 300px)
-  .is
-    &-0-xs
-      font-size: 0
-    &-1-xs
-      font-size: 3rem
-      &-more
-        font-size: 3.5rem
-        &-more
-          font-size: 4rem
-          &-more
-            font-size: 4.5rem
-            &-more
-              font-size: 5rem
-    &-2-xs
-      font-size: 2.5rem
-    &-3-xs
-      font-size: 2rem
-    &-4-xs
-      font-size: 1.5rem
-    &-5-xs
-      font-size: 1.25em
-    &-6-xs
-      font-size: 1em
-    &-7-xs
-      font-size: .75em
-    &-8-xs
-      font-size: .5em
-    &-9-xs
-      font-size: .25em
+  @each $size, $value in $sizes
+    .is
+      &-#{$size}-xs
+        font-size: $value
 
-  .text
-    &-centered-xs, &-center-xs
-      text-align: center
-    &-right-xs
-      text-align: right
-    &-left-xs
-      text-align: left
-    &-justify-xs
-      text-align: justify
+    .text
+      &-centered-xs, &-center-xs
+        text-align: center
+      &-right-xs
+        text-align: right
+      &-left-xs
+        text-align: left
+      &-justify-xs
+        text-align: justify
 
 // S = SMALL - Mobile
 @media screen and (min-width: 576px)
-  .is
-    &-0-s
-      font-size: 0
-    &-1-s
-      font-size: 3rem
-      &-more
-        font-size: 3.5rem
-        &-more
-          font-size: 4rem
-          &-more
-            font-size: 4.5rem
-            &-more
-              font-size: 5rem
-    &-2-s
-      font-size: 2.5rem
-    &-3-s
-      font-size: 2rem
-    &-4-s
-      font-size: 1.5rem
-    &-5-s
-      font-size: 1.25em
-    &-6-s
-      font-size: 1em
-    &-7-s
-      font-size: .75em
-    &-8-s
-      font-size: .5em
-    &-9-s
-      font-size: .25em
+  @each $size, $value in $sizes
+    .is
+      &-#{$size}-s
+        font-size: $value
 
-  .text
-    &-centered-s, &-center-s
-      text-align: center
-    &-right-s
-      text-align: right
-    &-left-s
-      text-align: left
-    &-justify-s
-      text-align: justify
+    .text
+      &-centered-s, &-center-s
+        text-align: center
+      &-right-s
+        text-align: right
+      &-left-s
+        text-align: left
+      &-justify-s
+        text-align: justify
 
-// M = MEDIUM - Tablette
+// M = MEDIUM - Tablet
 @media screen and (min-width: 768px)
-  .is
-    &-0-m
-      font-size: 0
-    &-1-m
-      font-size: 3rem
-      &-more
-        font-size: 3.5rem
-        &-more
-          font-size: 4rem
-          &-more
-            font-size: 4.5rem
-            &-more
-              font-size: 5rem
-    &-2-m
-      font-size: 2.5rem
-    &-3-m
-      font-size: 2rem
-    &-4-m
-      font-size: 1.5rem
-    &-5-m
-      font-size: 1.25em
-    &-6-m
-      font-size: 1em
-    &-7-m
-      font-size: .75em
-    &-8-m
-      font-size: .5em
-    &-9-m
-      font-size: .25em
+  @each $size, $value in $sizes
+    .is
+      &-#{$size}-m
+        font-size: $value
 
-  .text
-    &-centered-m, &-center-m
-      text-align: center
-    &-right-m
-      text-align: right
-    &-left-m
-      text-align: left
-    &-justify-m
-      text-align: justify
+    .text
+      &-centered-m, &-center-m
+        text-align: center
+      &-right-m
+        text-align: right
+      &-left-m
+        text-align: left
+      &-justify-m
+        text-align: justify
 
 // L = LARGE - Desktop
 @media screen and (min-width: 1024px)
-  .is
-    &-0-l
-      font-size: 0
-    &-1-l
-      font-size: 3rem
-      &-more
-        font-size: 3.5rem
-        &-more
-          font-size: 4rem
-          &-more
-            font-size: 4.5rem
-            &-more
-              font-size: 5rem
-    &-2-l
-      font-size: 2.5rem
-    &-3-l
-      font-size: 2rem
-    &-4-l
-      font-size: 1.5rem
-    &-5-l
-      font-size: 1.25em
-    &-6-l
-      font-size: 1em
-    &-7-l
-      font-size: .75em
-    &-8-l
-      font-size: .5em
-    &-9-l
-      font-size: .25em
+  @each $size, $value in $sizes
+    .is
+      &-#{$size}-l
+        font-size: $value
 
-  .text
-    &-centered-l, &-center-l
-      text-align: center
-    &-right-l
-      text-align: right
-    &-left-l
-      text-align: left
-    &-justify-l
-      text-align: justify
+    .text
+      &-centered-l, &-center-l
+        text-align: center
+      &-right-l
+        text-align: right
+      &-left-l
+        text-align: left
+      &-justify-l
+        text-align: justify
 
 // XL = EXTRA LARGE - Large Desktop
-
 @media screen and (min-width: 1200px)
-  .is
-    &-0-xl
-      font-size: 0
-    &-1-xl
-      font-size: 3rem
-      &-more
-        font-size: 3.5rem
-        &-more
-          font-size: 4rem
-          &-more
-            font-size: 4.5rem
-            &-more
-              font-size: 5rem
-    &-2-xl
-      font-size: 2.5rem
-    &-3-xl
-      font-size: 2rem
-    &-4-xl
-      font-size: 1.5rem
-    &-5-xl
-      font-size: 1.25em
-    &-6-xl
-      font-size: 1em
-    &-7-xl
-      font-size: .75em
-    &-8-xl
-      font-size: .5em
-    &-9-xl
-      font-size: .25em
+  @each $size, $value in $sizes
+    .is
+      &-#{$size}-xl
+        font-size: $value
+
+    .text
+      &-centered-xl, &-center-xl
+        text-align: center
+      &-right-xl
+        text-align: right
+      &-left-xl
+        text-align: left
+      &-justify-xl
+        text-align: justify
