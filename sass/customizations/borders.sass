@@ -1,9 +1,24 @@
 $sizes: 5, 10, 15, 20, 25, 50
 
+.no-borders, .no-border, .noborders, .noborder
+  border: none
+
+.bordermax
+  border-radius: 100%
+
 @each $size in $sizes
   .bordered, .border
     &-#{$size}
       border-radius: #{$size}px
+
+  .no-borders-#{$size},
+  .no-border-#{$size},
+  .noborders-#{$size},
+  .noborder-#{$size}
+    border: none
+
+  .bordermax-#{$size}
+    border-radius: 100%
 
 // XS = EXTRA SMALL - Small Mobile
 @media screen and (min-width: 300px)
@@ -12,12 +27,30 @@ $sizes: 5, 10, 15, 20, 25, 50
       &-#{$size}-xs
         border-radius: #{$size}px
 
+    .no-borders-#{$size},
+    .no-border-#{$size},
+    .noborders-#{$size},
+    .noborder-#{$size}
+      border: none
+
+    .bordermax-#{$size}
+      border-radius: 100%
+
 // S = SMALL - Mobile
 @media screen and (min-width: 300px)
   @each $size in $sizes
     .bordered, .border
       &-#{$size}-s
         border-radius: #{$size}px
+
+    .no-borders-#{$size},
+    .no-border-#{$size},
+    .noborders-#{$size},
+    .noborder-#{$size}
+      border: none
+
+    .bordermax-#{$size}
+      border-radius: 100%
 
 // M = MEDIUM - Tablette
 @media screen and (min-width: 768px)
@@ -26,6 +59,15 @@ $sizes: 5, 10, 15, 20, 25, 50
       &-#{$size}-m
         border-radius: #{$size}px
 
+    .no-borders-#{$size},
+    .no-border-#{$size},
+    .noborders-#{$size},
+    .noborder-#{$size}
+      border: none
+
+    .bordermax-#{$size}
+      border-radius: 100%
+
 // L = LARGE - Desktop
 @media screen and (min-width: 1024px)
   @each $size in $sizes
@@ -33,9 +75,27 @@ $sizes: 5, 10, 15, 20, 25, 50
       &-#{$size}-l
         border-radius: #{$size}px
 
+    .no-borders-#{$size},
+    .no-border-#{$size},
+    .noborders-#{$size},
+    .noborder-#{$size}
+      border: none
+
+    .bordermax-#{$size}
+      border-radius: 100%
+
 // XL = EXTRA LARGE - Large Desktop
 @media screen and (min-width: 1024px)
   @each $size in $sizes
     .bordered, .border
       &-#{$size}-xl
         border-radius: #{$size}px
+
+    .no-borders-#{$size},
+    .no-border-#{$size},
+    .noborders-#{$size},
+    .noborder-#{$size}
+      border: none
+
+    .bordermax-#{$size}
+      border-radius: 100%
