@@ -57,7 +57,7 @@
     color: transparent !important
     &::after
       animation: spinAround 500ms infinite linear
-      border: 2px solid #dbdbdb
+      border: 2px solid white
       border-radius: 290486px
       border-right-color: transparent
       border-top-color: transparent
@@ -71,6 +71,10 @@
       left: calc(50% - (1em / 2))
       top: calc(50% - (1em / 2))
       position: absolute !important
+
+    &.is-white, &.is-light
+      &::after
+        border: 2px solid $light-grey
 
   // XS = EXTRASMALL - Mobile
   @media screen and (min-width: 300px)
