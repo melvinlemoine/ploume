@@ -13,6 +13,8 @@
 
     &.reverse
       flex-direction: row-reverse
+    &.noreverse
+      flex-direction: row
 
     &.v-center, &.v-centered
       justify-content: center
@@ -101,6 +103,8 @@
 
       &.reverse-xs
         flex-direction: row-reverse
+      &.noreverse-xs
+        flex-direction: row
 
       &.v-center-xs, &.v-centered-xs
         justify-content: center
@@ -126,6 +130,8 @@
 
       &.reverse-xs
         flex-direction: column-reverse
+      &.noreverse-xs
+        flex-direction: column
 
       &.v-center-xs, &.v-centered-xs
         align-items: center
@@ -170,6 +176,8 @@
 
       &.reverse-s
         flex-direction: row-reverse
+      &.noreverse-s
+        flex-direction: row
 
       &.v-center-s, &.v-centered-s
         justify-content: center
@@ -195,6 +203,8 @@
 
       &.reverse-s
         flex-direction: column-reverse
+      &.noreverse-s
+        flex-direction: column
 
       &.v-center-s, &.v-centered-s
         align-items: center
@@ -239,6 +249,8 @@
 
       &.reverse-m
         flex-direction: row-reverse
+      &.noreverse-m
+        flex-direction: row
 
       &.v-center-m, &.v-centered-m
         justify-content: center
@@ -264,6 +276,8 @@
 
       &.reverse-m
         flex-direction: column-reverse
+      &.noreverse-m
+        flex-direction: column
 
       &.v-center-m, &.v-centered-m
         align-items: center
@@ -308,6 +322,8 @@
 
       &.reverse-l
         flex-direction: row-reverse
+      &.noreverse-l
+        flex-direction: row
 
       &.v-center-l, &.v-centered-l
         justify-content: center
@@ -330,6 +346,25 @@
   .flex-col-l, .flex-column-l, .flex-c-l, .flex-v-l
       display: flex
       flex-direction: column
+
+      &.reverse-l
+        flex-direction: column-reverse
+      &.noreverse-l
+        flex-direction: column
+
+      &.v-center-l, &.v-centered-l
+        align-items: center
+      &.v-end-l
+        align-items: flex-end
+      &.v-start-l
+        align-items: flex-start
+
+      &.h-center-l, &.h-centered-l
+        justify-content: center
+      &.h-end-l
+        justify-content: flex-end
+      &.h-start-l
+        justify-content: flex-start
 
   .wrap-l
     flex-wrap: wrap
@@ -354,6 +389,8 @@
 
       &.reverse-xl
         flex-direction: row-reverse
+      &.noreverse-xl
+        flex-direction: row
 
       &.v-center-xl, &.v-centered-xl
         justify-content: center
@@ -376,6 +413,25 @@
   .flex-col-xl, .flex-column-xl, .flex-c-xl, .flex-v-xl
       display: flex
       flex-direction: column
+
+      &.reverse-xl
+        flex-direction: column-reverse
+      &.noreverse-xl
+        flex-direction: column
+
+      &.v-center-xl, &.v-centered-xl
+        align-items: center
+      &.v-end-xl
+        align-items: flex-end
+      &.v-start-xl
+        align-items: flex-start
+
+      &.h-center-xl, &.h-centered-xl
+        justify-content: center
+      &.h-end-xl
+        justify-content: flex-end
+      &.h-start-xl
+        justify-content: flex-start
 
   .wrap-xl
     flex-wrap: wrap
