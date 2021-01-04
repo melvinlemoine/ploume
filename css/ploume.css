@@ -1192,27 +1192,6 @@ hr.is-danger_hover:hover > * {
   color: white !important;
 }
 
-div.is-purple,
-nav.is-purple,
-a.is-purple,
-header.is-purple,
-aside.is-purple,
-button.is-purple,
-input.button.is-purple,
-form.is-purple,
-body.is-purple,
-.tag.is-purple,
-li.is-purple,
-footer.is-purple,
-container.is-purple,
-section.is-purple,
-main.is-purple,
-article.is-purple,
-hr.is-purple {
-  background-color: #7d00e7;
-  color: #FFFFFF;
-}
-
 p.is-white, span.is-white, h1.is-white, h2.is-white, h3.is-white, h3.is-white, h5.is-white, h6.is-white, i.is-white, svg.is-white {
   color: #FFFFFF;
 }
@@ -1267,10 +1246,6 @@ p.is-caution, span.is-caution, h1.is-caution, h2.is-caution, h3.is-caution, h3.i
 
 p.is-danger, span.is-danger, h1.is-danger, h2.is-danger, h3.is-danger, h3.is-danger, h5.is-danger, h6.is-danger, i.is-danger, svg.is-danger {
   color: #ff3860;
-}
-
-p.is-purple, span.is-purple, h1.is-purple, h2.is-purple, h3.is-purple, h3.is-purple, h5.is-purple, h6.is-purple, i.is-purple, svg.is-purple {
-  color: #7d00e7;
 }
 
 .bg-white {
